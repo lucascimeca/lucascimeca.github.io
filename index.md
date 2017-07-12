@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="https://github.com/lucascimeca/lucascimeca.github.io/blob/master/img/luca_scimeca.png" align="left" height="300" width="300" >
+<img src="/img/luca_scimeca.png" align="left" height="300" width="300" >
 
 # [](#Intro) Introduction
 
