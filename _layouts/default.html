@@ -2,43 +2,8 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
   <style>    
-    $('a[href*="#"]')
-      // Remove links that don't actually link to anything
-      .not('[href="#"]')
-      .not('[href="#0"]')
-      .click(function(event) {
-        // On-page links
-        if (
-          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-          && 
-          location.hostname == this.hostname
-        ) {
-          // Figure out element to scroll to
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-          // Does a scroll target exist?
-          if (target.length) {
-            // Only prevent default if animation is actually gonna happen
-            event.preventDefault();
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1000, function() {
-              // Callback after animation
-              // Must change focus!
-              var $target = $(target);
-              $target.focus();
-              if ($target.is(":focus")) { // Checking if the target was focused
-                return false;
-              } else {
-                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                $target.focus(); // Set focus again
-              };
-            });
-          }
-        }
-      });
     
-    .button-interactive {
+    .button {
       display: inline-block;
       border-radius: 4px;
       background-color: #f4511e;
@@ -53,14 +18,14 @@
       margin: 5px;
     }
 
-    .button-interactive span {
+    .button span {
       cursor: pointer;
       display: inline-block;
       position: relative;
       transition: 0.5s;
     }
 
-    .button-interactive span:after {
+    .button span:after {
       content: '\00bb';
       position: absolute;
       opacity: 0;
@@ -69,11 +34,11 @@
       transition: 0.5s;
     }
 
-    .button-interactive:hover span {
+    .button:hover span {
       padding-right: 25px;
     }
 
-    .button-interactive:hover span:after {
+    .button:hover span:after {
       opacity: 1;
       right: 0;
     }
@@ -121,7 +86,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-          <p><a href="sdf" class="button-interactive" style="vertical-align:middle">Curruculum Vitae</a></p>
+          <p><a href="sdf" class="button" style="vertical-align:middle">Curruculum Vitae</a></p>
           <p><a href="#-introduction" class="button-hover" style="vertical-align:middle">Introduction</a></p>
           <p><a href="#-contact" class="button-hover" style="vertical-align:middle">Contact</a></p>
           <p><a href="#-research" class="button-hover" style="vertical-align:middle">Research</a></p>
