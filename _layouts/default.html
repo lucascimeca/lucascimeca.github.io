@@ -2,7 +2,13 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
   <style>    
-      
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+    <script src="jquery.localscroll.js" type="text/javascript"></script> 
+    <script src="jquery.scrollTo.js" type="text/javascript"></script> 
+    $(document).ready(function() {
+       $('#nav').localScroll({duration:800});
+    });
+    
     .button-interactive {
       display: inline-block;
       border-radius: 4px;
