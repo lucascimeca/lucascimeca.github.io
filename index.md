@@ -2,6 +2,11 @@
 layout: default
 ---
 
+### Large image
+
+![](https://github.com/lucascimeca/lucascimeca.github.io/blob/master/img/luca_scimeca.jpg)\
+
+
 # [](#Intro) Introduction
 
 I am a PhD student in Engineering at the University of Cambridge. I conduct my research at the university's Biologically Inspired Robotics Laboratory (BIRL), supervised by Dr. Fumiya Iida. 
@@ -118,8 +123,8 @@ end
 
 ### Large image
 
-![](https://guides.github.com/activities/hello-world/branching.png)
-
+![](https://guides.github.com/activities/hello-world/branching.png)\
+https://github.com/lucascimeca/lucascimeca.github.io/blob/master/img/luca_scimeca.jpg
 
 ### Definition lists can be used with HTML syntax.
 
