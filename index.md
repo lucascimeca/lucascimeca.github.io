@@ -2,6 +2,24 @@
 layout: default
 ---
 
+# [](#Intro) Introduction
+
+I am a PhD student in Engineering at the University of Cambridge. I conduct my research at the university's Biologically Inspired Robotics Laboratory (BIRL), supervised by Dr. Fumiya Iida. 
+
+My background in the field of IT goes back to before university when, studying in the Computer Science sector of a technical secondary school, I had the opportunity to familiarize myself with the basics of programming, design and analysis which brought me to the successful completion of a robotics project on my final year.
+
+Throughout my academic career I have taken part to several research projects and competitions which allowed me to build a strong background in Mathematics, Machine Learning and Robotics.
+
+I graduated from the University of Edinburgh with a First Class degree in Artificial Intelligence and Software Engineering, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence.
+
+My interests lie mainly in Machine Learning and Robotics research, particularly I'm interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning).
+
+
+
+
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
@@ -9,8 +27,6 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
