@@ -16,6 +16,10 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 
 
+# [](#Research) Contact
+# [](#Research) Research
+# [](#Research) Projects
+# [](#Research) Others
 
 
 
