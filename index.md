@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="https://github.com/lucascimeca/lucascimeca.github.io/blob/master/img/luca_scimeca.jpg" align="left" height="300" width="300" >
+<img src="https://github.com/lucascimeca/lucascimeca.github.io/blob/master/img/luca_scimeca.png" align="left" height="300" width="300" >
 
 # [](#Intro) Introduction
 
@@ -19,6 +19,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 
 # [](#Research) Contact
+
 # [](#Research) Research
 # [](#Research) Projects
 # [](#Research) Others
