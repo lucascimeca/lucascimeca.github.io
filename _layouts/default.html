@@ -63,11 +63,11 @@
       transition: 0.5s;
     }
 
-    .button:hover span {
+    .button:hover {
       padding-right: 25px;
     }
 
-    .button:hover span:after {
+    .button:hover:after {
       opacity: 1;
       right: 0;
     }
@@ -87,6 +87,7 @@
         cursor: pointer;
         width: 120px;
         height: 25px;
+        border-radius: 8%;
     }
     .button-hover {
         background-color: white;
@@ -94,7 +95,10 @@
         border: 2px solid #e7e7e7;
     }
 
-    .button-hover:hover {background-color: #e7e7e7;}
+    .button-hover:hover {
+      background-color: #ACACAC;
+      color: white;
+    }
     
     
   </style>
@@ -115,7 +119,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-          <p><center><a href="sdf" class="button" style="vertical-align:middle">Curruculum Vitae</a></center></p>
+          <p><a href="sdf" class="button" style="vertical-align:middle">Curruculum Vitae</a></p>
           <p><a href="#-introduction" class="button-hover" style="vertical-align:middle">Introduction</a></p>
           <p><a href="#-contact" class="button-hover" style="vertical-align:middle">Contact</a></p>
           <p><a href="#-research" class="button-hover" style="vertical-align:middle">Research</a></p>
