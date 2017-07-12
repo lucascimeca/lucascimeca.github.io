@@ -34,7 +34,7 @@
     
   <style>       
     
-        .button {
+    .button {
       display: inline-block;
       border-radius: 4px;
       background-color: gray;
@@ -104,14 +104,18 @@
       color: white;
     }
     
+    .li {
+      inline-block
+    }
     
     .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 50px;
+      padding: 15px;
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
       text-align: center;
       text-decoration: none;
-      margin: 5px 2px;
+      margin: 1px 1px;
     }
 
     .fa:hover {
@@ -151,12 +155,11 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
         <ul>
+          <li><a href="{{ site.github.owner_url }}" class="fa fa-twitter"></a></li>
           <li> <a href="#" class="fa fa-facebook"></a></li>
-          <li><a href="#" class="fa fa-twitter"></a></li>
           <li><a href="#" class="fa fa-linkedin"></a></li>
         </ul>
 
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
           <p><a href="sdf" class="button" style="vertical-align:middle">Curruculum Vitae</a></p>
           <p><a href="https://lucascimeca.github.io/#-introduction" class="button-hover" style="vertical-align:middle">Introduction</a></p>
           <p><a href="https://lucascimeca.github.io/#-contact" class="button-hover" style="vertical-align:middle">Contact</a></p>
