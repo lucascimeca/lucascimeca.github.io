@@ -2,10 +2,7 @@
 layout: default
 ---
 
-### Large image
-
-![](https://github.com/lucascimeca/lucascimeca.github.io/blob/master/img/luca_scimeca.jpg)\
-
+<img src="https://github.com/lucascimeca/lucascimeca.github.io/blob/master/img/luca_scimeca.jpg" align="left" height="300" width="300" >
 
 # [](#Intro) Introduction
 
