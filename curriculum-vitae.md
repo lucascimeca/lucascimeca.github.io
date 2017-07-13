@@ -7,7 +7,7 @@ layout: default
 
     
 
-script src="/js/pdfobject.js"></script>
+<script src="/js/pdfobject.js"></script>
 <script>PDFObject.embed("/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf", "#curriculum-vitae");</script>
 <style>
 .pdfobject-container { height: 500px;}
