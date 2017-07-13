@@ -22,6 +22,9 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 
 # [](#Research) Research
+{% if site.publications %}
+  # [](#Publications) Publications
+{% endif %}
 # [](#Projects) Projects
 # [](#Misc) Misc
 
