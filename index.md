@@ -8,7 +8,7 @@ layout: default
 
 # [](#Intro) Introduction
 
-I am a PhD student in Engineering at the University of Cambridge. I conduct my research at the university's Biologically Inspired Robotics Laboratory (BIRL), supervised by Dr. Fumiya Iida. 
+I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/">University of Cambridge</a>. I conduct my research at the university's Biologically Inspired Robotics Laboratory (BIRL), supervised by Dr. Fumiya Iida. 
 
 My background in the field of IT goes back to before university when, studying in the Computer Science sector of a technical secondary school, I had the opportunity to familiarize myself with the basics of programming, design and analysis which brought me to the successful completion of a robotics project on my final year.
 
