@@ -32,22 +32,11 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 > As part of my thesis at the university of Edinburgh I have worked with Dr. Barbara Webb on AntBot a mobile-phone powered autonomous robot implementing a novel neural model for insect navigation. 
 
-2016-2017 Image classification with Deep Neural Networks
-• Experimented with Adaptive Learning Rules, Batch Normalization, Convolutional Neural Networks (CNNs).
-• Increased CNN forward and backward propagation speed of common algorithms by 2x (Python, no GPU).
-• Achieved near state of the art performance on MNIST dataset.
-2015-2016 System Design Project
-University of Edinburgh
-• Built a robotic prototype for two-a-side football competition.
-• Implemented general machine learning algorithms, image processing and remote autonomous planning.
-• Prototype built using Arduino board and various electrical and mechanical components.
-2015 Undergraduate Research Practical
-University of Edinburgh
-• Researched along a professor at UoE in the area of Bidirectional Transformations.
-• Explored OO implementations of the concepts and implemented models of Bx behavior in Java.
-2015 Research on the Carneades Argumentation System
-University of Edinburgh
-• Developed a python version of the Carneades system of argument evaluation.
+### [](#DNN) Image Classification With Deep Neural Networks _(University of Edinburgh, 2016-2017)_ <a href="https://bitbucket.org/lucascimeca/deep-neural-networks-cifar-10-cifar-100-datasets?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BGUJg49LJSNqF2TBvYYXHiQ%3D%3D" class="fa fa-external-link" style="font-size: 20px" target="_blank"></a>
+
+> I created Tensor Flow Deep Neural Networks to classify colored images in the CIFAR-10 and CIFAR-100 datasets. I run experiments with particular focus on Multitask Learning and crated and adopted new learning rules for Multitask Learning on CNNs.
+
+### [](#DNN-mnist) Hand Digit classification with Deep Neural Networks _(University of Edinburgh, 2016)_ <a href="https://bitbucket.org/lucascimeca/deep-neural-networks-mnist-dataset?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BGUJg49LJSNqF2TBvYYXHiQ%3D%3D" class="fa fa-external-link" style="font-size: 20px" target="_blank"></a>
 
 
 # [](#Misc) Misc
