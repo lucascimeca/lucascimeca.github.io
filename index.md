@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> 
+
 <p id="-intro_img" style="padding-top: 20px">
   <img src="/img/luca_scimeca.png" align="center" height="300" width="300">
 </p>
 
-
 # [](#Intro) Introduction
 
-I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/">University of Cambridge</a>. I conduct my research at the university's <a href="http://divf.eng.cam.ac.uk/birl/">Biologically Inspired Robotics Laboratory</a> (BIRL), supervised by Dr. Fumiya Iida. 
+I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/" class="a.mylink">University of Cambridge</a>. I conduct my research at the university's <a href="http://divf.eng.cam.ac.uk/birl/">Biologically Inspired Robotics Laboratory</a> (BIRL), supervised by Dr. Fumiya Iida. 
 
 My background in the field of IT goes back to before university when, studying in the Computer Science sector of a technical secondary school, I had the opportunity to familiarize myself with the basics of programming, design and analysis which brought me to the successful completion of a robotics project on my final year.
 
