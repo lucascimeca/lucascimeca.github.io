@@ -95,26 +95,6 @@
   color: white;
 }
 
-li {
-  display: inline-block;
-} 
-
-ul {
-  background: white;
-}
-
-header li {
-  height: 50px;
-}
-
-th {
-  padding: 2px 2px; 
-}
-
-th, td {
-  border-bottom: 0px;
-}
-
 .fa {
   padding: 15px;
   font-size: 20px;
@@ -171,3 +151,26 @@ th, td {
 }
 
 
+li {
+  display: inline-block;
+} 
+
+ul {
+  background: white;
+}
+
+header li {
+  height: 50px;
+}
+
+th {
+  padding: 2px 2px; 
+}
+
+th, td {
+  border-bottom: 0px;
+}
+
+a.mylink:link,  a.mylink:visited, a.mylink:hover, a.mylink:active{
+   color: #267CB9;
+}
