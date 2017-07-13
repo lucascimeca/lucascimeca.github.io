@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<p id="-intro_img"><img src="/img/luca_scimeca.png" align="center" height="300" width="300"></p>
+<p id="-intro_img" style="padding-top: 20px">
+  <img src="/img/luca_scimeca.png" align="center" height="300" width="300">
+</p>
 
 
 # [](#Intro) Introduction
