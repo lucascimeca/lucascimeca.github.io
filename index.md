@@ -18,17 +18,17 @@ Throughout my academic career I have taken part to several research projects and
 
 I graduated from the <a href="http://www.ed.ac.uk/" target="_blank">University of Edinburgh</a> with a First Class degree in Artificial Intelligence and Software Engineering, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence.
 
-<br/><br/>
+<br/>
 
 # [](#Research) Research
 
 My interests lie mainly in Machine Learning and Robotics research, particularly I'm interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning).
 
-<br/><br/>
+<br/>
 
 {% if site.publications %}
   <h1 id="-publications">Publications</h>
-  <br/><br/>
+  <br/>
 {% endif %}
 
 # [](#Projects) Projects
@@ -45,7 +45,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 > I experimented with Adaptive Learning Rules, Batch Normalization, Convolutional Neural Networks (CNNs) and other standard NN approaches. I performed experiments on the MNIST dataset, achieving near state of the art performance and increasing CNN forward and backward propagation speed of common algorithms of 2x (Python, no GPU).
 
-<br/><br/>
+<br/>
 
 # [](#Misc) Misc
 
