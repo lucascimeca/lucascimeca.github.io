@@ -9,7 +9,7 @@ layout: default
   </tr>
 </table>
 
-<object data="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" type="application/pdf" width="1000px" height="1000px">
-<iframe src="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" width="1000px" height="1000px" style="border: none;">
+<object data="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" type="application/pdf" width="100%" height="1000px">
+<iframe src="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" width="100%" height="1000px" style="border: none;">
 </iframe>
 </object>
