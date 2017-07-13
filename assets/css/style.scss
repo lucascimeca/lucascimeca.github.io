@@ -68,6 +68,33 @@
   color: white;
 }
 
+.button-hover-large {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    border-radius: 8%;
+}
+.button-hover-large {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+.button-hover-large:hover {
+  background-color: #ACACAC;
+  color: white;
+}
+
 li {
   display: inline-block;
 } 
