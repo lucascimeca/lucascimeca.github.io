@@ -38,6 +38,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 ### [](#DNN-mnist) Hand Digit classification with Deep Neural Networks _(University of Edinburgh, 2016)_ <a href="https://bitbucket.org/lucascimeca/deep-neural-networks-mnist-dataset?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BGUJg49LJSNqF2TBvYYXHiQ%3D%3D" class="fa fa-external-link" style="font-size: 20px" target="_blank"></a>
 
+> I experimented with Adaptive Learning Rules, Batch Normalization, Convolutional Neural Networks (CNNs) and other standard NN approaches. I performed experiments on the MNIST dataset, achieving near state of the art performance and increasing CNN forward and backward propagation speed of common algorithms of 2x (Python, no GPU).
 
 # [](#Misc) Misc
 
