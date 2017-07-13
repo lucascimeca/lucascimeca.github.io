@@ -59,12 +59,10 @@
           </tr>
         </table>
 
-          <p><a href="sdf" class="button" style="vertical-align:middle">Curruculum Vitae</a></p>
           <p><a href="https://lucascimeca.github.io/#-introduction" class="button-hover" style="vertical-align:middle">Introduction</a></p>
-          <p><a href="https://lucascimeca.github.io/#-contact" class="button-hover" style="vertical-align:middle">Contact</a></p>
           <p><a href="https://lucascimeca.github.io/#-research" class="button-hover" style="vertical-align:middle">Research</a></p>
           <p><a href="https://lucascimeca.github.io/#-projects" class="button-hover" style="vertical-align:middle">Projects</a></p>
-          <p><a href="https://lucascimeca.github.io/#-others" class="button-hover" style="vertical-align:middle">Others</a></p>
+          <p><a href="https://lucascimeca.github.io/curriculum-vitae" class="button-hover" style="vertical-align:middle">Others</a></p>
         
       </header>
       <section>
@@ -82,16 +80,16 @@
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
 
-  {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  \\{% if site.google_analytics %}
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-  {% endif %}
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+  </script>
+  \\{% endif %}
   </body>
 </html>
