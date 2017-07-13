@@ -18,12 +18,8 @@ I graduated from the University of Edinburgh with a First Class degree in Artifi
 My interests lie mainly in Machine Learning and Robotics research, particularly I'm interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning).
 
 
-
-# [](#Research) Contact
-
 # [](#Research) Research
 # [](#Research) Projects
-# [](#Research) Others
 
 
 
