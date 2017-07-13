@@ -35,8 +35,8 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-<!--     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
- -->
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> 
     
     <meta name="viewport" content="width=device-width">
@@ -48,6 +48,12 @@
     <div class="wrapper">
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <table style="width: 250px">
+          <tr>
+            <th><a href="mailto:luca.scimeca@live.com" class="fa fa-envelope" target="_blank"></a></a></th>
+            <th>luca.scimeca@live.com</th>
+          </tr>
+        </table>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <table style="width: 170px">
           <tr>
