@@ -27,7 +27,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 <br/>
 
 {% if site.publications %}
-  <h1 id="-publications">Publications</h>
+  <h1 id="-publications">Publications</h1>
   <br/>
 {% endif %}
 
