@@ -2,8 +2,7 @@
 layout: default
 ---
 
-## Welcome to another page
+# [](#Intro) Curriculum Vitae
 
-_yay_
 
 [back](./)
