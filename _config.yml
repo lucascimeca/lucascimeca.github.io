@@ -5,7 +5,7 @@ google_analytics: UA-NNNNNNNN-N
 theme: 
 github_username: lucascimeca
 
-publications:
+publications: true
 
 email: luca.scimeca@live.com
 author: lucascimeca
