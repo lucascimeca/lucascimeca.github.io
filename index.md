@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-# [](#Begin)
-<p><img src="/img/luca_scimeca.png" align="center" height="300" width="300" ></p>
+<p><img src="/img/luca_scimeca.png" align="center" height="300" width="300" id=intro></p>
 
 
 # [](#Intro) Introduction
