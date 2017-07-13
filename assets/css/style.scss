@@ -71,8 +71,13 @@
 li {
   display: inline-block;
 } 
+
 ul {
-  white-space: nowrap;
+  background: white;
+}
+
+header li {
+  height: 50px;
 }
 
 .fa {
@@ -83,6 +88,8 @@ ul {
   text-align: center;
   text-decoration: none;
   margin: 0px 0px;
+  display: inline-block;
+  line-height: 10px;
 }
 .fa:hover {
     opacity: 0.7;
