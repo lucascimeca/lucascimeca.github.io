@@ -28,7 +28,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 # [](#Projects) Projects
 
-### [](#RoboAnt) RoboAnt _(University of Edinburgh, 2016-2017)_  <a href="https://bitbucket.org/lucascimeca/antbot-a-biologically-inspired-approach-to-path-integration/raw/90d120d07c7fc6221d4ef454e8d6abab17988a72/Luca_Scimeca_AntBot.pdf" class="fa fa-download" style="font-size: 12px"><>
+### [](#RoboAnt) RoboAnt _(University of Edinburgh, 2016-2017)_  <a href="https://bitbucket.org/lucascimeca/antbot-a-biologically-inspired-approach-to-path-integration/raw/90d120d07c7fc6221d4ef454e8d6abab17988a72/Luca_Scimeca_AntBot.pdf" class="fa fa-download" style="font-size: 20px"></a>
 
 > As part of my thesis at the university of Edinburgh I have worked with Dr. Barbara Webb on AntBot a mobile-phone powered autonomous robot implementing a novel neural model for insect navigation. 
 
