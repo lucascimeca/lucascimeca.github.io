@@ -11,7 +11,7 @@
         $('a[href*="#"]').on('click', function(event) {
 
           // Make sure this.hash has a value before overriding default behavior
-          if (this.hash !== "" && href.indexOf(window.location.href) > -1) {
+          if (this.hash !== "" && !(href.indexOf(window.location.href) > -1)) {
             // Prevent default anchor click behavior
             event.preventDefault();
 
