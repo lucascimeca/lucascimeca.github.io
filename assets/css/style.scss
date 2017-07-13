@@ -171,6 +171,6 @@ th, td {
   border-bottom: 0px;
 }
 
-a.mylink:link,  a.mylink:visited, a.mylink:hover, a.mylink:active{
-   color: #267CB9;
+a:hover, a:focus {
+  font-weight: normal;
 }
