@@ -45,12 +45,18 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 > I experimented with Adaptive Learning Rules, Batch Normalization, Convolutional Neural Networks (CNNs) and other standard NN approaches. I performed experiments on the MNIST dataset, achieving near state of the art performance and increasing CNN forward and backward propagation speed of common algorithms of 2x (Python, no GPU).
 
+```
+If you would like to see a comprehensive list of projects please visit <a href="https://bitbucket.org/lucascimeca/">https://bitbucket.org/lucascimeca/</a>
+```
+
 <br/>
 
 # [](#Misc) Misc
 
+### Interests
 
-
+In my spare time I like to practice outdoors activities, usually entailing scuba diving or hiking/climbing. I also love traveling and backpacking which I do when I can.
+I am also passionate about martial arts. I have practiced Judo since I was 9, participating to competitions at a national and international level. I received my black belt about 7 years after that.
 
 
 <br/><br/>
