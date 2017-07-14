@@ -50,7 +50,10 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 list of projects please visit*
 [https://bitbucket.org/lucascimeca/]_https://bitbucket.org/lucascimeca/_
 ```
-
+ <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0; margin-top:30px">
+ <a href="/blog">VIEW THE BLOG</a>
+ </div>
+ 
 <br/>
 
 # [](#Misc) Misc
