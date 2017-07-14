@@ -55,8 +55,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 ### Interests
 
-In my spare time I like to practice outdoors activities, usually entailing scuba diving or hiking/climbing. I also love traveling and backpacking which I do when I can.
-I am also passionate about martial arts. I have practiced Judo since I was 9, participating to competitions at a national and international level. I received my black belt about 7 years after that.
+In my spare time I like to practice outdoors activities, usually entailing scuba diving or hiking/climbing. I also love traveling and backpacking which I do when I can. Ultimately I am passionate about martial arts. I have practiced Judo since I was 9, participating to competitions at a national and international level. I received my black belt about 7 years after that.
 
 
 <br/><br/>
