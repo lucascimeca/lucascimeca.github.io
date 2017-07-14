@@ -46,9 +46,9 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 > I experimented with Adaptive Learning Rules, Batch Normalization, Convolutional Neural Networks (CNNs) and other standard NN approaches. I performed experiments on the MNIST dataset, achieving near state of the art performance and increasing CNN forward and backward propagation speed of common algorithms of 2x (Python, no GPU).
 
 ```
-If you would like to see a comprehensive 
-list of projects please visit 
-<a href="https://bitbucket.org/lucascimeca/">https://bitbucket.org/lucascimeca/</a>
+*If you would like to see a comprehensive 
+list of projects please visit*
+[https://bitbucket.org/lucascimeca/]_https://bitbucket.org/lucascimeca/_
 ```
 
 <br/>
