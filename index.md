@@ -59,7 +59,7 @@ In my spare time I like to practice outdoors activities, usually entailing scuba
 
 I am passionate about martial arts. I have practiced Judo since I was 9, participating to competitions at a national and international level. I received my black belt about 7 years after that.
 
-Ultimately I like playing chess. I joined different chess clubs since the age of 12, but I mostly play it as a hobby now.
+Ultimately I like playing chess. I joined different chess clubs since the age of 12, but I mostly do it sporadically as a hobby now.
 
 <br/><br/>
 <br/><br/>
