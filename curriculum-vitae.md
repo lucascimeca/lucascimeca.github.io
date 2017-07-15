@@ -5,9 +5,9 @@ layout: default
 <table style="width: 130%">
   <tr>
     <th><h1 id="-curriculum-vitae">Curriculum Vitae</h1></th>
-    <hr style="width: 190px">
     <th text-aligh="right"><a href="https://github.com/lucascimeca/lucascimeca.github.io/raw/master/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf" class="fa fa-download"></a></th> 
   </tr>
+    <hr style="width: 242px">
 </table>
 
 <object data="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" type="application/pdf" width="120%" height="1000px">
