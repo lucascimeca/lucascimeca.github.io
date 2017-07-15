@@ -9,7 +9,7 @@ layout: default
 </p>
 
 # [](#Intro) Introduction
----
+<hr>
 
 I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a>. I conduct my research at the university's <a href="http://divf.eng.cam.ac.uk/birl/" target="_blank">Biologically Inspired Robotics Laboratory</a> (BIRL), supervised by Dr. Fumiya Iida. 
 
