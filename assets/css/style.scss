@@ -186,12 +186,16 @@ a:hover, a:focus {
 }
 
 hr { 
-    display: inline-block;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    width: 100%;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
 } 
+
+h1 {
+  margin: 0 0 5px
+}
