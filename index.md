@@ -9,7 +9,7 @@ layout: default
 </p>
 
 # [](#Intro) Introduction
-<hr style="width: 180px">
+<hr style="width: 190px">
 
 I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a>. I conduct my research at the university's <a href="http://divf.eng.cam.ac.uk/birl/" target="_blank">Biologically Inspired Robotics Laboratory</a> (BIRL), supervised by Dr. Fumiya Iida. 
 
@@ -22,6 +22,7 @@ I graduated from the <a href="http://www.ed.ac.uk/" target="_blank">University o
 <br/>
 
 # [](#Research) Research
+<hr style="width: 190px">
 
 My interests lie mainly in Machine Learning and Robotics research, particularly I'm interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning).
 
@@ -33,6 +34,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 {% endif %}
 
 # [](#Projects) Projects
+<hr style="width: 190px">
 
 ### [](#RoboAnt) RoboAnt <a href="https://bitbucket.org/lucascimeca/antbot-a-biologically-inspired-approach-to-path-integration/raw/90d120d07c7fc6221d4ef454e8d6abab17988a72/Luca_Scimeca_AntBot.pdf" class="fa fa-download" style="font-size: 17px"></a><br/>_(University of Edinburgh, 2016-2017)_  
 
@@ -53,6 +55,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 <br/>
 
 # [](#Misc) Misc
+<hr style="width: 190px">
 
 ### Interests
 
