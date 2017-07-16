@@ -10,7 +10,7 @@ layout: default
 </table>
 <hr style="width: 242px; margin-bottom:30px">
 
-<object data="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" type="application/pdf" width="120%" height="1000px">
-<iframe src="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" width="120%" height="1000px" style="border: none;">
+<object data="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" type="application/pdf" width="120%" height="680px">
+<iframe src="/docs/Luca-Scimeca-The-University-of-Edinburgh.pdf#view=FitH" width="120%" height="680px" style="border: none;">
 </iframe>
 </object>
