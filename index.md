@@ -17,7 +17,7 @@ My background in the field of IT goes back to before university when, studying i
 
 Throughout my academic career I have taken part to several research projects and competitions which allowed me to build a strong background in Mathematics, Machine Learning and Robotics.
 
-I graduated from the <a href="http://www.ed.ac.uk/" target="_blank">University of Edinburgh</a> with a First Class degree in Artificial Intelligence and Software Engineering, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence.
+I graduated summa cum laude from the <a href="http://www.ed.ac.uk/" target="_blank">University of Edinburgh</a> with a First Class degree in Artificial Intelligence and Software Engineering, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence.
 
 <br/>
 
