@@ -19,6 +19,8 @@ Throughout my academic career I have taken part to several research projects and
 
 I graduated summa cum laude from the <a href="http://www.ed.ac.uk/" target="_blank">University of Edinburgh</a> with a First Class degree in Artificial Intelligence and Software Engineering, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence.
 
+I have won over 13 awards among which 9 paid scholarships for academic performance.
+
 <br/>
 
 # [](#Research) Research
