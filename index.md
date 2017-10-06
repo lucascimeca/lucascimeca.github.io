@@ -33,7 +33,7 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 # [](#Publications) Publications
 <hr style="width: 115px">
 
-* <div style="font-size: 17px"> Stone, Thomas et al.(2017, November 6). An Anatomically Constrained Model for Path Integration in the Bee Brain. *Current Biology*, 0, 0. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4" target="_blank">http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4</a> </div>
+* <div style="font-size: 12px"> Stone, Thomas et al.(2017, November 6). An Anatomically Constrained Model for Path Integration in the Bee Brain. *Current Biology*, 0, 0. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4" target="_blank">http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4</a> </div>
 
 <br/>
 
