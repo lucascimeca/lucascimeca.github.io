@@ -30,20 +30,16 @@ My interests lie mainly in Machine Learning and Robotics research, particularly 
 
 <br/>
 
-{% if site.publications %}
-  <h1 id="-publications">Publications</h1>
-  # [](#Publications) Publications
-  <hr style="width: 130px">
-  
-  
-{% endif %}
+# [](#Publications) Publications
+<hr style="width: 130px">
+
+- Stone, Thomas et al.(2017, November 6). An Anatomically Constrained Model for Path Integration in the Bee Brain. <br/>
+   *Current Biology*, 0, 0. <br/>Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-    4">http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4</a>
+
+<br/>
 
 # [](#Projects) Projects
 <hr style="width: 115px">
-
-Stone, Thomas et al.(2017, November 6). An Anatomically Constrained Model for Path Integration in the Bee Brain. <br/>
-*Current Biology*, 0, 0. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4">http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4</a>
-
 
 ### [](#RoboAnt) RoboAnt <a href="https://bitbucket.org/lucascimeca/antbot-a-biologically-inspired-approach-to-path-integration/raw/90d120d07c7fc6221d4ef454e8d6abab17988a72/Luca_Scimeca_AntBot.pdf" class="fa fa-download" style="font-size: 17px"></a><br/>_(University of Edinburgh, 2016-2017)_  
 
