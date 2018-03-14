@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # [](#Projects) Projects
 <hr style="width: 115px">
 
