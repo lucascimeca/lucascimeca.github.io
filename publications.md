@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # [](#Publications) Publications
 <hr style="width: 170px">
 
