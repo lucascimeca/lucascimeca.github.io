@@ -34,7 +34,7 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
 
 In my spare time I like to practice outdoors activities, usually entailing scuba diving or hiking/climbing. I also love traveling and backpacking which I do anytime I can. 
 
-I am passionate about martial arts. I have practiced Judo since I was 9, participating to competitions at a national and international level. I received my black belt about 7 years after that.
+I am passionate about martial arts. I have practiced Judo since I was 9, participating to competitions at a national and international level. I received my black belt in 2011.
 
 Ultimately I like playing chess. I joined different chess clubs since the age of 12, but I mostly do it sporadically as a hobby now.
 
