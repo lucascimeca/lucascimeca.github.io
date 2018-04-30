@@ -24,8 +24,7 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 # [](#Research) Research
 <hr style="width: 130px">
 
-My interests lie mainly in Machine Learning and Robotics, particularly I am interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning). I am currently carrying out research on the use of tactile perception and the employment of morphology to aid in manipulation tasks.
-https://github.com/lucascimeca/lucascimeca.github.io
+My interests lie mainly in Machine Learning and Robotics, particularly I am interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning). I am currently carrying out research on the use of tactile perception and the employment of morphology, and motor-coordinated behaviour to aid in manipulation tasks.
 <br/>
 
 # [](#Misc) Misc
