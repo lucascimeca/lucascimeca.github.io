@@ -16,9 +16,9 @@ layout: default
 
 <br/>
 
-<!--
+<!---
 ## [](#accepted) Accepted
-<hr style="width: 95px">
+<hr style="width: 95px">--->
 
 
 <br/>
