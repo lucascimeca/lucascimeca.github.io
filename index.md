@@ -5,7 +5,7 @@ layout: default
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> 
 
 <p id="-intro_img" style="padding-top: 20px">
-  <img src="/docs/Luca Scimeca - Photo.JPG" align="center" height="320" width="318">
+  <img src="/docs/Luca Scimeca - Photo.JPG" align="center" height="320" width="320">
 </p>
 
 # [](#Intro) Introduction
