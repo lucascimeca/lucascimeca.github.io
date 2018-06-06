@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# [](#Publications) Publications  <a href="https://bitbucket.org/lucascimeca/morphological_processing/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"> <a href="https://orcid.org/0000-0002-2821-0072" target="_blank"><img id="orcid-id-icon" src="https://orcid.org/sites/default/files/images/orcid_24x24.png" width="24" height="24"/></a>
+# [](#Publications) Publications  
+<a href="https://orcid.org/0000-0002-2821-0072" target="_blank"><img id="orcid-id-icon" src="https://orcid.org/sites/default/files/images/orcid_24x24.png" width="25" height="25"/></a>
+<a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" class="ai-google-scholar" target="_blank"></a>
 <hr>
 
 <br/>
