@@ -50,10 +50,11 @@ layout: default
  <div style="background-color:rgba(206, 206, 206, 1); color:black; font-weight:600">
  For a comprehensive list of projects please visit: <a href="https://bitbucket.org/lucascimeca/" target="_blank">https://bitbucket.org/lucascimeca/</a>
  </div>
- 
-<br/>
 
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
 
 
