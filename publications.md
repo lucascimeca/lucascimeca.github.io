@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#Publications) Publications
+# [](#Publications) Publications  <a href="https://bitbucket.org/lucascimeca/morphological_processing/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank">
 <hr>
 
 <br/>
