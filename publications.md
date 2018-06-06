@@ -4,7 +4,7 @@ layout: default
 
 # [](#Publications) Publications  
 <a href="https://orcid.org/0000-0002-2821-0072" target="_blank"><img id="orcid-id-icon" src="https://orcid.org/sites/default/files/images/orcid_24x24.png" width="25" height="25"/></a>
-<a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" class="ai-google-scholar" target="_blank"></a>
+<a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" class="ai ai-google-scholar" target="_blank"></a>
 <hr>
 
 <br/>
