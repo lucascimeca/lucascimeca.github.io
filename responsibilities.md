@@ -5,13 +5,18 @@ layout: default
 # [](#Responsibilities) Responsibilities 
 <hr style="width: 215px">
 
+<br/>
+
 ## [](#review) Work
-..* PhD Student at Biologically Inspired Robotics Laboratory, University of Cambridge (2017-2021)
-..* Demonstrator for "Engineering Tripos Part IIA - 3D Printing" (2017/2018)
-..* Demonstrator for "3F8 Inference" (2017/2018)
-
-
-## [](#review) Accademic Services
-..* Reviewer for IEEE Robotics and Automation Letters
+<ul style="list-style-type:disc">
+  <li>PhD Student at Biologically Inspired Robotics Laboratory, University of Cambridge (2017-2021)</li>
+  <li>Demonstrator for "Engineering Tripos Part IIA - 3D Printing" (2017/2018)</li>
+  <li>Demonstrator for "3F8 Inference" (2017/2018)</li>
+</ul>  
 
 <br/>
+
+## [](#review) Accademic Services
+<ul style="list-style-type:disc">
+  <li>Reviewer for IEEE Robotics and Automation Letters</li>
+</ul>  
