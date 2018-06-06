@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#Projects) Responsibilities 
+# [](#Responsibilities) Responsibilities 
 <hr style="width: 115px">
 
 ## [](#review) Work
