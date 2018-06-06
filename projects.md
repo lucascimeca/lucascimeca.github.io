@@ -6,7 +6,7 @@ layout: default
 <hr style="width: 115px">
 
 
-### [](#MorphProc) Morhological Processing <a href="https://bitbucket.org/lucascimeca/morphological_processing/src/master/" class="fa fa-download" style="font-size: 17px"></a><br/><font size="2px">(University of Cambridge, 2017-2018)</font>
+### [](#MorphProc) Morphological Processing of Tactile Stimuli<a href="https://bitbucket.org/lucascimeca/morphological_processing/src/master/" class="fa fa-download" style="font-size: 17px"></a><br/><font size="2px">(University of Cambridge, 2017-2018)</font>
 
 > <div style="font-style: italic; font-size: 12px">Project linked to the work on Morphological Processing of Tactile stimuli published in the 2018 IEEE RoboSoft conference on soft robotics </div> 
 
