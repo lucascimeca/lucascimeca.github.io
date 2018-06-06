@@ -44,6 +44,7 @@
 .button-hover {
     background-color: #4CAF50; /* Green */
     border: none;
+    padding: 1px 2px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -52,7 +53,7 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 120px;
+    width: 130px;
     height: 25px;
     border-radius: 8%;
 }
@@ -70,6 +71,7 @@
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
+    padding: 1px 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -77,8 +79,8 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 120px;
-    height: 45px;
+    width: 130px;
+    height: 75px;
     border-radius: 8%;
 }
 .button-hover-large {
