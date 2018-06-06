@@ -10,7 +10,7 @@ layout: default
 ## [](#review) Work
 <hr style="width: 55px">
 
-<ul">
+<ul>
   <li>PhD Student at Biologically Inspired Robotics Laboratory, University of Cambridge (2017-2021)</li>
   <li>Demonstrator for "Engineering Tripos Part IIA - 3D Printing" (2017/2018)</li>
   <li>Demonstrator for "3F8 Inference" (2017/2018)</li>
