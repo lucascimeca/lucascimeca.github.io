@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#Publications) Publications  <a href="https://bitbucket.org/lucascimeca/morphological_processing/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank">
+# [](#Publications) Publications  <a href="https://bitbucket.org/lucascimeca/morphological_processing/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"> <a href="https://orcid.org/0000-0002-2821-0072" target="_blank"><img id="orcid-id-icon" src="https://orcid.org/sites/default/files/images/orcid_24x24.png" width="24" height="24" alt="ORCID iD icon"/></a>
 <hr>
 
 <br/>
