@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#Publications) Publications  <a href="https://orcid.org/0000-0002-2821-0072" class="ai ai-orcid" style="font-size: 25px; padding-left: 8px" target="_blank"></a></a> <a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" class="ai ai-google-scholar" style="font-size: 25px; padding-left: 5px" target="_blank"></a>
+# [](#Publications) Publications  <a href="https://orcid.org/0000-0002-2821-0072" class="ai ai-orcid" style="font-size: 25px; padding-left: 8px" target="_blank"></a> <a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" class="ai ai-google-scholar" style="font-size: 25px; padding-left: 5px" target="_blank"></a>
 <hr>
 
 <br/>
