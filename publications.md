@@ -10,10 +10,10 @@ layout: default
 ## [](#review) Under Review
 <hr style="width: 145px">
 
-> <div style="font-size: 13px"> Scimeca, L., Maiolino, P., Bray, E., Iida, F., Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation (under review).</div>
+> <div style="font-size: 13px"> Scimeca, L., Maiolino, P., Bray, E., Iida, F., Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
 <p></p>
 
-> <div style="font-size: 13px"> Hughes, J., Scimeca, L., Ifrim, I., Maiolino, P., and F. Iida, Achieving Robotically Peeled Lettuce</div>
+> <div style="font-size: 13px"> Hughes, J., Scimeca, L., Ifrim, I., Maiolino, P., and F. Iida, Achieving Robotically Peeled Lettuce (accepted) </div>
 
 <br/>
 
