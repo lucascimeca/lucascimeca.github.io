@@ -34,7 +34,7 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
 <table width="800">
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
-    <td><i> 1st Place Award in the Robot Rescue Simulation League, <br/>RoboCup 2018, Montreal, Canada </i></td>
+    <td><i> 1st Place Award in the Robot Rescue Simulation League</i>, <br/>RoboCup 2018, Montreal, Canada </td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
