@@ -25,12 +25,13 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 <hr style="width: 130px">
 
 My interests lie mainly in Machine Learning and Robotics, particularly I am interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning). I am currently carrying out research on the use of tactile perception and the employment of morphology, and motor-coordinated behaviour to aid in manipulation tasks.
+
 <br/>
 
 # [](#News) News & Others
-<hr style="width: 65px">
+<hr style="width: 210px">
 
-<table width="770">
+<table width="800">
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
     <td> 1st Place Award in the Robot Rescue Simulation League, <br/>RoboCup 2018, Montreal, Canada </td>
@@ -41,16 +42,19 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
     <td> 1st Place Award at "RoboSoft Competition - Manipulation", <br/>RoboSoft 2018 IEEE Conference on Soft Robotics, Livorno, Italy</td>
   </tr>
   <tr><td></td></tr>
+  <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2016 </td>
     <td> Finalist at Robotic 2-a-side Football Tournament (System Design Project), at The University of
 Edinburgh, <br/>Edinburgh, UK </td>
   </tr>
   <tr><td></td></tr>
+  <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2015 </td>
     <td> Awarded "The Edinburgh Award" at University of Edinburgh, <br/>Edinburgh, UK </td>
   </tr>
+  <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013, 2010, 2009 </td>
@@ -61,10 +65,12 @@ Edinburgh, <br/>Edinburgh, UK </td>
     </td>
   </tr>
   <tr><td></td></tr>
+  <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013 </td>
     <td> Informatics Diploma - Graduated with a score of 100 in ”Esami di Stato”, <br/>Palermo, Italy</td>
   </tr>
+  <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2010 </td>
