@@ -67,7 +67,7 @@ Edinburgh </td>
       </ul> 
     </td>
   </tr>
-
+</table>
 <!--### Interests-->
 
 <!--In my spare time I like to practice outdoors activities, usually entailing scuba diving or hiking/climbing. I also love traveling and backpacking which I do anytime I can. -->
