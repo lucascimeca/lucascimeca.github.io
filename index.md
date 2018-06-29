@@ -27,17 +27,26 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 My interests lie mainly in Machine Learning and Robotics, particularly I am interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning). I am currently carrying out research on the use of tactile perception and the employment of morphology, and motor-coordinated behaviour to aid in manipulation tasks.
 <br/>
 
-# [](#Misc) Misc
+# [](#News) News & Others
 <hr style="width: 65px">
 
-### Interests
+d  | d 
+d  | d 
+d  | d 
+d  | d 
+d  | d 
+d  | d 
+d  | d 
 
-In my spare time I like to practice outdoors activities, usually entailing scuba diving or hiking/climbing. I also love traveling and backpacking which I do anytime I can. 
 
-I am passionate about martial arts. I have practiced Judo since I was 9, participating to competitions at a national and international level. I received my black belt in 2011.
+<!--### Interests-->
 
-Ultimately I like playing chess. I joined different chess clubs since the age of 12, but I mostly do it sporadically as a hobby now.
+<!--In my spare time I like to practice outdoors activities, usually entailing scuba diving or hiking/climbing. I also love traveling and backpacking which I do anytime I can. -->
 
+<!--I am passionate about martial arts. I have practiced Judo since I was 9, participating to competitions at a national and international level. I received my black belt in 2011.-->
+
+<!--Ultimately I like playing chess. I joined different chess clubs since the age of 12, but I mostly do it sporadically as a hobby now.
+-->
 <br/><br/>
 <br/><br/>
 <br/><br/>
