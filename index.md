@@ -34,33 +34,33 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
 <table width="800">
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
-    <td> 1st Place Award in the Robot Rescue Simulation League, <br/>RoboCup 2018, Montreal, Canada </td>
+    <td><i> 1st Place Award in the Robot Rescue Simulation League, <br/>RoboCup 2018, Montreal, Canada </i></td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
-    <td> 1st Place Award at "RoboSoft Competition - Manipulation", <br/>RoboSoft 2018 IEEE Conference on Soft Robotics, Livorno, Italy</td>
+    <td><i> 1st Place Award at "RoboSoft Competition - Manipulation"</i>, <br/>RoboSoft 2018 IEEE Conference on Soft Robotics, Livorno, Italy</td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2016 </td>
-    <td> Finalist at Robotic 2-a-side Football Tournament (System Design Project), <br/>The University of
+    <td><i> Finalist at Robotic 2-a-side Football Tournament (System Design Project)</i>, <br/>The University of
 Edinburgh, Edinburgh, UK </td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2015 </td>
-    <td> Awarded "The Edinburgh Award" <br/>University of Edinburgh, Edinburgh, UK </td>
+    <td><i> Awarded "The Edinburgh Award" </i> <br/>University of Edinburgh, Edinburgh, UK </td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013, 2010, 2009 </td>
-    <td> Three times winner of scholarship ”Borsa di Studio Benivegna”.
-      <ul style="list-style-type:disc; margin-left:.5em">
+    <td><i> Three times winner of scholarship ”Borsa di Studio Benivegna”.</i>
+      <ul style="list-style-type:disc; margin-left:.5em; margin-bottom:0px">
         <li><small>Highest final cumulative grade achieved in current year of ”Vittorio Emanuele III”, Palermo, Italy</small></li>
       </ul>
     </td>
@@ -69,14 +69,14 @@ Edinburgh, Edinburgh, UK </td>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013 </td>
-    <td> Informatics Diploma - Graduated with a score of 100 in ”Esami di Stato”, <br/>Palermo, Italy</td>
+    <td><i> Informatics Diploma - Graduated with a score of 100 in ”Esami di Stato”</i>, <br/>Palermo, Italy</td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2010 </td>
-    <td> Winner of “Premio di studi prof. Erasmo Siino” II Edition. <br/>
-      <ul style="list-style-type:disc; margin-left:.5em">
+    <td><i> Winner of “Premio di studi prof. Erasmo Siino” II Edition.</i> <br/>
+      <ul style="list-style-type:disc; margin-left:.5em; margin-bottom:0px">
       <li><small>Highest final grade achieved among all students in the town of Capaci, Palermo, Italy</small></li>
       </ul> 
     </td>
