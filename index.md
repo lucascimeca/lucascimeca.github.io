@@ -4,7 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> 
 
-<p id="-intro_img" style="padding-top: 20px; padding-left: 4em">
+<p id="-intro_img" style="padding-top: 20px; padding-left: 5em">
   <img src="/docs/Luca Scimeca - Photo.JPG" align="center" height="318" width="300">
 </p>
 
@@ -34,8 +34,8 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
 <table width="800">
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
-    <td> 1st Place Award in the Robot Rescue Simulation League, <br/>RoboCup 2018, Montreal, Canada </td>
-  </tr>
+    <td> 1st Place Award in the Robot Rescue Simulation League </td>
+  </tr><tr><td></td><td> RoboCup 2018, Montreal, Canada </td></tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
@@ -60,8 +60,8 @@ Edinburgh, <br/>Edinburgh, UK </td>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013, 2010, 2009 </td>
     <td> Three times winner of scholarship ”Borsa di Studio Benivegna”.
-      <ul style="list-style-type:disc; margin-left:1em">
-        <li>Highest final cumulative grade achieved in current year of ”Vittorio Emanuele III”, Palermo, Italy</li>
+      <ul style="list-style-type:disc; margin-left:.5em">
+        <li><small>Highest final cumulative grade achieved in current year of ”Vittorio Emanuele III”, Palermo, Italy</small></li>
       </ul>
     </td>
   </tr>
@@ -76,7 +76,7 @@ Edinburgh, <br/>Edinburgh, UK </td>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2010 </td>
     <td> Winner of “Premio di studi prof. Erasmo Siino” II Edition. <br/>
-      <ul style="list-style-type:disc; margin-left:1em">
+      <ul style="list-style-type:disc; margin-left:.5em">
       <li><small>Highest final grade achieved among all students in the town of Capaci, Palermo, Italy</small></li>
       </ul> 
     </td>
