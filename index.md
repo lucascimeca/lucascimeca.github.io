@@ -32,11 +32,11 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
 
 <table width="770">
   <tr>
-    <td style="border-right: 1px solid #cdd0d4;">picture (border only to the left and bottom ) </td>
+    <td style="border-right: 1px solid #000000;border-bottom: 0px solid #cdd0d4;border-left: 1px solid #cdd0d4;border-top: 1px solid #cdd0d4;">picture (border only to the left and bottom ) </td>
     <td>text</td>
   </tr>
   <tr>
-    <td style="border-right: 1px solid #cdd0d4;">text</td>
+    <td style="border-right: 1px solid #000000;">text</td>
     <td>picture (border only to the left and bottom) </td>
   </tr>
 </table>
