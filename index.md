@@ -4,7 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> 
 
-<p id="-intro_img" style="padding-top: 20px; padding-left: 5em">
+<p id="-intro_img" style="padding-top: 20px; padding-left: 4em">
   <img src="/docs/Luca Scimeca - Photo.JPG" align="center" height="318" width="300">
 </p>
 
