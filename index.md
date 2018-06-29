@@ -52,7 +52,7 @@ Edinburgh, </br>Edinburgh, UK </td>
   </tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2015 </td>
-    <td> Awarded "the Edinburgh Award" at University of Edinburgh, </br>Edinburgh, UK </td>
+    <td> Awarded "The Edinburgh Award" at University of Edinburgh, </br>Edinburgh, UK </td>
   </tr>
   <tr>
   </tr>
