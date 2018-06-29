@@ -35,21 +35,18 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
     <td> 1st Place Award in the Robot Rescue Simulation League, <br/>RoboCup 2018, Montreal, Canada </td>
   </tr>
-  <tr>
-  </tr>
+  <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
     <td> 1st Place Award at "RoboSoft Competition - Manipulation", <br/>RoboSoft 2018 IEEE Conference on Soft Robotics, Livorno, Italy</td>
   </tr>
-  <tr>
-  </tr>
+  <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2016 </td>
     <td> Finalist at Robotic 2-a-side Football Tournament (System Design Project), at The University of
 Edinburgh, <br/>Edinburgh, UK </td>
   </tr>
-  <tr>
-  </tr>
+  <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2015 </td>
     <td> Awarded "The Edinburgh Award" at University of Edinburgh, <br/>Edinburgh, UK </td>
@@ -63,14 +60,12 @@ Edinburgh, <br/>Edinburgh, UK </td>
       </ul>
     </td>
   </tr>
-  <tr>
-  </tr>
+  <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013 </td>
     <td> Informatics Diploma - Graduated with a score of 100 in ”Esami di Stato”, <br/>Palermo, Italy</td>
   </tr>
-  <tr>
-  </tr>
+  <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2010 </td>
     <td> Winner of “Premio di studi prof. Erasmo Siino” II Edition. <br/>
