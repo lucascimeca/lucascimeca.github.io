@@ -44,20 +44,20 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
   <tr>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right">> 2016 </td>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2016 </td>
     <td> Finalist at Robotic 2-a-side Football Tournament (System Design Project), at The University of
 Edinburgh, </br>Edinburgh, UK </td>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right">> 2015 </td>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2015 </td>
     <td> Awarded "the Edinburgh Award" at University of Edinburgh, </br>Edinburgh, UK </td>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right">> 2013, 2010, 2009 </td>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013, 2010, 2009 </td>
     <td> Three times winner of scholarship ”Borsa di Studio Benivegna”.
       <ul style="list-style-type:disc; margin-left:1em">
         <li>Highest final cumulative grade achieved in current year of ”Vittorio Emanuele III”</li>
