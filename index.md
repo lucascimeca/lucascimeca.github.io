@@ -66,13 +66,13 @@ Edinburgh, </br>Edinburgh, UK </td>
   <tr>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> align="right"> 2013 </td>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013 </td>
     <td> Informatics Diploma - Graduated with a score of 100 in ”Esami di Stato”. </td>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> align="right"> 2010 </td>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2010 </td>
     <td> Winner of “Premio di studi prof. Erasmo Siino” II Edition. </br>
       <ul style="list-style-type:disc; margin-left:1em">
       <li>Highest final grade achieved among all students in the town of Capaci</li>
