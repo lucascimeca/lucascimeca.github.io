@@ -22,7 +22,8 @@ layout: default
 <hr style="width: 200px">
 
 <ul style="list-style-type:disc">
-  <li>Reviewer for IEEE Robotics and Automation Letters</li>
+  <li>Co-organizer of Agri-Food Robotics Workshop, Cambridge, UK (2018)</li>
+  <li>Reviewer for IEEE Robotics and Automation Letters (2017-Current)</li>
 </ul>  
 
 <br/><br/>
