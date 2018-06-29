@@ -34,9 +34,8 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
 <table width="800">
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
-    <td> 1st Place Award in the Robot Rescue Simulation League </td>
+    <td> 1st Place Award in the Robot Rescue Simulation League, <br/>RoboCup 2018, Montreal, Canada </td>
   </tr>
-  <tr><td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"></td><td style="padding-left:0.3em"> RoboCup 2018, Montreal, Canada </td></tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
@@ -47,14 +46,14 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2016 </td>
-    <td> Finalist at Robotic 2-a-side Football Tournament (System Design Project), at The University of
-Edinburgh, <br/>Edinburgh, UK </td>
+    <td> Finalist at Robotic 2-a-side Football Tournament (System Design Project), <br/>The University of
+Edinburgh, Edinburgh, UK </td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2015 </td>
-    <td> Awarded "The Edinburgh Award" at University of Edinburgh, <br/>Edinburgh, UK </td>
+    <td> Awarded "The Edinburgh Award" <br/>University of Edinburgh, Edinburgh, UK </td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
