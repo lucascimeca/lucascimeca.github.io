@@ -60,7 +60,7 @@ Edinburgh, </br>Edinburgh, UK </td>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013, 2010, 2009 </td>
     <td> Three times winner of scholarship ”Borsa di Studio Benivegna”.
       <ul style="list-style-type:disc; margin-left:1em">
-        <li>Highest final cumulative grade achieved in current year of ”Vittorio Emanuele III”</li>
+        <li>Highest final cumulative grade achieved in current year of ”Vittorio Emanuele III”, Palermo, Italy</li>
       </ul>  </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ Edinburgh, </br>Edinburgh, UK </td>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2010 </td>
     <td> Winner of “Premio di studi prof. Erasmo Siino” II Edition. </br>
       <ul style="list-style-type:disc; margin-left:1em">
-      <li>Highest final grade achieved among all students in the town of Capaci</li>
+      <li>Highest final grade achieved among all students in the town of Capaci, Palermo, Italy</li>
       </ul> 
     </td>
   </tr>
