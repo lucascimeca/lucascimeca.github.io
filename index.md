@@ -32,35 +32,47 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
 
 <table width="770">
   <tr>
-    <td style="border-right: 2px solid #cdd0d4;" align="right"> 2016 </td>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2016 </td>
     <td> 1st Place Award in the Robot Rescue Simulation League, </br>RoboCup 2018, Montreal, Canada </td>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4;" align="right"> 2016 </td>
+  </tr>
+  <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right">> 2016 </td>
     <td> 1st Place Award at "RoboSoft 2018 Competition - Manipulation", </br>RoboSoft 2018 IEEE Conference on Soft Robotics, Livorno, Italy  </td>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4;" align="right"> 2016 </td>
+  </tr>
+  <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right">> 2016 </td>
     <td> Finalist at Robotic 2-a-side Football Tournament (System Design Project), at The University of
 Edinburgh, </br>Edinburgh, UK </td>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4;" align="right"> 2015 </td>
+  </tr>
+  <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right">> 2015 </td>
     <td> Awarded "the Edinburgh Award" at University of Edinburgh, </br>Edinburgh, UK </td>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4;" align="right"> 2013, 2010, 2009 </td>
+  </tr>
+  <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right">> 2013, 2010, 2009 </td>
     <td> Three times winner of scholarship ”Borsa di Studio Benivegna”.
       <ul style="list-style-type:disc; margin-left:1em">
         <li>Highest final cumulative grade achieved in current year of ”Vittorio Emanuele III”</li>
       </ul>  </td>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4;" align="right"> 2013 </td>
+  </tr>
+  <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> align="right"> 2013 </td>
     <td> Informatics Diploma - Graduated with a score of 100 in ”Esami di Stato”. </td>
   </tr>
   <tr>
-    <td style="border-right: 2px solid #cdd0d4;" align="right"> 2010 </td>
+  </tr>
+  <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> align="right"> 2010 </td>
     <td> Winner of “Premio di studi prof. Erasmo Siino” II Edition. </br>
       <ul style="list-style-type:disc; margin-left:1em">
       <li>Highest final grade achieved among all students in the town of Capaci</li>
