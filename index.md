@@ -77,7 +77,7 @@ Edinburgh, <br/>Edinburgh, UK </td>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2010 </td>
     <td> Winner of “Premio di studi prof. Erasmo Siino” II Edition. <br/>
       <ul style="list-style-type:disc; margin-left:1em">
-      <li>Highest final grade achieved among all students in the town of Capaci, Palermo, Italy</li>
+      <li><small>Highest final grade achieved among all students in the town of Capaci, Palermo, Italy</small></li>
       </ul> 
     </td>
   </tr>
