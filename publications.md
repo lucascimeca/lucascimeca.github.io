@@ -18,7 +18,7 @@ layout: default
 ## [](#published) Published
 <hr style="width: 100px">
 
-> <div style="font-size: 13px"; color:black"> Hughes, J., Scimeca, L., Ifrim, I., Maiolino, P., and F. Iida (2018). Achieving Robotically Peeled Lettuce. IEEE Robotics and Automation Letters. PP. 1-1. 10.1109/LRA.2018.2855043. Retrieved from <a href="https://www.researchgate.net/publication/326334611_Achieving_Robotically_Peeled_Lettuce" target="_blank">https://www.researchgate.net/publication/326334611_Achieving_Robotically_Peeled_Lettuce</div>
+> <div style="font-size: 13px"; color:black"> Hughes, J., Scimeca, L., Ifrim, I., Maiolino, P., and F. Iida (2018). Achieving Robotically Peeled Lettuce. IEEE Robotics and Automation Letters. PP. 1-1. 10.1109/LRA.2018.2855043. Retrieved from <a href="https://www.researchgate.net/publication/326334611_Achieving_Robotically_Peeled_Lettuce" target="_blank">https://www.researchgate.net/publication/326334611_Achieving_Robotically_Peeled_Lettuce</a> </div>
 
 > <div style="font-size: 13px; color:black" id='morph2018'> L. Scimeca, P. Maiolino, F. Iida (2018, April 25). Soft Morphological Processing of Tactile Stimuli for Autonomous Category Formation. <i>IEEE RoboSoft</i>, 0, 0. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">https://ieeexplore.ieee.org/document/8404945/</a> </div>
 <p></p>
