@@ -10,9 +10,7 @@ layout: default
 ## [](#review) Under Review
 <hr style="width: 145px">
 
-> <div style="font-size: 13px">
-L. Scimeca, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, Non-Destructive Robotic Assessment of Mango Ripeness
-via Multi-Point Soft Haptics</div>
+> <div style="font-size: 13px"> L. Scimeca, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, Non-Destructive Robotic Assessment of Mango Ripeness via Multi-Point Soft Haptics</div>
 <p></p>
 
 > <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
