@@ -12,8 +12,8 @@ layout: default
 
 > <div style="font-size: 13px">
 L. Scimeca, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, Non-Destructive Robotic Assessment of Mango Ripeness
-via Multi-Point Soft Haptics
-</div><p></p>
+via Multi-Point Soft Haptics</div>
+<p></p>
 
 > <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
 <p></p>
@@ -31,8 +31,8 @@ J. Hughes, L. Scimeca, I. Ifrim, P. Maiolino, and F. Iida, “Achieving robotica
 > <div style="font-size: 13px; color: black" id='morph2018'> 
 L. Scimeca, P. Maiolino, and F. Iida, “Soft morphological processing
 of tactile stimuli for autonomous category formation,” in 2018 IEEE
-International Conference on Soft Robotics (RoboSoft), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a> 
- </div><p></p>
+International Conference on Soft Robotics (RoboSoft), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div>
+<p></p>
 
 > <div style="font-size: 13px; color:black"> 
 T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, L. Scimeca, E. Warrant, and S. Heinze, “An anatomically
