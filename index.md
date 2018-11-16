@@ -34,7 +34,7 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
 <table width="800">
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
-    <td><i> AJS Special Award <br/>World Robotics Summit 2018, Tokyo, Japan </td>
+    <td><i> AJS Special Award for Industrial Manipulation Challenge <br/>World Robotics Summit 2018, Tokyo, Japan </td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
