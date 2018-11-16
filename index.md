@@ -75,7 +75,7 @@ Edinburgh, Edinburgh, UK </td>
   <tr><td></td></tr>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2013 </td>
-    <td><i> Informatics Diploma - Graduated with a score of 100 in ”Esami di Stato”</i>, <br/>Palermo, Italy</td>
+    <td><i> Informatics Diploma - Graduated with a score of 100 in ”Esami di Stato”</i>, Palermo, Italy</td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
