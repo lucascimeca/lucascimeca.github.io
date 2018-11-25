@@ -11,8 +11,10 @@ layout: default
 <hr style="width: 145px">
 
 > <div style="font-size: 13px"> L. Scimeca, J. Hughes, P. Maiolino, F. Iida, Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays </div>
+<p></p>
 
 > <div style="font-size: 13px"> J. Hughes; K. Gilday; L. Scimeca; F. Iida, Flexible, Adaptive Industrial Assembly: Driving Innovation through Competition</div>
+<p></p>
 
 > <div style="font-size: 13px"> L. Scimeca, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, Non-Destructive Robotic Assessment of Mango Ripeness via Multi-Point Soft Haptics</div>
 <p></p>
