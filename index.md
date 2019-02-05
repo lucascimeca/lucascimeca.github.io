@@ -51,8 +51,28 @@ My interests lie mainly in Machine Learning and Robotics, particularly I am inte
   <tr><td></td></tr>
   <tr><td></td></tr>
   <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2017 </td>
+    <td><i> Howe Undergraduate Prize</i> <br/>
+      <ul style="list-style-type:disc; margin-left:.5em; margin-bottom:0px">
+        <li><small>Best performance in Artificial Intelligence of the graduating class, The University of Edinburgh, United Kingdom.            </small></li>
+      </ul>
+    </td>
+  </tr>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+  <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2017 </td>
+    <td><i> BEng AI & SE class Prize</i> <br/>
+      <ul style="list-style-type:disc; margin-left:.5em; margin-bottom:0px">
+        <li><small>Highest cumulative grade of the Software Engineering and Artificial Intelligence graduating class of 2017, The University of Edinburgh, United Kingdom.            </small></li>
+      </ul>
+    </td>
+  </tr>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+  <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2016 </td>
-    <td><i> Finalist at Robotic 2-a-side Football Tournament (System Design Project)</i>, <br/>The University of
+    <td><i> Winner of Robotic 2-a-side Football Tournament (System Design Project)</i>, <br/>The University of
 Edinburgh, Edinburgh, UK </td>
   </tr>
   <tr><td></td></tr>
@@ -60,6 +80,12 @@ Edinburgh, Edinburgh, UK </td>
   <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2015 </td>
     <td><i> Awarded "The Edinburgh Award" </i> <br/>University of Edinburgh, Edinburgh, UK </td>
+  </tr>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+  <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2014 </td>
+    <td><i> Hackathon Winner at The Smart Data Hack</i> <br/> Edinburgh, UK </td>
   </tr>
   <tr><td></td></tr>
   <tr><td></td></tr>
