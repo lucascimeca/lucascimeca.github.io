@@ -27,6 +27,7 @@ layout: default
  <tr>
   2019
  </tr>
+ <tr>
   <th>
    > <div style="font-size: 13px; color: black">  
     L. Scimeca, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays",      IEEE Robotics and Automation Letters (RA-L), 2019.
