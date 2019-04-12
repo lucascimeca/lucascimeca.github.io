@@ -43,7 +43,7 @@ layout: default
  J. Hughes, L. Scimeca, I. Ifrim, P. Maiolino, and F. Iida, “Achieving robotically peeled lettuce,” IEEE Robotics and Automation Letters (RA-L), 2018. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
- <tr><br/><br/></tr>
+ <tr><p></p></tr>
  <tr>
   <th>
    2018
