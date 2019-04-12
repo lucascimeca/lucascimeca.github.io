@@ -23,6 +23,7 @@ layout: default
 
 ## [](#published) Published
 <hr style="width: 100px">
+
 <table>
  <tr>
   <th>
@@ -33,7 +34,7 @@ layout: default
     L. Scimeca, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays",      IEEE Robotics and Letters (RA-L), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
- <tr><br/><br/></tr>
+ <tr><p></p></tr>
  <tr>
   <th>
    2018
@@ -53,7 +54,7 @@ layout: default
  L. Scimeca, P. Maiolino, and F. Iida, “Soft morphological processing of tactile stimuli for autonomous category formation,” in 2018 IEEE International Conference on Soft Robotics (RoboSoft), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div></blockquote>
   </th>
  </tr>
- <tr><br/><br/></tr>
+ <tr><p></p></tr>
  <tr>
   <th>
    2017
