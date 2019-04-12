@@ -32,28 +32,40 @@ layout: default
    <blockquote><div style="font-size: 13px; color: black">  
     L. Scimeca, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays",      IEEE Robotics and Letters (RA-L), 2019.
     Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div></blockquote>
-    <p></p>
+  </th>
+ </tr>
+ <tr>
+  <th>
+   2018
+  </th>
+  <th>
+   <blockquote><div style="font-size: 13px; color: black"> 
+ J. Hughes, L. Scimeca, I. Ifrim, P. Maiolino, and F. Iida, “Achieving robotically peeled lettuce,” IEEE Robotics and Automation Letters (RA-L), 2018.
+  Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> </div></blockquote>
+  </th>
+ </tr>
+ <tr>
+  <th>
+   2018
+  </th>
+  <th>
+   <blockquote><div style="font-size: 13px; color: black" id='morph2018'> 
+ L. Scimeca, P. Maiolino, and F. Iida, “Soft morphological processing
+ of tactile stimuli for autonomous category formation,” in 2018 IEEE
+ International Conference on Soft Robotics (RoboSoft), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div></blockquote>
+  </th>
+ </tr>
+ <tr>
+  <th>
+   2018
+  </th>
+  <th>
+   <blockquote><div style="font-size: 13px; color:black"> 
+T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, L. Scimeca, E. Warrant, and S. Heinze, “An anatomically
+constrained model for path integration in the bee brain,” Current Biology, vol. 27, no. 20, pp. 3069–3085, 2017. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
 </table>
-
-
-
-> <div style="font-size: 13px; color: black"> 
-J. Hughes, L. Scimeca, I. Ifrim, P. Maiolino, and F. Iida, “Achieving robotically peeled lettuce,” IEEE Robotics and Automation Letters (RA-L), 2018.
- Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> </div>
-<p></p>
- 
-> <div style="font-size: 13px; color: black" id='morph2018'> 
-L. Scimeca, P. Maiolino, and F. Iida, “Soft morphological processing
-of tactile stimuli for autonomous category formation,” in 2018 IEEE
-International Conference on Soft Robotics (RoboSoft), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div>
-<p></p>
-
-> <div style="font-size: 13px; color:black"> 
-T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, L. Scimeca, E. Warrant, and S. Heinze, “An anatomically
-constrained model for path integration in the bee brain,” Current Biology, vol. 27, no. 20, pp. 3069–3085, 2017. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4" target="_blank">link</a> </div>
-
 
 <br/>
 <br/>
