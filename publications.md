@@ -30,8 +30,9 @@ layout: default
   </th>
   <th>
    <blockquote><div style="font-size: 13px; color: black">  
-    L. Scimeca, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays",      IEEE Robotics and Letters (RA-L), 2019.
-    Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div></blockquote>
+    L. Scimeca, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays",      IEEE Robotics and Letters (RA-L), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div></blockquote>
+   </br>
+   <>
   </th>
  </tr>
  <tr>
@@ -40,8 +41,7 @@ layout: default
   </th>
   <th>
    <blockquote><div style="font-size: 13px; color: black"> 
- J. Hughes, L. Scimeca, I. Ifrim, P. Maiolino, and F. Iida, “Achieving robotically peeled lettuce,” IEEE Robotics and Automation Letters (RA-L), 2018.
-  Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> </div></blockquote>
+ J. Hughes, L. Scimeca, I. Ifrim, P. Maiolino, and F. Iida, “Achieving robotically peeled lettuce,” IEEE Robotics and Automation Letters (RA-L), 2018. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
  <tr>
@@ -50,9 +50,7 @@ layout: default
   </th>
   <th>
    <blockquote><div style="font-size: 13px; color: black" id='morph2018'> 
- L. Scimeca, P. Maiolino, and F. Iida, “Soft morphological processing
- of tactile stimuli for autonomous category formation,” in 2018 IEEE
- International Conference on Soft Robotics (RoboSoft), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div></blockquote>
+ L. Scimeca, P. Maiolino, and F. Iida, “Soft morphological processing of tactile stimuli for autonomous category formation,” in 2018 IEEE International Conference on Soft Robotics (RoboSoft), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div></blockquote>
   </th>
  </tr>
  <tr>
