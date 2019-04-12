@@ -65,7 +65,6 @@ constrained model for path integration in the bee brain,” Current Biology, vol
 </table>
 
 <br/>
-<br/>
 
 # [](#Projects) Projects
 <hr style="width: 115px">
