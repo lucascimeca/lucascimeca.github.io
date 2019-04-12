@@ -23,11 +23,20 @@ layout: default
 
 ## [](#published) Published
 <hr style="width: 100px">
+<table>
+ <tr>
+  2019
+ </tr>
+  <th>
+   > <div style="font-size: 13px; color: black">  
+    L. Scimeca, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays",      IEEE Robotics and Automation Letters (RA-L), 2019.
+    Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div>
+    <p></p>
+  </th>
+ </tr>
+</table>
 
-> <div style="font-size: 13px; color: black">  
-L. Scimeca, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays", IEEE Robotics and Automation Letters (RA-L), 2019.
-Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div>
-<p></p>
+
 
 > <div style="font-size: 13px; color: black"> 
 J. Hughes, L. Scimeca, I. Ifrim, P. Maiolino, and F. Iida, “Achieving robotically peeled lettuce,” IEEE Robotics and Automation Letters (RA-L), 2018.
