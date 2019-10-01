@@ -10,10 +10,10 @@ layout: default
 ## [](#review) Under Review
 <hr style="width: 145px">
 
-> <div style="font-size: 13px"> J. Hughes; K. Gilday; L. Scimeca; F. Iida, Flexible, Adaptive Industrial Assembly: Driving Innovation through Competition (accepted)</div>
+> <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
 <p></p>
 
-> <div style="font-size: 13px"> L. Scimeca, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, Non-Destructive Robotic Assessment of Mango Ripeness via Multi-Point Soft Haptics (accepted) </div>
+> <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
 <p></p>
 
 > <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
@@ -24,7 +24,25 @@ layout: default
 ## [](#published) Published
 <hr style="width: 100px">
 
-<table>
+<table> 
+ <tr>
+  <th style="padding: 5px 5px 20px 5px">
+   2019
+  </th>
+  <th style="padding: 5px 5px 20px 5px">
+   <blockquote><div style="font-size: 13px; color: black"> 
+     J. Hughes; K. Gilday; L. Scimeca; F. Iida, "Adaptive Industrial Assembly: Driving Innovation through Competition", Intelligent Service Robotics, 2019. Retrieved from <a href="https://link.springer.com/article/10.1007/s11370-019-00292-9" target="_blank">link</a> </div></blockquote>
+  </th>
+ </tr>
+ <tr>
+  <th style="padding: 5px 5px 20px 5px">
+   2019
+  </th>
+  <th style="padding: 5px 5px 20px 5px">
+   <blockquote><div style="font-size: 13px; color: black"> 
+    L. Scimeca, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, "Non-Destructive Robotic Assessment of Mango Ripeness via Multi-Point Soft Haptics", International Conference on Robotics and Automation (ICRA), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8793956" target="_blank">link</a> </div></blockquote>
+  </th>
+ </tr>
  <tr>
   <th style="padding: 5px 5px 20px 5px">
    2019
