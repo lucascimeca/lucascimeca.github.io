@@ -9,11 +9,10 @@ layout: default
 
 ## [](#review) Under Review
 <hr style="width: 145px">
-
-> <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
+> <div style="font-size: 13px">L. Scimeca, P. Maiolino, L.He, T. Nanayakkara, F. Iida, Robotic palpation based on Bayesian Exploration for abnormality detection.</div>
 <p></p>
 
-> <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
+> <div style="font-size: 13px">L. Scimeca, F. Iida, Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications.</div>
 <p></p>
 
 > <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
