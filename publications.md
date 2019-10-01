@@ -89,7 +89,7 @@ constrained model for path integration in the bee brain,” Current Biology, vol
 
 ### [](#MorphProc) Multiscale Object Recognition with Inception Neural Netoworks<a href="https://bitbucket.org/lucascimeca/multiscale_robotics_object_recognition/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"></a><br/><font size="2px">(University of Cambridge, 2018)</font>
 
-> <div style="font-style: italic; font-size: 12px">Multiscale object recognition with custom inception neural networks in Tensor flow. The code was written for Assembly challenge of the World Robotics Summit competition in Tokyo, Japan. This work is linked to the <a href="https://lucascimeca.github.io/publications#wrs2018">Adaptive Industrial Assembly </a> publication in the journal Intelligent Service Robotics 2018. </div> 
+> <div style="font-style: italic; font-size: 12px">Multiscale object recognition with custom inception neural networks in Tensor flow. The code was written for the Assembly challenge of the World Robotics Summit competition of 2018 in Tokyo, Japan. This work is linked to the <a href="https://lucascimeca.github.io/publications#wrs2018">Adaptive Industrial Assembly </a> publication in the journal Intelligent Service Robotics 2018. </div> 
 
 ### [](#MorphProc) Morphological Processing of Tactile Stimuli<a href="https://bitbucket.org/lucascimeca/morphological_processing/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"></a><br/><font size="2px">(University of Cambridge, 2017-2018)</font>
 
