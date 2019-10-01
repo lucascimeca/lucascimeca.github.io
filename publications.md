@@ -29,7 +29,7 @@ layout: default
    2019
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black"> 
+   <blockquote><div style="font-size: 13px; color: black" id='wrs2018'> 
      J. Hughes; K. Gilday; L. Scimeca; F. Iida, "Adaptive Industrial Assembly: Driving Innovation through Competition", Intelligent Service Robotics, 2019. Retrieved from <a href="https://link.springer.com/article/10.1007/s11370-019-00292-9" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
@@ -86,6 +86,10 @@ constrained model for path integration in the bee brain,” Current Biology, vol
 # [](#Projects) Projects
 <hr style="width: 115px">
 
+
+### [](#MorphProc) Multiscale Object Recognition with Inception Neural Netoworks<a href="https://bitbucket.org/lucascimeca/multiscale_robotics_object_recognition/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"></a><br/><font size="2px">(University of Cambridge, 2018)</font>
+
+> <div style="font-style: italic; font-size: 12px">Multiscale object recognition with custom inception neural networks in Tensor flow. The code was written for Assembly challenge of the World Robotics Summit competition in Tokyo, Japan. This work is linked to the <a href="https://lucascimeca.github.io/publications#wrs2018">Adaptive Industrial Assembly </a> publication in the journal Intelligent Service Robotics 2018. </div> 
 
 ### [](#MorphProc) Morphological Processing of Tactile Stimuli<a href="https://bitbucket.org/lucascimeca/morphological_processing/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"></a><br/><font size="2px">(University of Cambridge, 2017-2018)</font>
 
