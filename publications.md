@@ -87,6 +87,10 @@ constrained model for path integration in the bee brain,” Current Biology, vol
 <hr style="width: 115px">
 
 
+### [](#MorphProc) Coding with Neural Networks<a href="https://bitbucket.org/lucascimeca/coding_with_neural_networks/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"></a><br/><font size="2px">(Massachusetts Institute of Technology, 2019)</font>
+
+> <div style="font-style: italic; font-size: 12px">The project was developed as part of the "Center for Brains, Minds and Machines summer school 2019" and captures a novel compositional neural network achitecture devised during the course, and shown to be able to both learn to play "Game of Life" on arbitrarily long boards as well as perform "parity bit checking" on arbitrarily long bite strings. </div> 
+
 ### [](#MorphProc) Multiscale Object Recognition with Inception Neural Netoworks<a href="https://bitbucket.org/lucascimeca/multiscale_robotics_object_recognition/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"></a><br/><font size="2px">(University of Cambridge, 2018)</font>
 
 > <div style="font-style: italic; font-size: 12px">Multiscale object recognition with custom inception neural networks in Tensor flow. The code was written for the Assembly challenge of the World Robotics Summit competition of 2018 in Tokyo, Japan. This work is linked to the <a href="https://lucascimeca.github.io/publications#wrs2018">Adaptive Industrial Assembly </a> publication in the journal Intelligent Service Robotics 2018. </div> 
