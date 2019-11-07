@@ -9,6 +9,9 @@ layout: default
 
 ## [](#review) Under Review
 <hr style="width: 145px">
+> <div style="font-size: 13px">L. Scimeca, P. Maiolino, F. Iida, Efficient Bayesian Exploration for Soft Morphology-Action Co-Optimization.</div>
+<p></p>
+
 > <div style="font-size: 13px">L. Scimeca, P. Maiolino, L.He, T. Nanayakkara, F. Iida, Robotic palpation based on Bayesian Exploration for abnormality detection.</div>
 <p></p>
 
