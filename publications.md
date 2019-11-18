@@ -32,8 +32,8 @@ layout: default
    2019
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <div style="font-size: 13px; color: black" id='wrs2018'> 
-     J. Hughes; K. Gilday; L. Scimeca; F. Iida, "Adaptive Industrial Assembly: Driving Innovation through Competition", Intelligent Service Robotics, 2019. Retrieved from <a href="https://link.springer.com/article/10.1007/s11370-019-00292-9" target="_blank">link</a> </div>
+   <blockquote><div style="font-size: 13px; color: black" id='wrs2018'> 
+     J. Hughes, K. Gilday, L. Scimeca, F. Iida, "Adaptive Industrial Assembly: Driving Innovation through Competition", Intelligent Service Robotics, 2019. Retrieved from <a href="https://link.springer.com/article/10.1007/s11370-019-00292-9" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
  <tr>
