@@ -23,8 +23,9 @@ layout: default
 <hr style="width: 200px">
 
 <ul style="list-style-type:disc">
-  <li>Co-organizer of Agri-Food Robotics Workshop, Cambridge, UK (2018)</li>
-  <li>Reviewer for IEEE Robotics and Automation Letters (2017-Current)</li>
+  <li>Organizer of <b>Human-Robot Medical Interaction</b> Workshop at the <b>15th Annual ACM/IEEE International Conference on Human Robot Interaction</b>, Cambridge, UK (2018)</li>
+  <li>Co-organizer of <b>Agri-Food Robotics</b> Workshop, Cambridge, UK (2018)</li>
+  <li>Reviewer for <b>IEEE Robotics and Automation Letters</b> (2017-Current)</li>
 </ul>  
 
 <br/><br/>
