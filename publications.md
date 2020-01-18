@@ -21,6 +21,9 @@ layout: default
 > <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
 <p></p>
 
+> <div style="font-size: 13px">L. Scimeca, F. Iida, Developmental soft robotics.</div>
+<p></p>
+
 <br/>
 
 ## [](#published) Published
