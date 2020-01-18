@@ -9,19 +9,19 @@ layout: default
 
 ## [](#review) Under Review
 <hr style="width: 145px">
-> <div style="font-size: 13px">L. Scimeca, P. Maiolino, F. Iida, Efficient Bayesian Exploration for Soft Morphology-Action Co-Optimization.</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, F. Iida, Efficient Bayesian Exploration for Soft Morphology-Action Co-Optimization.</div>
 <p></p>
 
-> <div style="font-size: 13px">L. Scimeca, P. Maiolino, L.He, T. Nanayakkara, F. Iida, Robotic palpation based on Bayesian Exploration for abnormality detection.</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, L.He, T. Nanayakkara, F. Iida, Robotic palpation based on Bayesian Exploration for abnormality detection.</div>
 <p></p>
 
-> <div style="font-size: 13px">L. Scimeca, F. Iida, Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications.</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications.</div>
 <p></p>
 
-> <div style="font-size: 13px">L. Scimeca, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
 <p></p>
 
-> <div style="font-size: 13px">L. Scimeca, F. Iida, Developmental soft robotics.</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Developmental soft robotics.</div>
 <p></p>
 
 <br/>
