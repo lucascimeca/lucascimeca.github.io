@@ -36,7 +36,7 @@ layout: default
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='wrs2018'> 
-     J. Hughes, K. Gilday, <b>L. Scimeca</b>, F. Iida, <b>"Adaptive Industrial Assembly: Driving Innovation through Competition"</b>, Intelligent Service Robotics, 2019. Retrieved from <a href="https://link.springer.com/article/10.1007/s11370-019-00292-9" target="_blank">link</a> </div></blockquote>
+     J. Hughes, K. Gilday, <b>L. Scimeca</b>, F. Iida, "Adaptive Industrial Assembly: Driving Innovation through Competition", <b>Intelligent Service Robotics</b>, 2019. Retrieved from <a href="https://link.springer.com/article/10.1007/s11370-019-00292-9" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
  <tr>
@@ -45,7 +45,7 @@ layout: default
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color: black; font-weight: normal"> 
-    <b>L. Scimeca</b>, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, <b>"Non-Destructive Robotic Assessment of Mango Ripeness via Multi-Point Soft Haptics"</b>, International Conference on Robotics and Automation (ICRA), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8793956" target="_blank">link</a> </div></blockquote>
+    <b>L. Scimeca</b>, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, "Non-Destructive Robotic Assessment of Mango Ripeness via Multi-Point Soft Haptics", International Conference on Robotics and Automation (<b>ICRA</b>), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8793956" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
  <tr>
@@ -54,7 +54,7 @@ layout: default
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color: black; font-weight: normal">  
-    <b>L. Scimeca</b>, J. Hughes, P. Maiolino, F. Iida, <b>"Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays"</b>,      IEEE Robotics and Letters (RA-L), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div></blockquote>
+    <b>L. Scimeca</b>, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays",      IEEE Robotics and Letters (<b>RA-L</b>), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
  <tr>
@@ -63,7 +63,7 @@ layout: default
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color: black; font-weight: normal"> 
- J. Hughes, <b>L. Scimeca</b>, I. Ifrim, P. Maiolino, and F. Iida, <b>"Achieving robotically peeled lettuce"</b>, IEEE Robotics and Automation Letters (RA-L), 2018. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> </div></blockquote>
+ J. Hughes, <b>L. Scimeca</b>, I. Ifrim, P. Maiolino, and F. Iida, "Achieving robotically peeled lettuce"</b>, IEEE Robotics and Automation Letters (<b>RA-L</b>), 2018. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
  <tr>
@@ -72,7 +72,7 @@ layout: default
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='morph2018'> 
- <b>L. Scimeca</b>, P. Maiolino, and F. Iida, <b>"Soft morphological processing of tactile stimuli for autonomous category formation"</b>, in 2018 IEEE International Conference on Soft Robotics (RoboSoft), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div></blockquote>
+ <b>L. Scimeca</b>, P. Maiolino, and F. Iida, "Soft morphological processing of tactile stimuli for autonomous category formation", in 2018 IEEE International Conference on Soft Robotics (<b>RoboSoft</b>), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div></blockquote>
   </th>
  </tr>
  <tr>
@@ -81,7 +81,7 @@ layout: default
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color:black; font-weight: normal"> 
-T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <b>L. Scimeca</b>, E. Warrant, and S. Heinze, <b>"An anatomically constrained model for path integration in the bee brain"</b>, Current Biology, vol. 27, no. 20, pp. 3069–3085, 2017. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4" target="_blank">link</a> </div></blockquote>
+T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <b>L. Scimeca</b>, E. Warrant, and S. Heinze, "An anatomically constrained model for path integration in the bee brain", <b>Current Biology</b>, vol. 27, no. 20, pp. 3069–3085, 2017. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
 </table>
