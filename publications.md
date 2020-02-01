@@ -9,7 +9,7 @@ layout: default
 
 ## [](#review) Under Review
 <hr style="width: 145px">
-> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, F. Iida, Efficient Bayesian Exploration for Soft Morphology-Action Co-Optimization. 2020 IEEE International Conference on Soft Robotics (<b>RoboSoft</b>) (Accepted).</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, F. Iida, "Efficient Bayesian Exploration for Soft Morphology-Action Co-Optimization", IEEE International Conference on Soft Robotics (<b>RoboSoft</b>), 2020. (Accepted).</div>
 <p></p>
 
 > <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, L.He, T. Nanayakkara, F. Iida, Robotic palpation based on Bayesian Exploration for abnormality detection.</div>
