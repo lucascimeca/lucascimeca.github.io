@@ -26,6 +26,9 @@ layout: default
   <li>Organizer of <b>Human-Robot Medical Interaction</b> Workshop at the <b>15th Annual ACM/IEEE International Conference on Human Robot Interaction</b>, Cambridge, UK (2018)</li>
   <li>Co-organizer of <b>Agri-Food Robotics</b> Workshop, Cambridge, UK (2018)</li>
   <li>Reviewer for <b>IEEE Robotics and Automation Letters</b> (2017-Current)</li>
+  <li>Reviewer for <b>IEEE International Conference on Robotics and Automation (ICRA)</b> (2018-Current)</li>
+  <li>Reviewer for <b>International Conference on Soft Robotics (RoboSoft)</b> (2017-Current)</li>
+  <li>Reviewer for <b>IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics</b> (2019-Current)</li>
 </ul>  
 
 <br/><br/>
