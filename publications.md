@@ -7,8 +7,6 @@ layout: default
 
 <br/>
 
-
-
 ## [](#bookchapters) Book Chapters
 <hr style="width: 100px">
 
@@ -21,11 +19,7 @@ layout: default
 
  <!-- ### Published-->
  
- 
- 
- 
-<br/><br/>
-<br/><br/>
+<br/>
 
 ## [](#journals) Journal Publications
 <hr style="width: 100px">
@@ -85,8 +79,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 </table>
 
 
-<br/><br/>
-<br/><br/>
+<br/>
 
 
 ## [](#Conferences) Conference Proceedings
@@ -145,11 +138,8 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 
 <br/>
 
-
-<br/><br/>
-
 # [](#Projects) Other Projects
-
+<hr>
 
 ### [](#CodingWithNNs) Coding with Neural Networks<a href="https://bitbucket.org/lucascimeca/coding_with_neural_networks/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"></a><br/><font size="2px">(Massachusetts Institute of Technology, 2019)</font>
 
