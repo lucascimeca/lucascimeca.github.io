@@ -2,9 +2,6 @@
 layout: default
 ---
 
-# [](#Responsibilities) Responsibilities 
-<hr style="width: 215px">
-
 <br/>
 
 ## [](#review) Employment History
