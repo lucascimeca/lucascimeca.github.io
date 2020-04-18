@@ -24,6 +24,8 @@ layout: default
  
  
  
+<br/><br/>
+<br/><br/>
 
 ## [](#journals) Journal Publications
 <hr style="width: 100px">
@@ -83,6 +85,10 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 </table>
 
 
+<br/><br/>
+<br/><br/>
+
+
 ## [](#Conferences) Conference Proceedings
 <hr style="width: 100px">
 
@@ -140,6 +146,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 <br/>
 
 
+<br/><br/>
 
 # [](#Projects) Other Projects
 
