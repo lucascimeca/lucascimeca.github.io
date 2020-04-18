@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# [](#Curriculum) Curriculum Vitae <a href="https://github.com/lucascimeca/lucascimeca.github.io/raw/master/docs/Luca-Scimeca-Graduate-CV.pdf" class="fa fa-download" style="font-size: 27px; padding-left: 8px; color: #a3d13a" target="_blank""></a>
+# [](#Curriculum) Curriculum Vitae <a href="https://github.com/lucascimeca/lucascimeca.github.io/raw/master/docs/Luca-Scimeca-Graduate-CV.pdf" class="fa fa-download" style="font-size: 25px; padding-left: 8px; color: #a3d13a" target="_blank"></a>
+
+<a href="https://github.com/lucascimeca/lucascimeca.github.io/raw/master/docs/Luca-Scimeca-Graduate-CV.pdf" class="fa fa-download" style="font-size: 27px; padding-left: 8px; color: #a3d13a" target="_blank""></a>
 <hr>
 <\br>
 
