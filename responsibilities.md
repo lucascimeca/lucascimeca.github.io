@@ -23,7 +23,7 @@ layout: default
 </ul>  
 <br/>
 
-## [](#review) Accademic Services
+## [](#review) Academic Services
 <hr style="width: 200px">
 
 <ul style="list-style-type:disc">
