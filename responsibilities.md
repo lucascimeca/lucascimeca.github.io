@@ -13,8 +13,8 @@ layout: default
 </ul>  
 ### Previous Roles
 <ul>
-  <li style="padding-bottom:7pt"><b>Artificial Intelligence Consultant</b>, London (2018-2019)</li>
-  <li style="padding-bottom:7pt"><b>Software Engineer</b>, Extraordinary Managed Services Limited (2016)</li>
+  <li style="padding-bottom:7pt"><b>Artificial Intelligence Consultant</b>, Critical Future, London, UK (2018-2019)</li>
+  <li style="padding-bottom:7pt"><b>Software Engineer</b>, Extraordinary Managed Services Limited, Edinburgh, UK (2016)</li>
 </ul>  
 <br/>
 
