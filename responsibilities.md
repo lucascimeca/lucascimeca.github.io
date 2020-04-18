@@ -8,7 +8,7 @@ layout: default
 <br/>
 
 ## [](#review) Employment History
-<hr style="width: 214px">
+<hr>
 ### Current Roles
 <ul>
   <li style="padding-bottom:7pt"><b>PhD Candidate</b> at Biologically Inspired Robotics Laboratory, University of Cambridge (2017-current)</li>
@@ -24,7 +24,7 @@ layout: default
 <br/>
 
 ## [](#review) Academic Services
-<hr style="width: 200px">
+<hr>
 
 <ul style="list-style-type:disc">
   <li><b>Organizer</b> of Human-Robot Medical Interaction Workshop at the 15th Annual ACM/IEEE International Conference on Human Robot Interaction, Cambridge, UK (2018)</li>
