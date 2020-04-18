@@ -9,7 +9,7 @@ layout: default
 </p>
 
 # [](#Intro) Introduction
-<hr style="width: 180px">
+<hr>
 
 I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a>. I conduct my research at the university's <a href="http://divf.eng.cam.ac.uk/birl/" target="_blank">Biologically Inspired Robotics Laboratory</a> (BIRL), supervised by Dr. Fumiya Iida. 
 
@@ -22,7 +22,7 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 <br/>
 
 # [](#Research) Research
-<hr style="width: 130px">
+<hr>
 
 My interests lie mainly in Machine Learning and Robotics, particularly I am interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning). I am currently carrying out research on the use of tactile perception and the employment of morphology, and motor-coordinated behaviour to aid in manipulation tasks.
 
@@ -31,7 +31,7 @@ For publications plese follow any of these links: <a href="https://lucascimeca.g
 <br/>
 
 # [](#News) News & Others
-<hr style="width: 210px">
+<hr>
 
 <table width="800">
   <tr>
