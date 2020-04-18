@@ -27,7 +27,7 @@ layout: default
 <hr style="width: 200px">
 
 <ul style="list-style-type:disc">
-  <li><b>Organizer</b> of Human-Robot Medical Interaction Workshop at the <b>15th Annual ACM/IEEE International Conference on Human Robot Interaction</b>, Cambridge, UK (2018)</li>
+  <li><b>Organizer</b> of Human-Robot Medical Interaction Workshop at the 15th Annual ACM/IEEE International Conference on Human Robot Interaction, Cambridge, UK (2018)</li>
   <li style="padding-bottom:5pt"><b>Co-organizer</b> of Agri-Food Robotics Workshop, Cambridge, UK (2018)</li>
   <li style="padding-bottom:5pt"><b>Reviewer</b> for IEEE Robotics and Automation Letters (2017-Current)</li>
   <li style="padding-bottom:5pt"><b>Reviewer</b> for IEEE International Conference on Robotics and Automation (ICRA) (2018-Current)</li>
