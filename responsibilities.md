@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<br/>
-
 # [](#review) Employment History
 <hr>
 ### Current Roles
