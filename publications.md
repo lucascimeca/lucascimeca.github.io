@@ -8,7 +8,7 @@ layout: default
 <br/>
 
 ## [](#bookchapters) Book Chapters
-<hr style="width: 100px">
+<hr style="width: 150px">
 
 ### Under Review (forthcoming)
 
@@ -22,7 +22,7 @@ layout: default
 <br/>
 
 ## [](#journals) Journal Publications
-<hr style="width: 100px">
+<hr style="width: 208px">
 
 ### Under Review (forthcoming)
 
@@ -83,7 +83,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 
 
 ## [](#Conferences) Conference Proceedings
-<hr style="width: 100px">
+<hr style="width: 253px">
 
 ### Under Review (forthcoming)
 
@@ -138,7 +138,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 
 <br/>
 
-# [](#Projects) Other Projects
+# [](#Projects) Other Projects <a href="https://bitbucket.org/lucascimeca/" class="fa fa-bitbucket" style="font-size: 25px; padding-left: 8px; color: #a3d13a" target="_blank"></a> <a href="https://github.com/lucascimeca/" class="fa fa-github" style="font-size: 25px; padding-left: 5px" target="_blank"></a>
 <hr>
 
 ### [](#CodingWithNNs) Coding with Neural Networks<a href="https://bitbucket.org/lucascimeca/coding_with_neural_networks/src/master/" class="fa fa-external-link" style="font-size: 16px" target="_blank"></a><br/><font size="2px">(Massachusetts Institute of Technology, 2019)</font>
