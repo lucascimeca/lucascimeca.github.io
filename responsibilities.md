@@ -4,7 +4,7 @@ layout: default
 
 <br/>
 
-## [](#review) Employment History
+# [](#review) Employment History
 <hr>
 ### Current Roles
 <ul>
@@ -20,7 +20,7 @@ layout: default
 </ul>  
 <br/>
 
-## [](#review) Academic Services
+# [](#review) Academic Services
 <hr>
 
 <ul style="list-style-type:disc">
