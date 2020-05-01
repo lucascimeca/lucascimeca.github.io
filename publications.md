@@ -26,6 +26,10 @@ layout: default
 
 ### Under Review (forthcoming)
 
+> <div style="font-size: 13px"><b>L. Scimeca</b>, C. Ng, F. Iida, Gaussian Process inference modelling of dynamic robot
+control for expressive piano playing.</div>
+<p></p>
+
 > <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, L.He, T. Nanayakkara, F. Iida, Robotic palpation based on Bayesian Exploration for abnormality detection.</div>
 <p></p>
 
