@@ -91,7 +91,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 
 ### Under Review (forthcoming)
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications.</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications, in Annual Conference Towards Autonomous Robotic Systems, TAROS 2020 (forthcoming), Springer, Cham. </div>
 <p></p>
 
 ### Published 
@@ -104,7 +104,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color: black; font-weight: normal"> 
-   <b>L. Scimeca</b>, F. Iida, P. Maiolino, T. Nanayakkara, "Human-Robot Medical Interaction", in Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction (<b>HRI 2020</b>),  Association for Computing Machinery, , New York, NY, USA, 660–661. Retrieved from <a href="https://doi.org/10.1145/3371382.3374847" target="_blank">link</a> </div></blockquote>
+   <b>L. Scimeca</b>, F. Iida, P. Maiolino, T. Nanayakkara, "Human-Robot Medical Interaction", in Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction (<b>HRI 2020</b>),  Association for Computing Machinery, New York, NY, USA, 660–661. Retrieved from <a href="https://doi.org/10.1145/3371382.3374847" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
  
