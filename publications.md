@@ -114,7 +114,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color: black; font-weight: normal"> 
-   <b>L. Scimeca</b>, P. Maiolino, F. Iida, "Efficient Bayesian Exploration for Soft Morphology-Action Co-Optimization", in 2018 IEEE International Conference on Soft Robotics (<b>RoboSoft</b>), IEEE, 2020. Retrieved from <a href="https://www.repository.cam.ac.uk/handle/1810/302245" target="_blank">link</a> </div></blockquote>
+   <b>L. Scimeca</b>, P. Maiolino, F. Iida, "Efficient Bayesian Exploration for Soft Morphology-Action Co-Optimization", in 2020 IEEE International Conference on Soft Robotics (<b>RoboSoft</b>), IEEE, 2020. Retrieved from <a href="https://www.repository.cam.ac.uk/handle/1810/302245" target="_blank">link</a> </div></blockquote>
   </th>
  </tr>
  
