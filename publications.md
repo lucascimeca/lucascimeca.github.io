@@ -36,11 +36,6 @@ control for expressive piano playing.</div>
 > <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, "Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation", <b>Autonomous Robots</b>. </div>
 <p></p>
 
-
-> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, "Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation", <b>Autonomous Robots</b>. </div>
-<p></p>
-
-
 > <div style="font-size: 13px"> L. He, N. Herzig, S. de Lusignan, <b>L. Scimeca</b>, P. Maiolino, F. Iida, T. Nanayakkara,  "An abdominal phantom with tunable stiffness nodules and force sensing capability for palpation training", <b>IEEE
 Transactions on Robotics</b>. </div>
 <p></p>
