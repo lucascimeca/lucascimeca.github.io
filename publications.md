@@ -33,9 +33,17 @@ control for expressive piano playing.</div>
 > <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, L.He, T. Nanayakkara, F. Iida, Robotic palpation based on Bayesian Exploration for abnormality detection.</div>
 <p></p>
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation.</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, "Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation", <b>Autonomous Robots</b>. </div>
 <p></p>
 
+
+> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, "Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation", <b>Autonomous Robots</b>. </div>
+<p></p>
+
+
+> <div style="font-size: 13px"> L. He, N. Herzig, S. de Lusignan, <b>L. Scimeca</b>, P. Maiolino, F. Iida, T. Nanayakkara,  "An abdominal phantom with tunable stiffness nodules and force sensing capability for palpation training", <b>IEEE
+Transactions on Robotics</b>. </div>
+<p></p>
 
 ### Published 
 
@@ -91,7 +99,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 
 ### Under Review (forthcoming)
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications, in Annual Conference Towards Autonomous Robotic Systems, TAROS 2020 (forthcoming), Springer, Cham. </div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications, in Annual Conference Towards Autonomous Robotic Systems, <b>TAROS 2020</b> (forthcoming), Springer, Cham. </div>
 <p></p>
 
 ### Published 
