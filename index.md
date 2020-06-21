@@ -21,6 +21,7 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 
 <br/>
 
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -34,13 +35,13 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
   <tr>
     <th class="tg-8jgo" colspan="5" rowspan="2"><IMG SRC="assets/co-opt_short.gif" style="width: 700px;"></th>
     <th class="tg-8jgo" colspan="4" rowspan="2"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif" style="width700px;"></th>
-    <th class="tg-8jgo" colspan="3" rowspan="4"><IMG SRC="assets/piano_playing_palpation_short.gif" alt="Gaussian Process inference modelling of dynamic robot control for expressive piano playing" style="width:650px;"></th>
+    <th class="tg-8jgo" colspan="3" rowspan="4"><IMG SRC="assets/piano_playing_palpation_short.gif" style="width:650px;"></th>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td class="tg-8jgo" colspan="5" rowspan="2"><IMG SRC="assets/AURO_palpation_short.gif" style="width:750px;"></td>
-    <td class="tg-8jgo" colspan="4" rowspan="2"><IMG SRC="assets/objecttaracking_short.gif" style="width:550px;"></td>
+    <td class="tg-8jgo" colspan="7" rowspan="2"><IMG SRC="assets/AURO_palpation_short.gif" style="width:750px;"></td>
+    <td class="tg-8jgo" colspan="2" rowspan="2"><IMG SRC="assets/objecttaracking_short.gif" style="width:550px;"></td>
   </tr>
   <tr>
   </tr>
