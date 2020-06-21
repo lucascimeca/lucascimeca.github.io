@@ -51,7 +51,7 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
     <td class="tg-8jgo" colspan="6">
       <a href="https://bitbucket.org/lucascimeca/coding_with_neural_networks/src/master/" target="_blank"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif"></a>
     </td>
-    <td class="tg-zv4m" colspan="6">
+    <td class="tg-zv4m" colspan="6" style="padding-top=20px">
       <a href="https://bitbucket.org/lucascimeca/object-tracking/src/master/" target="_blank"><IMG SRC="assets/objecttaracking_short.gif"></a>
     </td>
   </tr>
