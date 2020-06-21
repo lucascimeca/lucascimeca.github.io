@@ -34,25 +34,25 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 <thead>
   <tr>
     <th class="tg-8jgo" colspan="9">
-      <a href="https://bitbucket.org/lucascimeca/morph_action_co-opt/src/master/" target="_blank"><IMG SRC="assets/co-opt_short.gif" style="width: 700px;"></a>
+      <a href="https://bitbucket.org/lucascimeca/morph_action_co-opt/src/master/" target="_blank"><IMG SRC="assets/co-opt_short.gif"></a>
     </th>
     <th class="tg-8jgo" colspan="3" rowspan="2">
-      <a href="https://bitbucket.org/lucascimeca/robo_piano_learning/src/master/" target="_blank"><IMG SRC="assets/piano_playing_palpation_short.gif" "></a>
+      <a href="https://bitbucket.org/lucascimeca/robo_piano_learning/src/master/" target="_blank"><IMG SRC="assets/piano_playing_palpation_short.gif" ></a>
     </th>
   </tr>
   <tr>
     <td class="tg-8jgo" colspan="9">
-      <a href="https://bitbucket.org/lucascimeca/palpation_analysis/src/master/" target="_blank"><IMG SRC="assets/AURO_palpation_short.gif""></a>
+      <a href="https://bitbucket.org/lucascimeca/palpation_analysis/src/master/" target="_blank"><IMG SRC="assets/AURO_palpation_short.gif"></a>
     </td>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-8jgo" colspan="6">
-      <a href="https://bitbucket.org/lucascimeca/coding_with_neural_networks/src/master/" target="_blank"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif""></a>
+      <a href="https://bitbucket.org/lucascimeca/coding_with_neural_networks/src/master/" target="_blank"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif"></a>
     </td>
     <td class="tg-zv4m" colspan="6">
-      <a href="https://bitbucket.org/lucascimeca/object-tracking/src/master/" target="_blank"><IMG SRC="assets/objecttaracking_short.gif" "></a>
+      <a href="https://bitbucket.org/lucascimeca/object-tracking/src/master/" target="_blank"><IMG SRC="assets/objecttaracking_short.gif"></a>
     </td>
   </tr>
 </tbody>
