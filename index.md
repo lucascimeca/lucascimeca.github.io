@@ -21,6 +21,34 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 
 <br/>
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-zv4m{border-color:#ffffff;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-zv4m" colspan="2"></th>
+    <th class="tg-zv4m" colspan="2">IMG</th>
+    <th class="tg-zv4m" colspan="2"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-zv4m"></td>
+    <td class="tg-zv4m" colspan="2">IMG</td>
+    <td class="tg-zv4m" colspan="2">IMG</td>
+    <td class="tg-zv4m"></td>
+  </tr>
+</tbody>
+</table>
+
+<br/>
+
 # [](#Research) Research
 <hr>
 
