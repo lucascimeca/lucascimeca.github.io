@@ -27,25 +27,32 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-zv4m{border-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-8jgo{border-color:#ffffff;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-zv4m" colspan="2"><IMG SRC="assets/AURO_palpation_short.gif"></th>
-    <th class="tg-zv4m" colspan="2"><IMG SRC="assets/co-opt_short.gif"></th>
-    <th class="tg-zv4m" colspan="2"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif"></th>
+    <th class="tg-8jgo" colspan="5" rowspan="2"><IMG SRC="assets/co-opt_short.gif"></th>
+    <th class="tg-8jgo" colspan="4" rowspan="2"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif"></th>
+    <th class="tg-8jgo" colspan="3" rowspan="4"><IMG SRC="assets/piano_playing_palpation_short.gif"></th>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td class="tg-8jgo" colspan="5" rowspan="2"><IMG SRC="assets/AURO_palpation_short.gif"></td>
+    <td class="tg-8jgo" colspan="4" rowspan="2"><IMG SRC="assets/objecttaracking_short.gif"></td>
+  </tr>
+  <tr>
   </tr>
 </thead>
-<tbody>
-  <tr>
-    <td class="tg-zv4m"></td>
-    <td class="tg-zv4m" colspan="2"><IMG SRC="assets/objecttaracking_short.gif"></td>
-    <td class="tg-zv4m" colspan="2"><IMG SRC="assets/piano_playing_palpation_short.gif"></td>
-    <td class="tg-zv4m"></td>
-  </tr>
-</tbody>
 </table>
+
+
+    <th class="tg-zv4m" colspan="2"></th>
+    <th class="tg-zv4m" colspan="2"></th>
+    <th class="tg-zv4m" colspan="2"></th>
+    <td class="tg-zv4m" colspan="2"></td>
+    <td class="tg-zv4m" colspan="2"></td>
 
 <br/>
 
