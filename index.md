@@ -34,7 +34,7 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
   <tr>
     <th class="tg-8jgo" colspan="5" rowspan="2"><IMG SRC="assets/co-opt_short.gif"></th>
     <th class="tg-8jgo" colspan="4" rowspan="2"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif"></th>
-    <th class="tg-8jgo" colspan="3" rowspan="4"><IMG SRC="assets/piano_playing_palpation_short.gif"></th>
+    <th class="tg-8jgo" colspan="3" rowspan="4"><IMG SRC="assets/piano_playing_palpation_short.gif" alt="Gaussian Process inference modelling of dynamic robot control for expressive piano playing" style="width:500px;"></th>
   </tr>
   <tr>
   </tr>
@@ -47,12 +47,6 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 </thead>
 </table>
 
-
-    <th class="tg-zv4m" colspan="2"></th>
-    <th class="tg-zv4m" colspan="2"></th>
-    <th class="tg-zv4m" colspan="2"></th>
-    <td class="tg-zv4m" colspan="2"></td>
-    <td class="tg-zv4m" colspan="2"></td>
 
 <br/>
 
