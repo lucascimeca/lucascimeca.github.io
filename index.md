@@ -32,16 +32,16 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-zv4m" colspan="2"></th>
-    <th class="tg-zv4m" colspan="2">IMG</th>
-    <th class="tg-zv4m" colspan="2"></th>
+    <th class="tg-zv4m" colspan="2"><IMG SRC="assets/AURO_palpation_short.gif"></th>
+    <th class="tg-zv4m" colspan="2"><IMG SRC="assets/co-opt_short.gif"></th>
+    <th class="tg-zv4m" colspan="2"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif"></th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-zv4m"></td>
-    <td class="tg-zv4m" colspan="2">IMG</td>
-    <td class="tg-zv4m" colspan="2">IMG</td>
+    <td class="tg-zv4m" colspan="2"><IMG SRC="assets/objecttaracking_short.gif"></td>
+    <td class="tg-zv4m" colspan="2"><IMG SRC="assets/piano_playing_palpation_short.gif"></td>
     <td class="tg-zv4m"></td>
   </tr>
 </tbody>
