@@ -7,12 +7,13 @@ layout: default
 ### Current Roles
 <ul>
   <li style="padding-bottom:7pt"><b>PhD Candidate</b> at Biologically Inspired Robotics Laboratory, University of Cambridge (2017-current)</li>
-  <li style="padding-bottom:7pt"><b>Demonstrator</b> for the University of Cambridge course "Engineering Tripos Part IIA - 3D Printing" (2017-current)</li>
-  <li style="padding-bottom:7pt"><b>Demonstrator</b> for the University of Cambridge course "3F8 Inference" (2017-current)</li>
-  <li style="padding-bottom:7pt"><b>Demonstrator</b> for the University of Cambridge course Part IA Lego (2018-current)</li>
+  <li style="padding-bottom:7pt"><b>Freelance Writer</b> in Artificial Intelligence at Academic Minds, London, UK. (2020-current)</li>
 </ul>  
 ### Previous Roles
 <ul>
+  <li style="padding-bottom:7pt"><b>Demonstrator</b> for the University of Cambridge course "Engineering Tripos Part IIA - 3D Printing" (2017-2020)</li>
+  <li style="padding-bottom:7pt"><b>Demonstrator</b> for the University of Cambridge course "3F8 Inference" (2017-2020)</li>
+  <li style="padding-bottom:7pt"><b>Demonstrator</b> for the University of Cambridge course Part IA Lego (2018-2020)</li>
   <li style="padding-bottom:7pt"><b>Artificial Intelligence Consultant</b>, Critical Future, London, UK (2018-2019)</li>
   <li style="padding-bottom:7pt"><b>Software Engineer</b>, Extraordinary Managed Services Limited, Edinburgh, UK (2016)</li>
 </ul>  
