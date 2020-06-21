@@ -33,17 +33,27 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-8jgo" colspan="9"><IMG SRC="assets/co-opt_short.gif" style="width: 700px;"></th>
-    <th class="tg-8jgo" colspan="3" rowspan="2"><IMG SRC="assets/piano_playing_palpation_short.gif" style="width:650px;"></th>
+    <th class="tg-8jgo" colspan="9">
+      <a href="https://bitbucket.org/lucascimeca/morph_action_co-opt/src/master/" target="_blank"><IMG SRC="assets/co-opt_short.gif" style="width: 700px;"></a>
+    </th>
+    <th class="tg-8jgo" colspan="3" rowspan="2">
+      <a href="https://bitbucket.org/lucascimeca/robo_piano_learning/src/master/" target="_blank"><IMG SRC="assets/piano_playing_palpation_short.gif" style="width:650px;"></a>
+    </th>
   </tr>
   <tr>
-    <td class="tg-8jgo" colspan="9"><IMG SRC="assets/AURO_palpation_short.gif" style="width:750px;"></td>
+    <td class="tg-8jgo" colspan="9">
+      <a href="https://bitbucket.org/lucascimeca/palpation_analysis/src/master/" target="_blank"><IMG SRC="assets/AURO_palpation_short.gif" style="width:750px;"></a>
+    </td>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-8jgo" colspan="6"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif" style="width700px;"></td>
-    <td class="tg-zv4m" colspan="6"><IMG SRC="assets/objecttaracking_short.gif" style="width:550px;"></td>
+    <td class="tg-8jgo" colspan="6">
+      <a href="https://bitbucket.org/lucascimeca/coding_with_neural_networks/src/master/" target="_blank"><IMG SRC="assets/modularTLfCD-NN_no_title_short.gif" style="width700px;"></a>
+    </td>
+    <td class="tg-zv4m" colspan="6">
+      <a href="https://bitbucket.org/lucascimeca/object-tracking/src/master/" target="_blank"><IMG SRC="assets/objecttaracking_short.gif" style="width:550px;"></a>
+    </td>
   </tr>
 </tbody>
 </table>
