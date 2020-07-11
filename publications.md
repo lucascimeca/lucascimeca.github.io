@@ -96,7 +96,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 
 ### Under Review (forthcoming)
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications, in Annual Conference Towards Autonomous Robotic Systems, <b>TAROS 2020</b> (forthcoming), Springer, Cham. </div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, "Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications", in Annual Conference Towards Autonomous Robotic Systems, <b>TAROS 2020</b> (forthcoming), Springer, Cham. </div>
 <p></p>
 
 ### Published 
