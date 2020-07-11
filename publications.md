@@ -32,7 +32,7 @@ layout: default
 control for expressive piano playing".</div>
 <p></p>
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, L.He, T. Nanayakkara, F. Iida, "A Bayesian Framework for Multi-Axis Soft-Body Palpation".</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, J. Hughes, P. Maiolino, L.He, T. Nanayakkara, F. Iida, "A Bayesian Framework for Multi-Axis Soft-Body Palpation".</div>
 <p></p>
 
 > <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, "Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation", <b>Autonomous Robots</b>. </div>
