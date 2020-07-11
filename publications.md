@@ -13,7 +13,9 @@ layout: default
 ### Under Review (forthcoming)
 
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Developmental soft robotics.</div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Developmental soft robotics. MIT Press.</div>
+<p></p>
+> <div style="font-size: 13px">J. Hughes, S. Birell, <b>L. Scimeca</b>, F. Iida, Field Robotics for Harvesting. Elsevier.</div>
 <p></p>
 
 
