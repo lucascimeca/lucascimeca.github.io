@@ -4,18 +4,6 @@ layout: default
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> 
 
-# [](#Intro) Introduction
-<hr>
-
-I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a>. I conduct my research at the university's <a href="http://divf.eng.cam.ac.uk/birl/" target="_blank">Biologically Inspired Robotics Laboratory</a> (BIRL), supervised by Dr. Fumiya Iida. 
-
-<!--My background in the field of IT goes back to before university when, studying in the Computer Science sector of a technical secondary school, I had the opportunity to familiarize myself with the basics of programming, design and analysis which brought me to the successful completion of a robotics project on my final year.-->
-
-I graduated summa cum laude from the <a href="http://www.ed.ac.uk/" target="_blank">University of Edinburgh</a> with a First Class degree in Artificial Intelligence and Software Engineering, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence. Throughout my academic career I have taken part to several research <a href="https://lucascimeca.github.io/publications#-projects" target="_blank">projects</a> and <a href="https://lucascimeca.github.io/#-news--others" target="_blank">competitions</a> which led to several scientific <a href="https://lucascimeca.github.io/publications#-publications---" target="_blank">publications</a>, and allowed me to build a strong background in Mathematics, Machine Learning and Robotics.
-
-I have won over 13 awards among which 9 paid scholarships for academic performance.
-
-<br/>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -55,6 +43,20 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 </table>
 
 <br/>
+
+# [](#Intro) Introduction
+<hr>
+
+I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a>. I conduct my research at the university's <a href="http://divf.eng.cam.ac.uk/birl/" target="_blank">Biologically Inspired Robotics Laboratory</a> (BIRL), supervised by Dr. Fumiya Iida. 
+
+<!--My background in the field of IT goes back to before university when, studying in the Computer Science sector of a technical secondary school, I had the opportunity to familiarize myself with the basics of programming, design and analysis which brought me to the successful completion of a robotics project on my final year.-->
+
+I graduated summa cum laude from the <a href="http://www.ed.ac.uk/" target="_blank">University of Edinburgh</a> with a First Class degree in Artificial Intelligence and Software Engineering, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence. Throughout my academic career I have taken part to several research <a href="https://lucascimeca.github.io/publications#-projects" target="_blank">projects</a> and <a href="https://lucascimeca.github.io/#-news--others" target="_blank">competitions</a> which led to several scientific <a href="https://lucascimeca.github.io/publications#-publications---" target="_blank">publications</a>, and allowed me to build a strong background in Mathematics, Machine Learning and Robotics.
+
+I have won over 13 awards among which 9 paid scholarships for academic performance.
+
+<br/>
+
 
 # [](#Research) Research
 <hr>
