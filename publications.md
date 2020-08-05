@@ -35,9 +35,6 @@ control for expressive piano playing".</div>
 > <div style="font-size: 13px"><b>L. Scimeca</b>, J. Hughes, P. Maiolino, L.He, T. Nanayakkara, F. Iida, "A Bayesian Framework for Multi-Axis Soft-Body Palpation".</div>
 <p></p>
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, "Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation", <b>Autonomous Robots</b>. </div>
-<p></p>
-
 > <div style="font-size: 13px"> L. He, N. Herzig, S. de Lusignan, <b>L. Scimeca</b>, P. Maiolino, F. Iida, T. Nanayakkara,  "An abdominal phantom with tunable stiffness nodules and force sensing capability for palpation training", <b>IEEE
 Transactions on Robotics</b>. </div>
 <p></p>
@@ -46,6 +43,16 @@ Transactions on Robotics</b>. </div>
 
 <table> 
  
+ <tr>
+  <th style="padding: 5px 5px 20px 5px">
+   2020
+  </th>
+  <th style="padding: 5px 5px 20px 5px">
+   <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='AURO2020'> 
+     <b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, "Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation", <b>Autonomous Robots</b>, 2020. Retrieved from <a href="https://link.springer.com/article/10.1007/s10514-020-09931-y?fbclid=IwAR3-HFQuu6c-O-H51_W0PWGScdz_3JGICfCMGRWplCi66Zd5puwcDtCPRcQ" target="_blank">link</a> </div></blockquote>
+  </th>
+ </tr>
+
  <tr>
   <th style="padding: 5px 5px 20px 5px">
    2020
