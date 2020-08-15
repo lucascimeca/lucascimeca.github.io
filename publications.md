@@ -13,9 +13,9 @@ layout: default
 ### Under Review (forthcoming)
 
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, Developmental soft robotics. MIT Press.</div>
+> <div style="font-size: 13px"><b>Scimeca, L.</b>, & Iida, F. (forthcoming). Developmental soft robotics. MIT Press.</div>
 <p></p>
-> <div style="font-size: 13px">J. Hughes, S. Birell, <b>L. Scimeca</b>, F. Iida, Field Robotics for Harvesting. Elsevier.</div>
+> <div style="font-size: 13px"> Hughes, J., Birell, S., <b>Scimeca, L.</b>, & Iida, F. (forthcoming). Field Robotics for Harvesting. Elsevier.</div>
 <p></p>
 
 
@@ -28,11 +28,11 @@ layout: default
 
 ### Under Review (forthcoming)
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, J. Hughes, P. Maiolino, L.He, T. Nanayakkara, F. Iida, "A Bayesian Framework for Multi-Axis Soft-Body Palpation".</div>
+> <div style="font-size: 13px"><b>Scimeca, L.</b>, Hughes, J., Maiolino, P., He, L., Nanayakkara, T., & Iida, F. (forthcoming). Action Augmentation of Soft Tactile Perception for Soft-Body Palpation.</div>
 <p></p>
 
-> <div style="font-size: 13px"> L. He, N. Herzig, S. de Lusignan, <b>L. Scimeca</b>, P. Maiolino, F. Iida, T. Nanayakkara,  "An abdominal phantom with tunable stiffness nodules and force sensing capability for palpation training", <b>IEEE
-Transactions on Robotics</b>. </div>
+> <div style="font-size: 13px"> He, L., Herzig, N., de Lusignan, S., <b>Scimeca, L.</b>, Maiolino, P., Iida, F., & T. Nanayakkara (forthcoming). An abdominal phantom with tunable stiffness nodules and force sensing capability for palpation training. <i>IEEE
+Transactions on Robotics</i>. </div>
 <p></p>
 
 ### Published 
@@ -44,9 +44,11 @@ Transactions on Robotics</b>. </div>
    2020
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='AURO2020'> 
-     <b>L. Scimeca</b>, C. Ng, F. Iida, "Gaussian Process inference modelling of dynamic robot
-control for expressive piano playing", <b>Autonomous Robots</b>, 2020. Retrieved from <a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0237826&fbclid=IwAR0zclQSxIsAKkR1miLh5qSAzhiYC6H-Zk0lgyRoKK9vi8ORlzXiKHVbPzc" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal" id='AURO2020'> 
+     <b>Scimeca, L.</b>, Ng, C., & Iida, F. (2020). Gaussian Process inference modelling of dynamic robot
+control for expressive piano playing. <i>PloS one</i>, 15(8), e0237826. Retrieved from <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237826" target="_blank">link</a> 
+    </div></blockquote>
   </th>
  </tr>
  
@@ -55,8 +57,12 @@ control for expressive piano playing", <b>Autonomous Robots</b>, 2020. Retrieved
    2020
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='AURO2020'> 
-     <b>L. Scimeca</b>, P. Maiolino, E. Bray, F. Iida, "Motor-Induced Structuring of Tactile Sensory Information for Category Formation in Robotic Palpation", <b>Autonomous Robots</b>, 2020. Retrieved from <a href="https://link.springer.com/article/10.1007/s10514-020-09931-y?fbclid=IwAR3-HFQuu6c-O-H51_W0PWGScdz_3JGICfCMGRWplCi66Zd5puwcDtCPRcQ" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal" id='AURO2020'> 
+     <b>Scimeca, L.</b>, Maiolino, P., Bray, E., & Iida, F. (2020). Structuring of tactile sensory information for category formation in robotics palpation. <i>Autonomous Robots</i>, 1-17. Retrieved from <a href="https://link.springer.com/article/10.1007/s10514-020-09931-y?fbclid=IwAR3-HFQuu6c-O-H51_W0PWGScdz_3JGICfCMGRWplCi66Zd5puwcDtCPRcQ" target="_blank">link</a> 
+     
+    </div>
+   </blockquote>
   </th>
  </tr>
 
@@ -65,8 +71,11 @@ control for expressive piano playing", <b>Autonomous Robots</b>, 2020. Retrieved
    2020
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='wrs2018'> 
-     J. Hughes, K. Gilday, <b>L. Scimeca</b>, F. Iida, "Adaptive Industrial Assembly: Driving Innovation through Competition", <b>Intelligent Service Robotics</b>, 2020. Retrieved from <a href="https://link.springer.com/article/10.1007/s11370-019-00292-9" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal" id='wrs2018'> 
+     Hughes, J., Gilday, K., <b>Scimeca, L.</b>, Garg, S., & Iida, F. (2020). Flexible, adaptive industrial assembly: driving innovation through competition. <i>Intelligent Service Robotics</i>, 13(1), 169-178. Retrieved from <a href="https://link.springer.com/article/10.1007/s11370-019-00292-9" target="_blank">link</a> 
+    </div>
+   </blockquote>
   </th>
  </tr>
  
@@ -75,8 +84,11 @@ control for expressive piano playing", <b>Autonomous Robots</b>, 2020. Retrieved
    2019
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal">  
-    <b>L. Scimeca</b>, J. Hughes, P. Maiolino, F. Iida, "Model-free Soft-Structure Reconstruction for Proprioception using Tactile Arrays",      IEEE Robotics and Letters (<b>RA-L</b>), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal">  
+     <b>Scimeca, L.</b>, Hughes, J., Maiolino, P., & Iida, F. (2019). Model-free soft-structure reconstruction for proprioception using tactile arrays. <i>IEEE Robotics and Automation Letters</i>, 4(3), 2479-2484. Retrieved from <a href="https://ieeexplore.ieee.org/document/8675407" target="_blank">link</a> 
+    </div>
+   </blockquote>
   </th>
  </tr>
  
@@ -85,8 +97,11 @@ control for expressive piano playing", <b>Autonomous Robots</b>, 2020. Retrieved
    2018
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal"> 
- J. Hughes, <b>L. Scimeca</b>, I. Ifrim, P. Maiolino, and F. Iida, "Achieving robotically peeled lettuce", IEEE Robotics and Automation Letters (<b>RA-L</b>), 2018. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal"> 
+     Hughes, J., <b>Scimeca, L.</b>, Ifrim, I., Maiolino, P., & Iida, F. (2018). Achieving robotically peeled lettuce. <i>IEEE Robotics and Automation Letters</i>, 3(4), 4337-4342. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8409969/" target="_blank">link</a> 
+    </div>
+   </blockquote>
   </th>
  </tr>
  
@@ -95,8 +110,11 @@ control for expressive piano playing", <b>Autonomous Robots</b>, 2020. Retrieved
    2017
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color:black; font-weight: normal"> 
-T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <b>L. Scimeca</b>, E. Warrant, and S. Heinze, "An anatomically constrained model for path integration in the bee brain", <b>Current Biology</b>, vol. 27, no. 20, pp. 3069–3085, 2017. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color:black; font-weight: normal"> 
+     Stone, T., Webb, B., Adden, A., Weddig, N. B., Honkanen, A., Templin, R., Wcislo, W., <b>Scimeca, L.</b>, Warrant, E., & Heinze, S. (2017). An anatomically constrained model for path integration in the bee brain. <i>Current Biology</i>, 27(20), 3069-3085. Retrieved  from <a href="http://www.cell.com/current-biology/fulltext/S0960-9822(17)31090-4" target="_blank">link</a> 
+    </div>
+   </blockquote>
   </th>
  </tr>
 </table>
@@ -110,7 +128,7 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
 
 ### Under Review (forthcoming)
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, "Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications", in Annual Conference Towards Autonomous Robotic Systems, <b>TAROS 2020</b> (forthcoming), Springer, Cham. </div>
+> <div style="font-size: 13px"><b>L. Scimeca</b>, F. Iida, "Self-Supervised Learning Through Scene Observation for Selective Item Identification in Conveyor Belt Applications", in <i>Annual Conference Towards Autonomous Robotic Systems</i> (TAROS 2020) (forthcoming), Springer, Cham. </div>
 <p></p>
 
 ### Published 
@@ -122,8 +140,11 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
    2020
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal"> 
-   <b>L. Scimeca</b>, F. Iida, P. Maiolino, T. Nanayakkara, "Human-Robot Medical Interaction", in Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction (<b>HRI 2020</b>),  Association for Computing Machinery, New York, NY, USA, 660–661. Retrieved from <a href="https://doi.org/10.1145/3371382.3374847" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal"> 
+     <b>Scimeca, L.</b>, Iida, F., Maiolino, P., & Nanayakkara, T. (2020, March). Human-Robot Medical Interaction. In <i>Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction</i> (pp. 660-661). Retrieved from <a href="https://doi.org/10.1145/3371382.3374847" target="_blank">link</a> 
+    </div>
+   </blockquote>
   </th>
  </tr>
  
@@ -132,8 +153,10 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
    2020
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal"> 
-   <b>L. Scimeca</b>, P. Maiolino, F. Iida, "Efficient Bayesian Exploration for Soft Morphology-Action Co-Optimization", in 2020 IEEE International Conference on Soft Robotics (<b>RoboSoft</b>), IEEE, 2020. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/9116057" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal"> 
+     <b>Scimeca, L.</b>, Maiolino, P., & Iida, F. (2020, May). Efficient Bayesian Exploration for Soft Morphology-Action Co-optimization. In <i>2020 3rd IEEE International Conference on Soft Robotics (RoboSoft)</i> (pp. 639-644). IEEE. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/9116057" target="_blank">link</a> 
+    </div></blockquote>
   </th>
  </tr>
  
@@ -142,8 +165,11 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
    2019
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal"> 
-    <b>L. Scimeca</b>, P. Maiolino, D. Cardin-Catalan, A. P. del Pobil, A. , F. Iida, "Non-Destructive Robotic Assessment of Mango Ripeness via Multi-Point Soft Haptics", International Conference on Robotics and Automation (<b>ICRA</b>), 2019. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8793956" target="_blank">link</a> </div></blockquote>
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal"> 
+     <b>Scimeca, L.</b>, Maiolino, P., Cardin-Catalan, D., del Pobil, A. P., Morales, A., & Iida, F. (2019, May). Non-destructive robotic assessment of mango ripeness via multi-point soft haptics. In <i>2019 International Conference on Robotics and Automation (ICRA)</i> (pp. 1821-1826). IEEE. Retrieved from <a href="https://ieeexplore.ieee.org/abstract/document/8793956" 
+    </div>
+   </blockquote>
   </th>
  </tr>
  
@@ -152,19 +178,10 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
    2018
   </th>
   <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='morph2018'> 
- <b>L. Scimeca</b>, P. Maiolino, and F. Iida, "Soft morphological processing of tactile stimuli for autonomous category formation", in 2018 IEEE International Conference on Soft Robotics (<b>RoboSoft</b>), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div></blockquote>
-  </th>
- </tr>
- 
- <tr>
-  <th style="padding: 5px 5px 20px 5px">
-   2018
-  </th>
-  <th style="padding: 5px 5px 20px 5px">
-   <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='morph2018'> 
-    <b>Scimeca, L.</b>, Maiolino, P., & Iida, F. (2018, April). Soft morphological processing of tactile stimuli for autonomous category formation. In 2018 IEEE International  Conference on Soft Robotics (<b>RoboSoft</b>) (pp. 356-361). IEEE. 
-    Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div> 
+   <blockquote>
+    <div style="font-size: 13px; color: black; font-weight: normal" id='morph2018'> 
+     <b>Scimeca, L.</b>, Maiolino, P., & Iida, F. (2018, April). Soft morphological processing of tactile stimuli for autonomous category formation. In <i> 2018 IEEE International  Conference on Soft Robotics (RoboSoft)</i> (pp. 356-361). IEEE. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a>
+    </div> 
    </blockquote>
   </th>
  </tr>
