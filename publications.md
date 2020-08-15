@@ -28,10 +28,6 @@ layout: default
 
 ### Under Review (forthcoming)
 
-> <div style="font-size: 13px"><b>L. Scimeca</b>, C. Ng, F. Iida, "Gaussian Process inference modelling of dynamic robot
-control for expressive piano playing".</div>
-<p></p>
-
 > <div style="font-size: 13px"><b>L. Scimeca</b>, J. Hughes, P. Maiolino, L.He, T. Nanayakkara, F. Iida, "A Bayesian Framework for Multi-Axis Soft-Body Palpation".</div>
 <p></p>
 
@@ -42,6 +38,17 @@ Transactions on Robotics</b>. </div>
 ### Published 
 
 <table> 
+ 
+ <tr>
+  <th style="padding: 5px 5px 20px 5px">
+   2020
+  </th>
+  <th style="padding: 5px 5px 20px 5px">
+   <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='AURO2020'> 
+     <b>L. Scimeca</b>, C. Ng, F. Iida, "Gaussian Process inference modelling of dynamic robot
+control for expressive piano playing", <b>Autonomous Robots</b>, 2020. Retrieved from <a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0237826&fbclid=IwAR0zclQSxIsAKkR1miLh5qSAzhiYC6H-Zk0lgyRoKK9vi8ORlzXiKHVbPzc" target="_blank">link</a> </div></blockquote>
+  </th>
+ </tr>
  
  <tr>
   <th style="padding: 5px 5px 20px 5px">
@@ -149,6 +156,18 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
  <b>L. Scimeca</b>, P. Maiolino, and F. Iida, "Soft morphological processing of tactile stimuli for autonomous category formation", in 2018 IEEE International Conference on Soft Robotics (<b>RoboSoft</b>), IEEE, 2018. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div></blockquote>
   </th>
  </tr>
+ 
+ <tr>
+  <th style="padding: 5px 5px 20px 5px">
+   2018
+  </th>
+  <th style="padding: 5px 5px 20px 5px">
+   <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='morph2018'> 
+    <b>Scimeca, L.</b>, Maiolino, P., & Iida, F. (2018, April). Soft morphological processing of tactile stimuli for autonomous category formation. In 2018 IEEE International  Conference on Soft Robotics (<b>RoboSoft</b>) (pp. 356-361). IEEE. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div> 
+   </blockquote>
+  </th>
+ </tr>
+ 
  
 </table>
 
