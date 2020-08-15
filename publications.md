@@ -163,7 +163,8 @@ T. Stone, B. Webb, A. Adden, N. B. Weddig, A. Honkanen, R. Templin, W. Wcislo, <
   </th>
   <th style="padding: 5px 5px 20px 5px">
    <blockquote><div style="font-size: 13px; color: black; font-weight: normal" id='morph2018'> 
-    <b>Scimeca, L.</b>, Maiolino, P., & Iida, F. (2018, April). Soft morphological processing of tactile stimuli for autonomous category formation. In 2018 IEEE International  Conference on Soft Robotics (<b>RoboSoft</b>) (pp. 356-361). IEEE. Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div> 
+    <b>Scimeca, L.</b>, Maiolino, P., & Iida, F. (2018, April). Soft morphological processing of tactile stimuli for autonomous category formation. In 2018 IEEE International  Conference on Soft Robotics (<b>RoboSoft</b>) (pp. 356-361). IEEE. 
+    Retrieved  from <a href="https://ieeexplore.ieee.org/document/8404945/" target="_blank">link</a></div> 
    </blockquote>
   </th>
  </tr>
