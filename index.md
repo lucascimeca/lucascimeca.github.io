@@ -63,7 +63,7 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 
 My interests lie mainly in Machine Learning and Robotics, particularly I am interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning). I am currently carrying out research on the use of tactile perception and the employment of morphology, and motor-coordinated behaviour to aid in manipulation tasks.
 
-For publications plese follow any of these links: <a href="https://lucascimeca.github.io/publications#-publications---" target="_blank">Publications</a>,<a href="https://orcid.org/0000-0002-2821-0072" class="ai ai-orcid" style="font-size: 20px; padding-left: 8px; color: #a3d13a" target="_blank"></a>, <a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" class="ai ai-google-scholar" style="font-size: 20px; padding-left: 5px" target="_blank"></a>.
+For my list of publications please follow any of these links: <a href="https://lucascimeca.github.io/publications#-publications---" target="_blank">Publications</a>,<a href="https://orcid.org/0000-0002-2821-0072" class="ai ai-orcid" style="font-size: 20px; padding-left: 8px; color: #a3d13a" target="_blank"></a>, <a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" class="ai ai-google-scholar" style="font-size: 20px; padding-left: 5px" target="_blank"></a>.
 
 <br/>
 
