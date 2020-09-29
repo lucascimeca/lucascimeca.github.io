@@ -10,7 +10,7 @@ layout: default
 </ul>  
 ### Previous Roles
 <ul>
-  <li style="padding-bottom:7pt"><b>PhD Candidate</b> at Biologically Inspired Robotics Laboratory, University of Cambridge (2017-2020)</li>
+  <li style="padding-bottom:7pt"><b>PhD Candidate</b> in Engineering (AI and Robotics) at Biologically Inspired Robotics Laboratory, University of Cambridge (2017-2020)</li>
   <li style="padding-bottom:7pt"><b>Freelance Writer</b> in Artificial Intelligence at Academic Minds, London, UK. (2020)</li>
   <li style="padding-bottom:7pt"><b>Demonstrator</b> for the University of Cambridge course "Engineering Tripos Part IIA - 3D Printing" (2017-2020)</li>
   <li style="padding-bottom:7pt"><b>Demonstrator</b> for the University of Cambridge course "3F8 Inference" (2017-2020)</li>
