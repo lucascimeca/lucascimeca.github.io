@@ -44,16 +44,15 @@ layout: default
 
 <br/>
 
-# [](#Intro) Introduction
+# [](#Intro) Biography
 <hr>
 
-I am a PhD student in Engineering at the <a href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a>. I conduct my research at the university's <a href="http://divf.eng.cam.ac.uk/birl/" target="_blank">Biologically Inspired Robotics Laboratory</a> (BIRL), supervised by Dr. Fumiya Iida. 
 
-<!--My background in the field of IT goes back to before university when, studying in the Computer Science sector of a technical secondary school, I had the opportunity to familiarize myself with the basics of programming, design and analysis which brought me to the successful completion of a robotics project on my final year.-->
+Luca Scimeca received his First Class Bachelor of Engineering in Artificial Intelligence and Software Engineering from the <a href="http://www.ed.ac.uk/" target="_blank">University of Edinburgh</a>, where he graduated summa cum laude, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence. During his studies Luca has won over 13 awards, 9 of which paid scholarships for academic performance. 
 
-I graduated summa cum laude from the <a href="http://www.ed.ac.uk/" target="_blank">University of Edinburgh</a> with a First Class degree in Artificial Intelligence and Software Engineering, obtaining the Class award and Howe Prize for the best performance in Artificial Intelligence. Throughout my academic career I have taken part to several research <a href="https://lucascimeca.github.io/publications#-projects" target="_blank">projects</a> and <a href="https://lucascimeca.github.io/#-news--others" target="_blank">competitions</a> which led to several scientific <a href="https://lucascimeca.github.io/publications#-publications---" target="_blank">publications</a>, and allowed me to build a strong background in Mathematics, Machine Learning and Robotics.
+In 2020, after less than 3 years, Luca Scimeca received his PhD in Engineering (Artificial Intelligence and Robotics) from the University of Cambridge. Throughout his academic career Luca has taken part to several research <a href="https://lucascimeca.github.io/publications#-projects" target="_blank">projects</a> and <a href="https://lucascimeca.github.io/#-news--others" target="_blank">competitions</a> which led to over 14 high profile conference and journal <a href="https://lucascimeca.github.io/publications#-publications---" target="_blank">publications</a> during the course of his PhD studies.
 
-I have won over 13 awards among which 9 paid scholarships for academic performance.
+Luca Scimeca is currently a Post-Doctoral Research Associate at the University of Cambridge, where he conducts research at the university's <a href="https://birlab.org/" target="_blank">Biologically Inspired Robotics Laboratory</a> (BIRL). 
 
 <br/>
 
@@ -61,7 +60,7 @@ I have won over 13 awards among which 9 paid scholarships for academic performan
 # [](#Research) Research
 <hr>
 
-My interests lie mainly in Machine Learning and Robotics, particularly I am interested in algorithms for motion control, the use of vision and the application of Machine Learning to solve robotics problems (Supervised Learning, Reinforcement Learning). I am currently carrying out research on the use of tactile perception and the employment of morphology, and motor-coordinated behaviour to aid in manipulation tasks.
+My interests lie mainly in Machine Learning, Vision and Robotics, particularly I am interested in the application of Machine Learning for perception, sensing, control and autonomous design. I am currently carrying out research on the use of tactile perception and the employment of morphology, and motor-coordinated behaviour to aid in manipulation tasks.
 
 For my list of publications please follow any of these links: <a href="https://lucascimeca.github.io/publications#-publications---" target="_blank">Publications</a>,<a href="https://orcid.org/0000-0002-2821-0072" class="ai ai-orcid" style="font-size: 20px; padding-left: 8px; color: #a3d13a" target="_blank"></a>, <a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" class="ai ai-google-scholar" style="font-size: 20px; padding-left: 5px" target="_blank"></a>.
 
