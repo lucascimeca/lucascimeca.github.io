@@ -71,6 +71,13 @@ For my list of publications please follow any of these links: <a href="https://l
 
 <table width="800">
   <tr>
+    <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2020 </td>
+    <td><i> GMSI Summer Camp</i>, <br/>University of Tokyo, Japan </td>
+  </tr>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+<table width="800">
+  <tr>
     <td style="border-right: 2px solid #cdd0d4; vertical-align:top; text-align=right"> 2018 </td>
     <td><i> AJS Special Award for Industrial Manipulation Challenge</i>, <br/>World Robotics Summit 2018, Tokyo, Japan </td>
   </tr>
