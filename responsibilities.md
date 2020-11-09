@@ -6,7 +6,7 @@ layout: default
 <hr>
 ### Current Roles
 <ul>
-  <li style="padding-bottom:7pt"><b>Post-Doctoral Research Associate</b> in AI and Robotics, University of Cambridge (2017-current)</li>
+  <li style="padding-bottom:7pt"><b>Post-Doctoral Research Associate</b> in AI and Robotics, University of Cambridge (2020-current)</li>
 </ul>  
 ### Previous Roles
 <ul>
