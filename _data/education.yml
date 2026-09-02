@@ -1,0 +1,27 @@
+- degree: PhD in Artificial Intelligence and Robotics
+  org: University of Cambridge
+  location: Cambridge, UK
+  years: "2017–20"
+  logo: cambridge.png
+  url: https://www.cam.ac.uk/
+  featured: true
+  detail: >-
+    Thesis: <em>Soft Morphological Computation</em>, Biologically Inspired
+    Robotics Laboratory.
+
+- degree: Brains, Minds and Machines Summer School
+  org: Massachusetts Institute of Technology
+  location: Boston, USA
+  years: "2019"
+  detail: AI and computational neuroscience.
+
+- degree: BEng (Hons) in Artificial Intelligence and Software Engineering
+  org: University of Edinburgh
+  location: Edinburgh, UK
+  years: "2013–17"
+  logo: edinburgh.png
+  url: https://www.ed.ac.uk/
+  featured: true
+  detail: >-
+    First Class with Honours. Department Prize and Howe Prize for the highest
+    cumulative GPA of the graduating class.

@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://lucascimeca.com/</title>
-<meta http-equiv="refresh" content="0; URL=https://lucascimeca.com/">
-<link rel="canonical" href="https://lucascimeca.com/">
-
-
-
+---
+title: Publications
+permalink: /publications/
+redirect_to: https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ
+sitemap: false
+---

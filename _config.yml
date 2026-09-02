@@ -1,11 +1,57 @@
 title: Luca Scimeca
-description: 
-show_downloads: true
-google_analytics: UA-NNNNNNNN-N
-theme: 
-github_username: lucascimeca
+tagline: AI Research Scientist
+description: >-
+  Luca Scimeca — AI research scientist working on generative models, reasoning
+  and probabilistic inference, and their applications in vision, biomedicine
+  and robotics.
+url: "https://lucascimeca.github.io"
+baseurl: ""
+lang: en
 
-publications: true
+author:
+  name: Luca Scimeca
+  email: luca.scimeca@live.com
 
-email: luca.scimeca@live.com
-author: lucascimeca
+# ---------------------------------------------------------------------------
+# Work-in-progress switch.
+#   noindex: true   -> robots.txt disallows everything + <meta name="robots" content="noindex">
+#   Flip to false when you're ready for the site to be discoverable.
+# ---------------------------------------------------------------------------
+noindex: true
+
+# Show or hide the whole Posts section (nav link, home "Writing" block, /posts/).
+# Individual posts can also be hidden with `visible: false` in their front matter.
+show_posts: true
+
+permalink: /posts/:title/
+
+defaults:
+  - scope: { path: "", type: posts }
+    values:
+      layout: post
+      visible: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: null
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+feed:
+  path: feed.xml
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .idea
+  - CLAUDE.md

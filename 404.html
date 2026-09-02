@@ -1,0 +1,18 @@
+---
+layout: default
+title: Not found
+permalink: /404.html
+sitemap: false
+---
+<div class="wrap">
+  <header class="page-head" style="border:0">
+    <p class="post-meta">404</p>
+    <h1>This page doesn't exist</h1>
+    <p class="lede">The link may be out of date, or the page may have moved.</p>
+    <div class="actions" style="margin-top:1.75rem">
+      <a class="btn btn-primary" href="{{ '/' | relative_url }}">Home</a>
+      <a class="btn" href="{{ '/work/' | relative_url }}">Work</a>
+      {%- if site.show_posts %}<a class="btn" href="{{ '/posts/' | relative_url }}">Posts</a>{% endif %}
+    </div>
+  </header>
+</div>

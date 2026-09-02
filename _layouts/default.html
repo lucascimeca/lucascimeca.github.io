@@ -1,172 +1,50 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>
-      $(document).ready(function(){
-        // Add smooth scrolling to all links
-        $('a[href*="#"]').on('click', function(event) {
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  {%- include head.html -%}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-          // Make sure this.hash has a value before overriding default behavior
-          if (this.hash !== "" && this.href.split("#")[0]==window.location.href.split("#")[0]) {
-            // Prevent default anchor click behavior
-            event.preventDefault();
+  <header class="site-header" id="siteHeader">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-dot" aria-hidden="true"></span>Luca<span class="brand-name-full">&nbsp;Scimeca</span>
+      </a>
 
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800, function(){
-
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-            });
-          } // End if
-        });
-      });
-    </script>
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> 
-    <link rel="stylesheet" href="/assets/css/academicons.min.css"/> 
-    
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        
-        <p id="-intro_img" >
-          <img src="../docs/Luca Scimeca2.jpg" align="left" height="240" width="240" style="padding-top: 20px;padding-bottom:20px;">
-        </p>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <table style="width: 170px">
-          <tr>
-            <th><a href="https://www.linkedin.com/in/luca-scimeca/" class="fa fa-linkedin" target="_blank"></a></th>
-            <th><a href="https://orcid.org/0000-0002-2821-0072" class="ai ai-orcid" style="font-size: 25px; padding-left: 12px; color:#a3d13a; border-width: 0.5px; border-color: gray; border-style: solid; height: 33px; width: 33px; font-size: 23px; padding-top: 8px;" target="_blank"></a></th>
-            <th><a href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" style="font-size: 25px; padding-left: 12px; border-width: 0.5px; border-color: gray; border-style: solid; height: 33px; width: 33px; font-size: 23px; padding-top: 8px;" class="ai ai-google-scholar" target="_blank"></a></th> 
-            <th><a href="https://bitbucket.org/lucascimeca/" class="fa fa-bitbucket" target="_blank"></a></th> 
-            <th><a href="{{ site.github.owner_url }}" class="fa fa-github" target="_blank"></a></th>
-          </tr>
-        </table>
-        <table style="width: 200px">
-          <tr>
-            <th><a href="mailto:ls769@cam.ac.uk" class="fa fa-envelope"></a></a></th>
-            <th>ls769@cam.ac.uk</th>
-          </tr>
-          <tr>
-            <th><a href="https://www.google.co.uk/maps/place/Robinson+College/@52.2070649,0.0980746,13.5z/data=!4m5!3m4!1s0x0:0xd53fc9646c4ca42e!8m2!3d52.204233!4d0.105513" class="fa fa-home" target="_blank"></a></a></th>
-            <th>[redacted] </br>[redacted], </br>Cambridge [redacted], </br>United Kingdom</th>
-          </tr>
-        </table>
-
-        <div class="accordion">
-        <table style="width: 250px; margin:0 0 0 0px">
-          <tr>
-            <th colspan="2" style="align:center; padding-bottom:8px"><a href="https://lucascimeca.github.io/" class="button-hover-main" style="vertical-align:middle; padding: 5px 5px 5px 5px">Home</a></th>
-          </tr>
-        </table>
-        <div class="accordion-content">
-          <div class="accordion-inner">
-            <table style="width: 250px; margin:0 0 0 0px">
-              <tr>
-                <th rowspan="3" colspan="1" style="text-align: center; vertical-align:top; padding-top:0px; padding-left:10px" width="30px">
-                    <img src="../docs/link1.png" align="center" height="90" width="30">
-                </th>
-                <th colspan="2"
-                    style="font-weight:normal"><a href="https://lucascimeca.github.io/#-biography" class="button-hover" style="vertical-align:middle">Biography</a> </th>
-              </tr>
-              <tr><th colspan="2" style="font-weight:normal"><a href="https://lucascimeca.github.io/#-research" class="button-hover" style="vertical-align:middle">Research</a> </th></tr>
-              <tr><th colspan="2" style="font-weight:normal"><a href="https://lucascimeca.github.io/#-news--others" class="button-hover" style="vertical-align:middle">News & Others</a> </th></tr>
-            </table>
-            </div>
-          </div>
+      <nav class="nav" aria-label="Primary">
+        <div class="nav-links">
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/work/' | relative_url }}"{% if page.url contains '/work' %} aria-current="page"{% endif %}>Work</a>
+          {%- if site.show_posts %}
+          <a href="{{ '/posts/' | relative_url }}"{% if page.url contains '/posts' %} aria-current="page"{% endif %}>Posts</a>
+          {%- endif %}
         </div>
 
-        <div class="accordion">
-        <table style="width: 250px; margin:0 0 0 0px">
-          <tr>
-            <th colspan="2" style="align:center; padding-bottom:8px"><a href="https://lucascimeca.github.io/publications" class="button-hover-large-main" style="vertical-align:middle; padding: 5px 5px 5px 5px">Publications </br>& Projects</a></th>
-            <td></td>
-          </tr>
-        </table>
-        <div class="accordion-content">
-          <div class="accordion-inner">
-            <table style="width: 250px; margin:0 0 0 0px">
-              <tr>
-                <th rowspan="2" colspan="1" style="text-align: center; vertical-align:top; padding-top:0px; padding-left:10px" width="30px">
-                    <img src="../docs/link2.png" align="center" height="65" width="60"></th>
-                <th colspan="2" style="font-weight:normal"><a href="https://lucascimeca.github.io/publications#-publications---" class="button-hover" style="vertical-align:middle">Publications </a> </th>
-              </tr>
-              <tr><th colspan="2" style="font-weight:normal"><a href="https://lucascimeca.github.io/publications#-other-projects--" class="button-hover" style="vertical-align:middle">Projects</a> </th></tr>
-            </table>
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion">
-        <table style="width: 250px; margin:0 0 0 0px">
-          <tr>
-            <th colspan="2" style="align:center; padding-bottom:8px"><a href="https://lucascimeca.github.io/responsibilities" class="button-hover-large-main" style="vertical-align:middle; padding: 5px 5px 5px 5px">Roles & Responsibilities</a> </td></th>
-            <td></td>
-          </tr>
-        </table>
-        <div class="accordion-content">
-          <div class="accordion-inner">
-            <table style="width: 250px; margin:0 0 0 0px">
-              <tr>
-                <th rowspan="2" colspan="1" style="text-align: center; vertical-align:top; padding-top:0px; padding-left:10px" width="30px">
-                    <img src="../docs/link3.png" align="center" height="75" width="60"></th>
-                <th colspan="2" style="font-weight:normal"><a href="https://lucascimeca.github.io/responsibilities#-employment-history" class="button-hover" style="vertical-align:middle; height:48px">Employment History</a> </th>
-              </tr>
-              <tr><th colspan="2" style="font-weight:normal"><a href="https://lucascimeca.github.io/responsibilities#-academic-services" class="button-hover" style="vertical-align:middle; height:48px">Academic Services</a> </th></tr>       
-            </table></br>
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion">
-        <table style="width: 250px; margin:0 0 0 0px">
-          <tr>
-            <th colspan="2" style="align:center; padding-bottom:8px"><a href="https://lucascimeca.github.io/curriculum-vitae" class="button-hover-large" style="vertical-align:middle">Curriculum Vitae</a></td></th>
-            <td></td>
-          </tr>
-        </table>
-
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-
-
+        <button class="theme-toggle" id="themeToggle" type="button"
+                aria-label="Switch between light and dark theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79"/></svg>
+        </button>
+      </nav>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </header>
 
+  <main id="main">
+    {{ content }}
+  </main>
 
-<!--   {% if site.google_analytics %} -->
-  <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-links">
+        {%- for l in site.data.links %}
+        <a href="{{ l.url }}"{% unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>{{ l.short }}</a>
+        {%- endfor %}
+      </div>
+      <p class="footer-note">© {{ site.time | date: "%Y" }} Luca Scimeca</p>
+    </div>
+  </footer>
 
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-  </script>
-<!--   {% endif %} -->
-  </body>
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
 </html>

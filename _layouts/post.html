@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<article>
+  <div class="wrap">
+    <header class="post-head prose-wrap">
+      <a class="back-link" href="{{ '/posts/' | relative_url }}">
+        {% include icon.html name="arrow-left" %} All posts
+      </a>
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
+        {%- if page.venue %} <span aria-hidden="true">·</span> {{ page.venue }}{% endif %}
+      </p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.standfirst %}
+      <p class="post-standfirst">{{ page.standfirst }}</p>
+      {%- endif %}
+    </header>
+
+    {%- if page.cover and page.show_cover != false %}
+    <div class="post-cover">
+      <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title | escape }}">
+    </div>
+    {%- endif %}
+
+    <div class="post-body">
+      {{ content }}
+
+      {%- if page.resources %}
+      <div class="post-links">
+        {%- for r in page.resources %}
+        <a class="btn" href="{{ r.url }}" target="_blank" rel="noopener">
+          {{ r.label }} {% include icon.html name="external" %}
+        </a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+
+      {%- assign visible_posts = site.posts | where_exp: "p", "p.visible != false" -%}
+      {%- assign idx = 0 -%}
+      {%- for p in visible_posts -%}
+        {%- if p.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}
+      {%- endfor -%}
+      {%- assign newer_i = idx | minus: 1 -%}
+      {%- assign older_i = idx | plus: 1 -%}
+      {%- assign newer = visible_posts[newer_i] -%}
+      {%- assign older = visible_posts[older_i] -%}
+
+      {%- if visible_posts.size > 1 %}
+      <nav class="post-nav" aria-label="More posts">
+        {%- if idx > 0 and newer %}
+        <a class="prev" href="{{ newer.url | relative_url }}">
+          <span class="dir">← Newer</span>
+          <span class="t">{{ newer.title }}</span>
+        </a>
+        {%- endif %}
+        {%- if older %}
+        <a class="next" href="{{ older.url | relative_url }}">
+          <span class="dir">Older →</span>
+          <span class="t">{{ older.title }}</span>
+        </a>
+        {%- endif %}
+      </nav>
+      {%- endif %}
+    </div>
+  </div>
+</article>
+
+{%- if page.math %}
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
+    options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+{%- endif %}

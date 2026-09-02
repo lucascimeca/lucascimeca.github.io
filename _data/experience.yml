@@ -1,0 +1,124 @@
+# ---------------------------------------------------------------------------
+# Employment history.
+#   featured: true  -> also appears in the "Selected roles" list on the home page
+#   logo:           -> filename under assets/img/logos/
+# ---------------------------------------------------------------------------
+
+current:
+  - role: Something New
+    org: Stealth Startup
+    years: "2026 —"
+    note: Building. More soon.
+
+past:
+  - role: AI Research Scientist
+    org: Sapient Intelligence
+    location: Boston, USA
+    years: "2026–27"
+    year_from: "2026"
+    year_to: "2027"
+    logo: sapient.jpg
+    featured: true
+    detail: >-
+      Generative AI and probabilistic inference for reasoning, language and
+      vision. Contributed to the release of HRM-Text and Unigen, state-of-the-art
+      models at their size for language and vision.
+
+  - role: Postdoctoral Research Fellow
+    org: Mila — Quebec AI Institute
+    location: Montreal, Canada
+    years: "2023–26"
+    year_from: "2023"
+    year_to: "2026"
+    logo: mila.png
+    featured: true
+    detail: >-
+      Postdoc in Yoshua Bengio's group. Generative AI, probabilistic inference,
+      and AI applications to computer vision, drug discovery and robotics.
+    sub:
+      - role: Research and Teaching Assistant
+        detail: "IFT6390B — Foundation of Machine Learning (graduate course)."
+
+  - role: Postdoctoral Research Fellow
+    org: Harvard University
+    location: Boston, USA
+    years: "2021–23"
+    year_from: "2021"
+    year_to: "2023"
+    logo: harvard.png
+    featured: true
+    detail: >-
+      AI for healthcare and genomics. Deep generative models for bio-sequence
+      design, working with Dr Ming-Ru Wu on tumour biology and immunotherapy.
+
+  - role: Postdoctoral Research Fellow
+    org: Dana-Farber Cancer Institute
+    location: Boston, USA
+    years: "2021–23"
+    year_from: "2021"
+    year_to: "2023"
+    logo: dana-farber.png
+    detail: >-
+      AI for healthcare and genomics, jointly with Harvard University.
+
+  - role: AI Research Scientist
+    org: Naver Corp
+    location: Seoul, South Korea
+    years: "2021"
+    year_from: "2021"
+    logo: naver.png
+    detail: >-
+      Visiting researcher. Learning representations, bias, robustness and
+      generalisation in deep learning.
+
+  - role: Postdoctoral Research Associate
+    org: University of Cambridge
+    location: Cambridge, UK
+    years: "2020–21"
+    year_from: "2020"
+    year_to: "2021"
+    logo: cambridge.png
+    featured: true
+    detail: AI and robotics.
+
+  - role: Postdoctoral Research Fellow
+    org: Trinity Hall, University of Cambridge
+    location: Cambridge, UK
+    years: "2020–21"
+    year_from: "2020"
+    year_to: "2021"
+    logo: trinity-hall.png
+    detail: College fellowship in AI and robotics.
+
+  - role: PhD Candidate in AI and Robotics
+    org: Biologically Inspired Robotics Laboratory, University of Cambridge
+    location: Cambridge, UK
+    years: "2017–20"
+    year_from: "2017"
+    year_to: "2020"
+    logo: cambridge.png
+    detail: >-
+      Machine learning for sensory perception and action in robotic systems,
+      supervised by Prof. Fumiya Iida.
+    sub:
+      - role: Research and Teaching Assistant
+        detail: "3F8 Inference · Engineering Tripos Part IIA · Robotics, Part IA."
+
+  - role: Freelance Writer in Artificial Intelligence
+    org: Academic Minds
+    location: London, UK
+    years: "2020"
+    year_from: "2020"
+
+  - role: AI / ML Consultant
+    org: Critical Future
+    location: London, UK
+    years: "2018–19"
+    year_from: "2018"
+    year_to: "2019"
+
+  - role: Junior Software Engineer
+    org: Extraordinary Managed Services Ltd
+    location: Edinburgh, UK
+    years: "2016"
+    year_from: "2016"
