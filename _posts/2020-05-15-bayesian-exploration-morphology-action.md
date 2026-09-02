@@ -5,7 +5,7 @@ venue: IEEE RoboSoft 2020
 redirect_from:
   - /example-post-3/
   - /portfolio/bayesian-exploration-for-morphology-action-co-optimization/
-cover: /assets/img/posts/co-opt.gif
+cover: /assets/img/posts/co-opt-poster.jpg
 cover_alt: A soft robotic end-effector changing morphology while probing objects
 show_cover: false
 standfirst: >-
@@ -18,11 +18,8 @@ resources:
     url: https://github.com/lucascimeca/morph_action_co-opt
 ---
 
-<figure class="plain">
-  <a href="https://github.com/lucascimeca/morph_action_co-opt" target="_blank" rel="noopener">
-    <img src="/assets/img/posts/co-opt.gif" alt="Soft robotic end-effector changing morphology while probing objects">
-  </a>
-</figure>
+{% include clip.html name="co-opt"
+   alt="A soft robotic end-effector changing morphology while probing objects" %}
 
 One of our articles, "Efficient Bayesian Exploration for Soft Morphology-Action
 Co-optimization", with Perla Maiolino and Fumiya Iida, proposing a mathematical

@@ -1,0 +1,17 @@
+{%- comment -%}
+Looping, muted, inline video — the modern replacement for a heavy animated GIF.
+Usage: {% include clip.html name="palpation" alt="..." caption="..." portrait=true %}
+{%- endcomment -%}
+<figure class="clip{% if include.portrait %} clip--portrait{% endif %}">
+  <video autoplay loop muted playsinline preload="metadata"
+         poster="{{ '/assets/img/posts/' | append: include.name | append: '-poster.jpg' | relative_url }}"
+         aria-label="{{ include.alt | escape }}">
+    <source src="{{ '/assets/img/posts/' | append: include.name | append: '.webm' | relative_url }}" type="video/webm">
+    <source src="{{ '/assets/img/posts/' | append: include.name | append: '.mp4' | relative_url }}" type="video/mp4">
+    <img src="{{ '/assets/img/posts/' | append: include.name | append: '-poster.jpg' | relative_url }}"
+         alt="{{ include.alt | escape }}">
+  </video>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {%- endif %}
+</figure>

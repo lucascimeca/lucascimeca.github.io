@@ -6,7 +6,8 @@ redirect_from:
   - /unlocking-the-power-of-diffusion-models-a-dive-into-relative-trajectory-balance/
   - /portfolio/diffusion-models/
 cover: /assets/img/posts/rtb-thumb.jpg
-cover_alt: Samples from a text-to-image diffusion model fine-tuned with Relative Trajectory Balance
+cover_alt: Samples from a diffusion model fine-tuned with Relative Trajectory Balance
+show_cover: false
 standfirst: >-
   Diffusion models are excellent at generating data. Getting them to also respect
   a constraint means sampling from an intractable posterior — Relative Trajectory

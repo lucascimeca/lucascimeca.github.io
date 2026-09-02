@@ -4,25 +4,25 @@
    ========================================================================== */
 
 :root {
-  /* Surfaces */
-  --bg:            #FBFAF7;
+  /* Surfaces — cool, neutral paper */
+  --bg:            #FCFCFD;
   --bg-elev:       #FFFFFF;
-  --bg-sunken:     #F3F1EC;
+  --bg-sunken:     #F1F2F6;
 
   /* Ink */
-  --fg:            #14161A;
-  --fg-strong:     #000000;
-  --fg-muted:      #6C6F76;
-  --fg-faint:      #93969C;
+  --fg:            #0E1116;
+  --fg-strong:     #05070B;
+  --fg-muted:      #4D535E;
+  --fg-faint:      #6B7280;
 
   /* Lines */
-  --line:          #E3E0D8;
-  --line-strong:   #CFCBC1;
+  --line:          #E1E4EA;
+  --line-strong:   #C2C7D2;
 
-  /* Accent — warm rust; picked to sit with the warm paper ground */
-  --accent:        #B04A22;
-  --accent-hover:  #8E3A19;
-  --accent-soft:   rgba(176, 74, 34, 0.09);
+  /* Accent — deep indigo */
+  --accent:        #2C46D8;
+  --accent-hover:  #1F35B4;
+  --accent-soft:   rgba(44, 70, 216, 0.10);
 
   /* Type */
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -36,7 +36,7 @@
   --radius:    14px;
   --radius-sm: 8px;
 
-  --shadow: 0 1px 2px rgba(20, 22, 26, .04), 0 8px 28px -14px rgba(20, 22, 26, .16);
+  --shadow: 0 1px 2px rgba(14, 17, 22, .04), 0 8px 28px -14px rgba(14, 17, 22, .18);
 
   /* Logo chips keep a light ground in both themes — most org logos are dark ink. */
   --logo-chip:        #FFFFFF;
@@ -46,26 +46,26 @@
 }
 
 :root[data-theme="dark"] {
-  --bg:            #0E0F11;
-  --bg-elev:       #17181B;
-  --bg-sunken:     #131417;
+  --bg:            #0B0D11;
+  --bg-elev:       #14171D;
+  --bg-sunken:     #101318;
 
-  --fg:            #E8E7E3;
+  --fg:            #E7E9ED;
   --fg-strong:     #FFFFFF;
-  --fg-muted:      #9B9DA3;
-  --fg-faint:      #6E7076;
+  --fg-muted:      #A4AAB6;
+  --fg-faint:      #838A97;
 
-  --line:          #26282C;
-  --line-strong:   #363940;
+  --line:          #23272E;
+  --line-strong:   #343A45;
 
-  --accent:        #E8825A;
-  --accent-hover:  #F09B79;
-  --accent-soft:   rgba(232, 130, 90, 0.13);
+  --accent:        #8497FF;
+  --accent-hover:  #A2B1FF;
+  --accent-soft:   rgba(132, 151, 255, 0.14);
 
   --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 34px -16px rgba(0, 0, 0, .7);
 
-  --logo-chip:        #EDEBE5;
-  --logo-chip-line:   #34363B;
+  --logo-chip:        #ECEEF2;
+  --logo-chip-line:   #333944;
 
   color-scheme: dark;
 }
@@ -162,23 +162,25 @@ hr {
 .section + .section { padding-top: 0; }
 
 .eyebrow {
+  display: block;
   font-family: var(--mono);
-  font-size: .6875rem;
+  font-size: .8125rem;
   font-weight: 500;
-  letter-spacing: .13em;
+  letter-spacing: .085em;
   text-transform: uppercase;
-  color: var(--fg-faint);
-  margin: 0 0 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: .875rem;
+  color: var(--fg-strong);
+  margin: 0;
+  padding-bottom: .95rem;
+  border-bottom: 1px solid var(--line-strong);
 }
-.eyebrow::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--line);
-}
+
+/* The label's rule doubles as the first divider of the list beneath it. */
+.eyebrow + .timeline .entry:first-child,
+.eyebrow + .stack .stack-row:first-child { border-top: 0; }
+
+.eyebrow + .card-grid,
+.eyebrow + .post-body,
+.eyebrow + .actions { margin-top: 2.25rem; }
 
 .lede {
   font-size: clamp(1.0625rem, 1.6vw, 1.1875rem);
@@ -404,10 +406,10 @@ hr {
 }
 .now-label {
   font-family: var(--mono);
-  font-size: .6875rem;
-  letter-spacing: .12em;
+  font-size: .75rem;
+  letter-spacing: .1em;
   text-transform: uppercase;
-  color: var(--fg-faint);
+  color: var(--accent);
   flex: none;
 }
 .now-title {
@@ -436,9 +438,9 @@ hr {
 
 .entry-years {
   font-family: var(--mono);
-  font-size: .8125rem;
-  color: var(--fg-faint);
-  padding-top: .18rem;
+  font-size: .875rem;
+  color: var(--fg-muted);
+  padding-top: .12rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -545,7 +547,7 @@ hr {
   margin: 0 0 .15rem;
 }
 .award-org { font-size: .9375rem; color: var(--fg-muted); margin: 0; }
-.award-detail { font-size: .875rem; color: var(--fg-faint); margin: .3rem 0 0; max-width: 58ch; }
+.award-detail { font-size: .875rem; color: var(--fg-muted); margin: .3rem 0 0; max-width: 58ch; }
 
 /* ==========================================================================
    Post cards
@@ -602,10 +604,10 @@ hr {
 
 .card-date {
   font-family: var(--mono);
-  font-size: .6875rem;
-  letter-spacing: .09em;
+  font-size: .75rem;
+  letter-spacing: .07em;
   text-transform: uppercase;
-  color: var(--fg-faint);
+  color: var(--fg-muted);
 }
 .card-title {
   font-size: 1.0625rem;
@@ -663,7 +665,7 @@ hr {
   font-size: .75rem;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: var(--fg-faint);
+  color: var(--fg-muted);
   margin-bottom: 1.75rem;
   transition: color .16s ease;
 }
@@ -677,10 +679,10 @@ hr {
 .post-head { padding-top: clamp(2.25rem, 5vw, 3.5rem); }
 .post-meta {
   font-family: var(--mono);
-  font-size: .75rem;
-  letter-spacing: .09em;
+  font-size: .8125rem;
+  letter-spacing: .07em;
   text-transform: uppercase;
-  color: var(--fg-faint);
+  color: var(--fg-muted);
   margin: 0 0 1.1rem;
 }
 .post-head h1 {
@@ -780,10 +782,25 @@ hr {
 .post-body figcaption {
   font-size: .8125rem;
   line-height: 1.55;
-  color: var(--fg-faint);
+  color: var(--fg-muted);
   margin-top: .7rem;
   max-width: var(--prose);
 }
+
+/* Looping clips (converted from the original GIFs) */
+.post-body .clip {
+  margin: 2rem 0;
+  max-width: min(100%, 760px);
+}
+.post-body .clip video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-sunken);
+}
+.post-body .clip--portrait { max-width: min(100%, 380px); }
 
 .post-body .video {
   position: relative;
@@ -839,10 +856,10 @@ hr {
 .post-nav a:hover { border-color: var(--line-strong); background: var(--bg-elev); }
 .post-nav .dir {
   font-family: var(--mono);
-  font-size: .6875rem;
-  letter-spacing: .1em;
+  font-size: .75rem;
+  letter-spacing: .08em;
   text-transform: uppercase;
-  color: var(--fg-faint);
+  color: var(--fg-muted);
   display: block;
   margin-bottom: .4rem;
 }
@@ -888,7 +905,7 @@ hr {
 .footer-note {
   font-family: var(--mono);
   font-size: .75rem;
-  color: var(--fg-faint);
+  color: var(--fg-muted);
   letter-spacing: .02em;
 }
 

@@ -5,7 +5,7 @@ venue: Autonomous Robots
 redirect_from:
   - /example-post-2/
   - /portfolio/robotics-palpation/
-cover: /assets/img/posts/palpation.gif
+cover: /assets/img/posts/palpation-poster.jpg
 cover_alt: A robotic arm with a capacitive tactile sensor palpating a soft phantom
 show_cover: false
 standfirst: >-
@@ -18,11 +18,8 @@ resources:
     url: https://github.com/lucascimeca/palpation_analysis
 ---
 
-<figure class="plain">
-  <a href="https://github.com/lucascimeca/palpation_analysis" target="_blank" rel="noopener">
-    <img src="/assets/img/posts/palpation.gif" alt="Robotic arm palpating a soft phantom with a tactile sensor">
-  </a>
-</figure>
+{% include clip.html name="palpation"
+   alt="A robotic arm palpating a soft phantom with a capacitive tactile sensor" %}
 
 Robotics and medicine: one of our publications in the journal *Autonomous Robots*,
 exploiting the application of machine learning and tactile sensing to aid in the

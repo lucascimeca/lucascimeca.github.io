@@ -5,8 +5,7 @@ venue: PLOS ONE
 redirect_from:
   - /example-post/
   - /portfolio/dynamic-robot-control-for-expressive-piano-playing/
-cover: /assets/img/posts/piano.gif
-cover_fit: contain
+cover: /assets/img/posts/piano-card.jpg
 cover_alt: A robot arm pressing piano keys, from the expressive piano playing experiments
 show_cover: false
 standfirst: >-
@@ -19,11 +18,8 @@ resources:
     url: https://github.com/lucascimeca/robo_piano_learning
 ---
 
-<figure class="plain">
-  <a href="https://github.com/lucascimeca/robo_piano_learning" target="_blank" rel="noopener">
-    <img src="/assets/img/posts/piano.gif" alt="Robot arm pressing piano keys" style="max-width:320px">
-  </a>
-</figure>
+{% include clip.html name="piano" portrait=true
+   alt="A robot arm pressing piano keys while learning a playing style" %}
 
 A robot that can autonomously learn to play piano by mimicking the dynamics of
 different human playing styles.

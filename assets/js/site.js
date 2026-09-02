@@ -22,6 +22,30 @@
   if (mq.addEventListener) mq.addEventListener('change', onSchemeChange);
   else if (mq.addListener) mq.addListener(onSchemeChange);
 
+  /* ---- Looping clips: play only while on screen ------------------------ */
+  var clips = document.querySelectorAll('.clip video');
+  if (clips.length) {
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          var v = e.target;
+          if (e.isIntersecting) {
+            var p = v.play();
+            if (p && p.catch) p.catch(function () { /* autoplay blocked */ });
+          } else if (!v.paused) {
+            v.pause();
+          }
+        });
+      }, { rootMargin: '150px 0px', threshold: 0.01 });
+      clips.forEach(function (v) { io.observe(v); });
+    } else {
+      clips.forEach(function (v) {
+        var p = v.play();
+        if (p && p.catch) p.catch(function () {});
+      });
+    }
+  }
+
   /* ---- Header hairline once the page scrolls --------------------------- */
   var header = document.getElementById('siteHeader');
   if (header) {
