@@ -491,9 +491,11 @@ hr {
 .mark {
   font-weight: 500;
   color: var(--fg);
-  background: linear-gradient(to top, var(--mark) .24em, transparent .24em);
-  padding: 0 .12em .02em;
-  margin-left: -.12em;
+  background: var(--mark);
+  padding: .16em .36em .2em;
+  /* Pull the chip left so the text still aligns with the role title above. */
+  margin-left: -.36em;
+  border-radius: 5px;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
