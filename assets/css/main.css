@@ -43,7 +43,7 @@
   --logo-chip-line:   var(--line);
 
   /* Highlighter wash behind institution names */
-  --mark:             rgba(44, 70, 216, 0.10);
+  --mark:             rgba(44, 70, 216, 0.07);
 
   color-scheme: light;
 }
@@ -70,7 +70,7 @@
   --logo-chip:        #ECEEF2;
   --logo-chip-line:   #333944;
 
-  --mark:             rgba(132, 151, 255, 0.16);
+  --mark:             rgba(132, 151, 255, 0.11);
 
   color-scheme: dark;
 }
