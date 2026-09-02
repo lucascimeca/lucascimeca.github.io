@@ -45,7 +45,7 @@ description: >-
     {%- for c in site.data.experience.current %}
     <div class="now">
       <span class="now-label">Now</span>
-      <span class="now-title">{{ c.role }} @ {{ c.org }}</span>
+      <span class="now-title">{{ c.role }} @ <span class="mark">{{ c.org }}</span></span>
       {%- if c.note %}<span class="now-note">{{ c.note }}</span>{% endif %}
     </div>
     {%- endfor %}
@@ -69,7 +69,7 @@ description: >-
         {%- endif %}
         <div class="entry-body">
           <p class="entry-role">{{ e.role }}</p>
-          <p class="entry-org">{{ e.org }}{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
+          <p class="entry-org"><span class="mark">{{ e.org }}</span>{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
         </div>
       </div>
       {%- endif -%}
@@ -101,7 +101,7 @@ description: >-
         {%- endif %}
         <div class="entry-body">
           <p class="entry-role">{{ e.degree }}</p>
-          <p class="entry-org">{{ e.org }}{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
+          <p class="entry-org"><span class="mark">{{ e.org }}</span>{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
         </div>
       </div>
       {%- endif -%}

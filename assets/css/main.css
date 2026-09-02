@@ -42,6 +42,9 @@
   --logo-chip:        #FFFFFF;
   --logo-chip-line:   var(--line);
 
+  /* Highlighter wash behind institution names */
+  --mark:             rgba(44, 70, 216, 0.14);
+
   color-scheme: light;
 }
 
@@ -66,6 +69,8 @@
 
   --logo-chip:        #ECEEF2;
   --logo-chip-line:   #333944;
+
+  --mark:             rgba(132, 151, 255, 0.22);
 
   color-scheme: dark;
 }
@@ -164,13 +169,13 @@ hr {
 .eyebrow {
   display: block;
   font-family: var(--mono);
-  font-size: .8125rem;
+  font-size: .9375rem;
   font-weight: 500;
-  letter-spacing: .085em;
+  letter-spacing: .075em;
   text-transform: uppercase;
   color: var(--fg-strong);
   margin: 0;
-  padding-bottom: .95rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--line-strong);
 }
 
@@ -477,6 +482,21 @@ hr {
   margin: 0;
 }
 .entry-org .sep { color: var(--fg-faint); margin-inline: .45rem; }
+
+/*
+ * Institution names get a soft highlighter wash so they can be scanned at a
+ * glance — a different signal from the bold used on the role title above.
+ */
+.mark {
+  font-weight: 500;
+  color: var(--fg);
+  background: linear-gradient(to top, var(--mark) .55em, transparent .55em);
+  padding: 0 .28em .06em;
+  margin-left: -.28em;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
 .entry-detail {
   font-size: .9375rem;
   color: var(--fg-muted);
@@ -547,6 +567,7 @@ hr {
   margin: 0 0 .15rem;
 }
 .award-org { font-size: .9375rem; color: var(--fg-muted); margin: 0; }
+.award-org .sep { color: var(--fg-faint); margin-inline: .45rem; }
 .award-detail { font-size: .875rem; color: var(--fg-muted); margin: .3rem 0 0; max-width: 58ch; }
 
 /* ==========================================================================

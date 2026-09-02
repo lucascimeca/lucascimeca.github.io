@@ -2,9 +2,7 @@
 layout: page
 title: Work
 permalink: /work/
-lede: >-
-  Employment, education, academic service and awards — a full record of where
-  I've worked and what I've worked on.
+lede: Employment, education, academic service and awards.
 description: >-
   Luca Scimeca's full work history — employment, education, academic service
   and awards.
@@ -22,7 +20,7 @@ description: >-
         <div class="entry-logo entry-logo--empty" aria-hidden="true"></div>
         <div class="entry-body">
           <p class="entry-role">{{ c.role }}</p>
-          <p class="entry-org">{{ c.org }}{% if c.location %}<span class="sep">·</span>{{ c.location }}{% endif %}</p>
+          <p class="entry-org"><span class="mark">{{ c.org }}</span>{% if c.location %}<span class="sep">·</span>{{ c.location }}{% endif %}</p>
           {%- if c.note %}<p class="entry-detail">{{ c.note }}</p>{% endif %}
         </div>
       </div>
@@ -46,7 +44,7 @@ description: >-
         {%- endif %}
         <div class="entry-body">
           <p class="entry-role">{{ e.role }}</p>
-          <p class="entry-org">{{ e.org }}{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
+          <p class="entry-org"><span class="mark">{{ e.org }}</span>{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
           {%- if e.detail %}<p class="entry-detail">{{ e.detail }}</p>{% endif %}
           {%- if e.sub %}
           {%- for s in e.sub %}
@@ -76,7 +74,7 @@ description: >-
         {%- endif %}
         <div class="entry-body">
           <p class="entry-role">{{ e.degree }}</p>
-          <p class="entry-org">{{ e.org }}{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
+          <p class="entry-org"><span class="mark">{{ e.org }}</span>{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
           {%- if e.detail %}<p class="entry-detail">{{ e.detail }}</p>{% endif %}
         </div>
       </div>
@@ -124,7 +122,9 @@ description: >-
         <div class="entry-years">{{ a.years }}</div>
         <div>
           <p class="award-title">{{ a.title }}</p>
-          <p class="award-org">{{ a.org }}</p>
+          {%- if a.org %}
+          <p class="award-org"><span class="mark">{{ a.org }}</span>{% if a.location %}<span class="sep">·</span>{{ a.location }}{% endif %}</p>
+          {%- endif %}
           {%- if a.detail %}<p class="award-detail">{{ a.detail }}</p>{% endif %}
         </div>
       </div>

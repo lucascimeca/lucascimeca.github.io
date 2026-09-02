@@ -5,38 +5,46 @@
 
 - years: "2023"
   title: Language Sciences Incubator Fund
-  org: University of Cambridge, UK
+  org: University of Cambridge
+  location: UK
 
 - years: "2020"
   title: GMSI Award
-  org: University of Tokyo, Japan
+  org: University of Tokyo
+  location: Japan
 
 - years: "2018"
   title: AJS Special Award — Industrial Manipulation Challenge
-  org: World Robotics Summit 2018, Tokyo, Japan
+  org: World Robotics Summit 2018
+  location: Tokyo, Japan
 
 - years: "2018"
   title: 1st Place — Robot Rescue Simulation League
-  org: RoboCup 2018, Montreal, Canada
+  org: RoboCup 2018
+  location: Montreal, Canada
 
 - years: "2018"
   title: 1st Place — Manipulation Challenge
-  org: IEEE RoboSoft 2018, Livorno, Italy
+  org: IEEE RoboSoft 2018
+  location: Livorno, Italy
 
 - years: "2017"
   title: Howe Undergraduate Prize
-  org: University of Edinburgh, UK
+  org: University of Edinburgh
+  location: UK
   detail: Best performance in Artificial Intelligence of the graduating class.
 
 - years: "2017"
   title: BEng AI & SE Class Prize
-  org: University of Edinburgh, UK
+  org: University of Edinburgh
+  location: UK
   detail: Highest cumulative grade of the graduating class.
 
 - years: "2015"
   title: Edinburgh Award
-  org: University of Edinburgh, UK
+  org: University of Edinburgh
+  location: UK
 
 - years: "2009–13"
   title: Borsa di Studio Benivegna
-  org: Three-time recipient
+  detail: Scholarship, awarded three times.
