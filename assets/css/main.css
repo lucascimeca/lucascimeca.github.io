@@ -43,7 +43,7 @@
   --logo-chip-line:   var(--line);
 
   /* Highlighter wash behind institution names */
-  --mark:             rgba(44, 70, 216, 0.14);
+  --mark:             rgba(44, 70, 216, 0.10);
 
   color-scheme: light;
 }
@@ -70,7 +70,7 @@
   --logo-chip:        #ECEEF2;
   --logo-chip-line:   #333944;
 
-  --mark:             rgba(132, 151, 255, 0.22);
+  --mark:             rgba(132, 151, 255, 0.16);
 
   color-scheme: dark;
 }
@@ -484,16 +484,16 @@ hr {
 .entry-org .sep { color: var(--fg-faint); margin-inline: .45rem; }
 
 /*
- * Institution names get a soft highlighter wash so they can be scanned at a
- * glance — a different signal from the bold used on the role title above.
+ * Institution names sit a shade darker and heavier than the line around them,
+ * with a faint tint resting under the baseline — enough to catch the eye when
+ * scanning, quiet enough to sit beside the bold role title above.
  */
 .mark {
   font-weight: 500;
   color: var(--fg);
-  background: linear-gradient(to top, var(--mark) .55em, transparent .55em);
-  padding: 0 .28em .06em;
-  margin-left: -.28em;
-  border-radius: 2px;
+  background: linear-gradient(to top, var(--mark) .24em, transparent .24em);
+  padding: 0 .12em .02em;
+  margin-left: -.12em;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
