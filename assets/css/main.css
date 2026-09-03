@@ -307,8 +307,75 @@ hr {
   gap: 1.25rem;
 }
 
-.actions--side { justify-content: center; }
-.actions--side .btn { font-size: .8125rem; padding: .58rem .85rem; }
+.linkrail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.sociallinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .25rem;
+}
+
+/*
+ * Brand-coloured glyphs. The colour arrives as an inline --brand custom
+ * property from _data/links.yml, with --brand-dark for marks that vanish
+ * against a dark background.
+ */
+.sociallink {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--brand, var(--fg));
+  transition: background .16s ease, transform .16s ease;
+}
+.sociallink svg { width: 21px; height: 21px; }
+.sociallink:hover { background: color-mix(in srgb, var(--brand) 12%, transparent); transform: translateY(-1px); }
+:root[data-theme="dark"] .sociallink { color: var(--brand-dark, var(--brand, var(--fg))); }
+
+/* Hover label — pointer devices only, so it can't stick after a tap */
+@media (hover: hover) {
+  .sociallink::after {
+    content: attr(data-label);
+    position: absolute;
+    top: calc(100% - 2px);      /* below the row — clear of the CV button */
+    left: 50%;
+    transform: translateX(-50%) translateY(-3px);
+    background: var(--fg-strong);
+    color: var(--bg);
+    font-family: var(--sans);
+    font-size: .6875rem;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 1;
+    padding: .35rem .5rem;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .14s ease, transform .14s ease;
+    z-index: 5;
+  }
+  .sociallink:hover::after,
+  .sociallink:focus-visible::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  /* Keep the label on screen for the icons at either end of the row */
+  .sociallink:first-child::after { left: 0; transform: translateX(0) translateY(-3px); }
+  .sociallink:first-child:hover::after,
+  .sociallink:first-child:focus-visible::after { transform: translateX(0) translateY(0); }
+  .sociallink:last-child::after { left: auto; right: 0; transform: translateX(0) translateY(-3px); }
+  .sociallink:last-child:hover::after,
+  .sociallink:last-child:focus-visible::after { transform: translateX(0) translateY(0); }
+}
 
 .home-intro h1 {
   font-size: clamp(2.25rem, 5vw, 3.5rem);
@@ -513,7 +580,7 @@ hr {
 
 .entry {
   display: grid;
-  grid-template-columns: 108px 44px minmax(0, 1fr);
+  grid-template-columns: 108px 60px minmax(0, 1fr);
   gap: 0 1.5rem;
   align-items: start;
   padding: 1.5rem 0;
@@ -531,7 +598,7 @@ hr {
 }
 
 .entry-logo {
-  width: 40px; height: 40px;
+  width: 56px; height: 56px;
   display: grid;
   place-items: center;
   border-radius: var(--radius-sm);
@@ -540,8 +607,17 @@ hr {
   overflow: hidden;
 }
 .entry-logo img {
-  width: 30px; height: 30px;
+  width: 42px; height: 42px;
   object-fit: contain;
+}
+
+/* Text stand-in for institutions with no logo file */
+.logo-monogram {
+  font-family: var(--mono);
+  font-size: .8125rem;
+  font-weight: 500;
+  letter-spacing: .02em;
+  color: var(--fg);
 }
 .entry-logo--empty {
   background: none;
@@ -594,12 +670,6 @@ hr {
   max-width: 56ch;
 }
 .entry-sub strong { color: var(--fg); font-weight: 550; }
-
-/* Compact variant used on the home page */
-.timeline--compact .entry { padding: 1.15rem 0; grid-template-columns: 92px 40px minmax(0, 1fr); }
-.timeline--compact .entry-logo { width: 36px; height: 36px; }
-.timeline--compact .entry-logo img { width: 26px; height: 26px; }
-.timeline--compact .entry-role { font-size: 1rem; }
 
 /* ==========================================================================
    Services / awards lists
@@ -1037,13 +1107,12 @@ hr {
      wrap across instead of stacking into a tall tower. */
   .home-side-inner { align-items: center; gap: 1.25rem; }
   .home-side .portrait { width: 200px; }
-  .actions--side { width: 100%; }
+  .linkrail { width: 100%; }
 }
 
 @media (max-width: 640px) {
-  .entry,
-  .timeline--compact .entry {
-    grid-template-columns: 38px minmax(0, 1fr);
+  .entry {
+    grid-template-columns: 48px minmax(0, 1fr);
     gap: 0 1rem;
     padding: 1.35rem 0;
   }
@@ -1052,8 +1121,8 @@ hr {
     margin-bottom: .55rem;
     padding-top: 0;
   }
-  .entry-logo,
-  .timeline--compact .entry-logo { width: 38px; height: 38px; }
+  .entry-logo { width: 48px; height: 48px; }
+  .entry-logo img { width: 34px; height: 34px; }
 
   .stack-row { grid-template-columns: 1fr; gap: .75rem; }
   .stack-row > .entry-years { padding-top: 0; }

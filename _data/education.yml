@@ -13,6 +13,9 @@
   org: Massachusetts Institute of Technology
   location: Boston, USA
   years: "2019"
+  # No MIT logo file to hand — `monogram` renders a text chip instead.
+  # Drop an image into assets/img/logos/ and swap this for `logo: mit.png`.
+  monogram: MIT
   detail: AI and computational neuroscience.
 
 - degree: BEng (Hons) in Artificial Intelligence and Software Engineering

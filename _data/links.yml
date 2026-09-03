@@ -1,4 +1,7 @@
-# Quick links. `primary: true` items get the filled button treatment on the home hero.
+# Quick links.
+#   primary: true  -> rendered as a labelled button
+#   otherwise      -> rendered as a brand-coloured icon with a hover label
+#   color_dark     -> optional override when the brand colour is too dark
 - name: Curriculum Vitae
   short: CV
   url: https://drive.google.com/file/d/1LKWK9GO0gtka5NWx0piEDe9Jt5y3C2sm/view
@@ -8,24 +11,30 @@
   short: Email
   url: mailto:luca.scimeca@live.com
   icon: mail
-  primary: true
+  color: "#D93025"
 - name: Google Scholar
   short: Scholar
   url: https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ
   icon: scholar
+  color: "#4285F4"
 - name: LinkedIn
   short: LinkedIn
   url: https://www.linkedin.com/in/luca-scimeca/
   icon: linkedin
+  color: "#0A66C2"
 - name: GitHub
   short: GitHub
   url: https://github.com/lucascimeca
   icon: github
+  color: "#181717"
+  color_dark: "#E7E9ED"
 - name: ORCID
   short: ORCID
   url: https://orcid.org/0000-0002-2821-0072
   icon: orcid
+  color: "#A6CE39"
 - name: Bitbucket
   short: Bitbucket
   url: https://bitbucket.org/lucascimeca/
   icon: bitbucket
+  color: "#0052CC"

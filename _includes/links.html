@@ -1,0 +1,24 @@
+{%- comment -%}
+Link rail: the CV as a labelled button, everything else as a brand-coloured
+icon that names itself on hover (and to screen readers).
+{%- endcomment -%}
+<div class="linkrail">
+  {%- for l in site.data.links %}{% if l.primary %}
+  <a class="btn btn-primary" href="{{ l.url }}"
+     {%- unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>
+    {% include icon.html name=l.icon %}{{ l.name }}
+  </a>
+  {%- endif %}{% endfor %}
+
+  <div class="sociallinks">
+    {%- for l in site.data.links %}{% unless l.primary %}
+    <a class="sociallink"
+       href="{{ l.url }}"
+       {%- unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}
+       style="--brand: {{ l.color }};{% if l.color_dark %} --brand-dark: {{ l.color_dark }};{% endif %}"
+       data-label="{{ l.name }}" aria-label="{{ l.name }}">
+      {% include icon.html name=l.icon %}
+    </a>
+    {%- endunless %}{% endfor %}
+  </div>
+</div>

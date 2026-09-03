@@ -39,6 +39,8 @@ description: >-
         <div class="entry-years">{{ e.years }}</div>
         {%- if e.logo %}
         <div class="entry-logo"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy"></div>
+        {%- elsif e.monogram %}
+        <div class="entry-logo"><span class="logo-monogram">{{ e.monogram }}</span></div>
         {%- else %}
         <div class="entry-logo entry-logo--empty" aria-hidden="true"></div>
         {%- endif %}
@@ -69,6 +71,8 @@ description: >-
         <div class="entry-years">{{ e.years }}</div>
         {%- if e.logo %}
         <div class="entry-logo"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy"></div>
+        {%- elsif e.monogram %}
+        <div class="entry-logo"><span class="logo-monogram">{{ e.monogram }}</span></div>
         {%- else %}
         <div class="entry-logo entry-logo--empty" aria-hidden="true"></div>
         {%- endif %}
@@ -136,17 +140,11 @@ description: >-
 <!-- ====================================================== CTA -->
 <section class="section">
   <div class="wrap">
-    <div class="actions">
-      {%- for l in site.data.links %}
-      {%- if l.primary %}
-      <a class="btn btn-primary" href="{{ l.url }}"{% unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>
-        {% include icon.html name=l.icon %}{{ l.name }}
-      </a>
-      {%- endif %}
-      {%- endfor %}
+    {% include links.html %}
+    <p style="margin-top:1.5rem">
       <a class="btn" href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" target="_blank" rel="noopener">
         {% include icon.html name="scholar" %}Publications on Google Scholar
       </a>
-    </div>
+    </p>
   </div>
 </section>

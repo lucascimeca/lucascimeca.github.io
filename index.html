@@ -42,6 +42,8 @@ description: >-
             <div class="rec">
               {%- if e.logo %}
               <span class="rec-logo"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy"></span>
+              {%- elsif e.monogram %}
+              <span class="rec-logo"><span class="logo-monogram">{{ e.monogram }}</span></span>
               {%- else %}
               <span class="rec-logo rec-logo--empty" aria-hidden="true"></span>
               {%- endif %}
@@ -64,6 +66,8 @@ description: >-
             <div class="rec">
               {%- if e.logo %}
               <span class="rec-logo"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy"></span>
+              {%- elsif e.monogram %}
+              <span class="rec-logo"><span class="logo-monogram">{{ e.monogram }}</span></span>
               {%- else %}
               <span class="rec-logo rec-logo--empty" aria-hidden="true"></span>
               {%- endif %}
@@ -180,15 +184,7 @@ description: >-
              alt="Portrait of Luca Scimeca" width="1100" height="1375">
       </div>
 
-      <div class="actions actions--side">
-        {%- for l in site.data.links %}
-        <a class="btn{% if l.primary %} btn-primary{% endif %}"
-           href="{{ l.url }}"
-           {%- unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>
-          {% include icon.html name=l.icon %}{{ l.name }}
-        </a>
-        {%- endfor %}
-      </div>
+      {% include links.html %}
     </div>
   </aside>
 
