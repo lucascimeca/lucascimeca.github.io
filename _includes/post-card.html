@@ -10,7 +10,6 @@ One post card. Posts that carry a `clip` play their looping video in the card
            poster="{{ include.post.cover | relative_url }}"
            {% if include.post.clip_pos %}style="object-position: {{ include.post.clip_pos }}"{% endif %}
            aria-hidden="true" tabindex="-1">
-      <source src="{{ '/assets/img/posts/' | append: include.post.clip | append: '.webm' | relative_url }}" type="video/webm">
       <source src="{{ '/assets/img/posts/' | append: include.post.clip | append: '.mp4' | relative_url }}" type="video/mp4">
     </video>
     {%- else %}

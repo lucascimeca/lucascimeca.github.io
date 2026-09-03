@@ -6,7 +6,11 @@ Usage: {% include clip.html name="palpation" alt="..." caption="..." portrait=tr
   <video autoplay loop muted playsinline preload="metadata"
          poster="{{ '/assets/img/posts/' | append: include.name | append: '-poster.jpg' | relative_url }}"
          aria-label="{{ include.alt | escape }}">
-    <source src="{{ '/assets/img/posts/' | append: include.name | append: '.webm' | relative_url }}" type="video/webm">
+    {%- comment -%}
+      H.264 MP4 only. WebM was listed first and iOS Safari would claim it, then
+      fail to decode, leaving a frozen poster — and the WebM files were larger
+      than the MP4s anyway.
+    {%- endcomment -%}
     <source src="{{ '/assets/img/posts/' | append: include.name | append: '.mp4' | relative_url }}" type="video/mp4">
     <img src="{{ '/assets/img/posts/' | append: include.name | append: '-poster.jpg' | relative_url }}"
          alt="{{ include.alt | escape }}">

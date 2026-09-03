@@ -28,12 +28,33 @@
   if (clips.length) {
     var onScreen = [];
 
+    var tapArmed = false;
+
+    // If autoplay is refused outright — iOS Low Power Mode is the usual
+    // reason — start the clips on the visitor's first tap instead.
+    var armTapFallback = function () {
+      if (tapArmed) return;
+      tapArmed = true;
+      var go = function () {
+        onScreen.forEach(function (v) {
+          v.muted = true;
+          var p = v.play();
+          if (p && p.catch) p.catch(function () {});
+        });
+      };
+      document.addEventListener('touchstart', go, { once: true, passive: true });
+      document.addEventListener('click', go, { once: true });
+    };
+
     var tryPlay = function (v) {
       // Chrome refuses to start muted, video-only media while the page is
       // hidden ("paused to save power"), so wait for it to become visible.
       if (document.hidden) return;
+      // Safari does not always honour the muted attribute on its own, and an
+      // unmuted play() is blocked without a gesture.
+      v.muted = true;
       var p = v.play();
-      if (p && p.catch) p.catch(function () { /* blocked; poster stays up */ });
+      if (p && p.catch) p.catch(armTapFallback);
     };
 
     if ('IntersectionObserver' in window) {
