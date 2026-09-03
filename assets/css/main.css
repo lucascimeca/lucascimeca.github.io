@@ -45,10 +45,6 @@
   /* Highlighter wash behind institution names */
   --mark:             rgba(44, 70, 216, 0.07);
 
-  /* Dark nav bar */
-  --navbar-bg:        #1B1F26;
-  --navbar-fg:        #B9BFCB;
-  --navbar-fg-strong: #FFFFFF;
 
   color-scheme: light;
 }
@@ -77,9 +73,6 @@
 
   --mark:             rgba(132, 151, 255, 0.11);
 
-  --navbar-bg:        #1E232C;   /* lifted off the page so the bar still reads */
-  --navbar-fg:        #A9B0BD;
-  --navbar-fg-strong: #FFFFFF;
 
   color-scheme: dark;
 }
@@ -248,14 +241,23 @@ a.masthead-name:hover { color: var(--accent); }
 
 /* --- Nav bar ------------------------------------------------------------- */
 
+/*
+ * The nav sits in a band ruled off above and below rather than filled — it
+ * separates from the masthead without dropping a black slab into the page.
+ */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: var(--navbar-bg);
-  color: var(--navbar-fg);
-  border-bottom: 1px solid rgba(255, 255, 255, .07);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  transition: box-shadow .2s ease;
 }
+/* A whisper of depth once content is passing underneath */
+.site-header.is-stuck { box-shadow: 0 10px 20px -18px rgba(0, 0, 0, .5); }
 
 .site-header .wrap {
   position: relative;
@@ -281,13 +283,13 @@ a.masthead-name:hover { color: var(--accent); }
   text-transform: uppercase;
 }
 .nav-links a {
-  color: var(--navbar-fg);
+  color: var(--fg-muted);
   padding-block: .35rem;
   position: relative;
   transition: color .16s ease;
 }
-.nav-links a:hover { color: var(--navbar-fg-strong); }
-.nav-links a[aria-current="page"] { color: var(--navbar-fg-strong); font-weight: 600; }
+.nav-links a:hover { color: var(--fg-strong); }
+.nav-links a[aria-current="page"] { color: var(--fg-strong); font-weight: 600; }
 /* Nav items that leave the site carry a small outbound arrow */
 .nav-external {
   display: inline-flex;
@@ -318,18 +320,18 @@ a.masthead-name:hover { color: var(--accent); }
   display: inline-grid;
   place-items: center;
   width: 34px; height: 34px;
-  border: 1px solid color-mix(in srgb, var(--navbar-fg) 32%, transparent);
+  border: 1px solid var(--line);
   border-radius: 50%;
   background: transparent;
-  color: var(--navbar-fg);
+  color: var(--fg-muted);
   cursor: pointer;
   padding: 0;
   transition: color .16s ease, border-color .16s ease, background .16s ease;
 }
 .theme-toggle:hover {
-  color: var(--navbar-fg-strong);
-  border-color: color-mix(in srgb, var(--navbar-fg) 60%, transparent);
-  background: rgba(255, 255, 255, .08);
+  color: var(--fg-strong);
+  border-color: var(--line-strong);
+  background: var(--bg-elev);
 }
 .theme-toggle svg { width: 16px; height: 16px; }
 .theme-toggle .icon-moon { display: none; }
