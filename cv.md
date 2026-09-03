@@ -2,8 +2,6 @@
 layout: page
 title: Curriculum Vitae
 permalink: /cv/
-lede: >-
-  The full CV, always the current version.
 description: Luca Scimeca's curriculum vitae.
 ---
 
