@@ -63,14 +63,33 @@
     }
   }
 
-  /* ---- Header hairline once the page scrolls --------------------------- */
+  /* ---- Masthead fade + header hairline on scroll ------------------------ */
   var header = document.getElementById('siteHeader');
-  if (header) {
+  var masthead = document.getElementById('masthead');
+
+  if (header || masthead) {
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var ticking = false;
+
     var sync = function () {
-      header.classList.toggle('is-stuck', window.scrollY > 8);
+      var y = window.scrollY;
+
+      if (header) header.classList.toggle('is-stuck', y > 8);
+
+      if (masthead) {
+        // Fade out over the masthead's own height, so it is gone by the time
+        // it has scrolled past rather than at some arbitrary pixel offset.
+        var h = masthead.offsetHeight || 1;
+        var p = Math.min(1, y / (h * 0.8));
+        masthead.style.opacity = String(1 - p);
+        if (!reduce) masthead.style.transform = 'translateY(' + (-p * 12).toFixed(1) + 'px)';
+        // Stop it swallowing clicks once invisible
+        masthead.style.visibility = p >= 1 ? 'hidden' : '';
+      }
+
       ticking = false;
     };
+
     window.addEventListener('scroll', function () {
       if (!ticking) { window.requestAnimationFrame(sync); ticking = true; }
     }, { passive: true });

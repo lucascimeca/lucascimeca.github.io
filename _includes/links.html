@@ -2,15 +2,17 @@
 Link rail: the CV as a labelled button, everything else as a brand-coloured
 icon that names itself on hover (and to screen readers).
 {%- endcomment -%}
+{%- if include.variant != 'icons' -%}
 <div class="linkrail{% if include.variant == 'bar' %} linkrail--bar{% endif %}">
   {%- for l in site.data.links %}{% if l.primary %}
   <a class="btn btn-primary{% if include.variant == 'bar' %} btn-sm{% endif %}" href="{{ l.url }}"
      {%- unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>
-    {% include icon.html name=l.icon %}{% if include.variant == 'bar' %}{{ l.short }}{% else %}{{ l.name }}{% endif %}
+    {% include icon.html name=l.icon %}{{ l.name }}
   </a>
   {%- endif %}{% endfor %}
+{%- endif -%}
 
-  <div class="sociallinks">
+  <div class="sociallinks{% if include.variant == 'icons' %} sociallinks--masthead{% endif %}">
     {%- for l in site.data.links %}{% unless l.primary %}
     <a class="sociallink"
        href="{{ l.url }}"
@@ -21,4 +23,6 @@ icon that names itself on hover (and to screen readers).
     </a>
     {%- endunless %}{% endfor %}
   </div>
+{%- if include.variant != 'icons' %}
 </div>
+{%- endif %}

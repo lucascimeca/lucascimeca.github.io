@@ -45,6 +45,11 @@
   /* Highlighter wash behind institution names */
   --mark:             rgba(44, 70, 216, 0.07);
 
+  /* Dark nav bar */
+  --navbar-bg:        #1B1F26;
+  --navbar-fg:        #B9BFCB;
+  --navbar-fg-strong: #FFFFFF;
+
   color-scheme: light;
 }
 
@@ -71,6 +76,10 @@
   --logo-chip-line:   #333944;
 
   --mark:             rgba(132, 151, 255, 0.11);
+
+  --navbar-bg:        #1E232C;   /* lifted off the page so the bar still reads */
+  --navbar-fg:        #A9B0BD;
+  --navbar-fg-strong: #FFFFFF;
 
   color-scheme: dark;
 }
@@ -197,61 +206,101 @@ hr {
    Header / nav
    ========================================================================== */
 
+/* --- Masthead ------------------------------------------------------------ */
+
+.masthead {
+  padding-top: clamp(1.75rem, 4vw, 2.75rem);
+  padding-bottom: clamp(1.25rem, 2.5vw, 1.75rem);
+  will-change: opacity, transform;
+}
+.masthead-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+  flex-wrap: wrap;
+}
+.masthead-id { min-width: 0; }
+
+.masthead-name {
+  display: block;
+  margin: 0;
+  font-size: clamp(1.75rem, 4.4vw, 2.625rem);
+  font-weight: 550;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: var(--fg-strong);
+}
+a.masthead-name { transition: color .16s ease; }
+a.masthead-name:hover { color: var(--accent); }
+
+.masthead-tagline {
+  margin: .6rem 0 0;
+  font-size: .8125rem;
+  font-weight: 500;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--fg);
+}
+
+.sociallinks--masthead { gap: .3rem; flex: none; }
+
+/* --- Nav bar ------------------------------------------------------------- */
+
 .site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: saturate(180%) blur(14px);
-  -webkit-backdrop-filter: saturate(180%) blur(14px);
-  border-bottom: 1px solid transparent;
-  transition: border-color .2s ease;
+  background: var(--navbar-bg);
+  color: var(--navbar-fg);
+  border-bottom: 1px solid rgba(255, 255, 255, .07);
 }
-.site-header.is-stuck { border-bottom-color: var(--line); }
 
 .site-header .wrap {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  min-height: 64px;
-}
-
-.brand {
-  font-weight: 600;
-  font-size: .9375rem;
-  letter-spacing: -0.01em;
-  color: var(--fg-strong);
-  white-space: nowrap;
-}
-.brand .brand-dot {
-  display: inline-block;
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--accent);
-  margin-right: .55rem;
-  vertical-align: 1px;
+  justify-content: center;   /* links centred, toggle pinned right */
+  min-height: 56px;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: clamp(.25rem, 2vw, 1.75rem);
 }
 .nav-links {
   display: flex;
   align-items: center;
-  gap: clamp(.75rem, 2.4vw, 1.75rem);
-  font-size: .875rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(.85rem, 2.6vw, 2.25rem);
+  font-size: .8125rem;
+  font-weight: 500;
+  letter-spacing: .07em;
+  text-transform: uppercase;
 }
 .nav-links a {
-  color: var(--fg-muted);
+  color: var(--navbar-fg);
   padding-block: .35rem;
   position: relative;
   transition: color .16s ease;
 }
-.nav-links a:hover { color: var(--fg-strong); }
-.nav-links a[aria-current="page"] { color: var(--fg-strong); font-weight: 500; }
+.nav-links a:hover { color: var(--navbar-fg-strong); }
+.nav-links a[aria-current="page"] { color: var(--navbar-fg-strong); font-weight: 600; }
+/* Nav items that leave the site carry a small outbound arrow */
+.nav-external {
+  display: inline-flex;
+  align-items: center;
+  gap: .28rem;
+}
+.nav-external svg {
+  width: 10px;
+  height: 10px;
+  opacity: .55;
+  flex: none;
+}
+
 .nav-links a[aria-current="page"]::after {
   content: "";
   position: absolute;
@@ -262,18 +311,26 @@ hr {
 }
 
 .theme-toggle {
+  position: absolute;
+  right: var(--gutter);
+  top: 50%;
+  transform: translateY(-50%);
   display: inline-grid;
   place-items: center;
   width: 34px; height: 34px;
-  border: 1px solid var(--line);
+  border: 1px solid color-mix(in srgb, var(--navbar-fg) 32%, transparent);
   border-radius: 50%;
   background: transparent;
-  color: var(--fg-muted);
+  color: var(--navbar-fg);
   cursor: pointer;
   padding: 0;
   transition: color .16s ease, border-color .16s ease, background .16s ease;
 }
-.theme-toggle:hover { color: var(--fg-strong); border-color: var(--line-strong); background: var(--bg-elev); }
+.theme-toggle:hover {
+  color: var(--navbar-fg-strong);
+  border-color: color-mix(in srgb, var(--navbar-fg) 60%, transparent);
+  background: rgba(255, 255, 255, .08);
+}
 .theme-toggle svg { width: 16px; height: 16px; }
 .theme-toggle .icon-moon { display: none; }
 :root[data-theme="dark"] .theme-toggle .icon-sun  { display: none; }
@@ -295,11 +352,11 @@ hr {
 .home-main { min-width: 0; }
 
 .home-side {
-  /* Sticks below the 64px header once the page scrolls. Falls back to normal
+  /* Sticks below the 56px nav bar once the page scrolls. Falls back to normal
      flow wherever `position: sticky` is unsupported, and is switched off
      entirely on narrow screens (see the media query below). */
   position: sticky;
-  top: 84px;
+  top: 76px;
 }
 .home-side-inner {
   display: flex;
@@ -321,7 +378,7 @@ hr {
  */
 .linkbar {
   position: sticky;
-  top: 63px;
+  top: 55px;
   z-index: 40;
   background: color-mix(in srgb, var(--bg) 94%, transparent);
   backdrop-filter: saturate(180%) blur(14px);
@@ -361,13 +418,13 @@ hr {
   position: relative;
   display: grid;
   place-items: center;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   color: var(--brand, var(--fg));
   transition: background .16s ease, transform .16s ease;
 }
-.sociallink svg { width: 21px; height: 21px; }
+.sociallink svg { width: 26px; height: 26px; }
 .sociallink:hover { background: color-mix(in srgb, var(--brand) 12%, transparent); transform: translateY(-1px); }
 :root[data-theme="dark"] .sociallink { color: var(--brand-dark, var(--brand, var(--fg))); }
 
@@ -408,14 +465,10 @@ hr {
   .sociallink:last-child:focus-visible::after { transform: translateX(0) translateY(0); }
 }
 
-.home-intro h1 {
-  font-size: clamp(2.25rem, 5vw, 3.5rem);
-  font-weight: 550;
-  letter-spacing: -0.036em;
-  line-height: 1.04;
-  margin: 0 0 1.15rem;
+.home-intro .hero-lede {
+  font-size: clamp(1.125rem, 1.9vw, 1.3125rem);
+  margin-bottom: 2rem;
 }
-.home-intro .hero-lede { margin-bottom: 2rem; }
 
 .block { padding-top: clamp(2.75rem, 6vw, 4.25rem); }
 
@@ -1151,6 +1204,10 @@ body:has(.linkbar) .page-head { border-bottom: 0; }
   .home-side-inner { align-items: center; gap: 1.25rem; }
   .home-side .portrait { width: 200px; }
   .linkrail { width: 100%; }
+  /* Once the columns stack, the masthead icons and the rail icons end up a
+     few centimetres apart. Keep the rail, drop the duplicate. */
+  .sociallinks--masthead { display: none; }
+  .masthead-inner { gap: 0; }
 }
 
 @media (max-width: 640px) {
@@ -1170,12 +1227,13 @@ body:has(.linkbar) .page-head { border-bottom: 0; }
   .stack-row { grid-template-columns: 1fr; gap: .75rem; }
   .stack-row > .entry-years { padding-top: 0; }
 
-  .nav-links { gap: 1rem; font-size: .8125rem; }
-  .brand { font-size: .875rem; }
+  .nav-links { gap: .9rem; font-size: .8125rem; }
 
   .post-nav .next { text-align: left; }
 }
 
-@media (max-width: 420px) {
-  .brand .brand-name-full { display: none; }
+@media (max-width: 460px) {
+  .site-header .wrap { justify-content: flex-start; padding-right: 3.25rem; }
+  .nav-links { gap: .8rem; font-size: .78125rem; }
+  .masthead { padding-top: 1.75rem; }
 }

@@ -6,27 +6,45 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
+  <!-- Masthead: name and tagline left, links right. Fades out on scroll. -->
+  <div class="masthead" id="masthead">
+    <div class="wrap masthead-inner">
+      <div class="masthead-id">
+        {%- if page.url == '/' %}
+        <h1 class="masthead-name">{{ site.title }}</h1>
+        {%- else %}
+        <a class="masthead-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {%- endif %}
+        <p class="masthead-tagline">{{ site.tagline }}</p>
+      </div>
+      {% include links.html variant="icons" %}    </div>
+  </div>
+
+  <!-- Nav bar: stays pinned once the masthead has scrolled away. -->
   <header class="site-header" id="siteHeader">
     <div class="wrap">
-      <a class="brand" href="{{ '/' | relative_url }}">
-        <span class="brand-dot" aria-hidden="true"></span>Luca<span class="brand-name-full">&nbsp;Scimeca</span>
-      </a>
-
       <nav class="nav" aria-label="Primary">
         <div class="nav-links">
           <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+          {%- comment -%}
+            Publications live on Google Scholar rather than on this site, so the
+            nav item opens there. URL comes from _data/links.yml so there is one
+            source of truth.
+          {%- endcomment -%}
+          {%- assign scholar = site.data.links | where: "short", "Scholar" | first %}
+          <a class="nav-external" href="{{ scholar.url }}" target="_blank" rel="noopener">Publications{% include icon.html name="external" %}</a>
           <a href="{{ '/work/' | relative_url }}"{% if page.url contains '/work' %} aria-current="page"{% endif %}>Work</a>
           {%- if site.show_posts %}
           <a href="{{ '/posts/' | relative_url }}"{% if page.url contains '/posts' %} aria-current="page"{% endif %}>Posts</a>
           {%- endif %}
         </div>
-
-        <button class="theme-toggle" id="themeToggle" type="button"
-                aria-label="Switch between light and dark theme">
-          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
-          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79"/></svg>
-        </button>
       </nav>
+
+      <button class="theme-toggle" id="themeToggle" type="button"
+              aria-label="Switch between light and dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79"/></svg>
+      </button>
     </div>
   </header>
 
