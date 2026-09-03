@@ -6,10 +6,12 @@ description: >-
   of AI and scientific discovery.
 ---
 
-<!-- ====================================================== Hero -->
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div>
+<div class="wrap home-grid">
+
+  <!-- ==================================================== Main column -->
+  <div class="home-main">
+
+    <section class="home-intro">
       <p class="hero-kicker"><span class="pulse" aria-hidden="true"></span>Currently building something new</p>
 
       <h1>Luca Scimeca</h1>
@@ -19,7 +21,166 @@ description: >-
         <strong>AI and scientific discovery</strong>.
       </p>
 
-      <div class="actions">
+      {%- for c in site.data.experience.current %}
+      <div class="now">
+        <span class="now-label">Now</span>
+        <span class="now-title">{{ c.role }} @ <span class="mark">{{ c.org }}</span></span>
+        {%- if c.note %}<span class="now-note">{{ c.note }}</span>{% endif %}
+      </div>
+      {%- endfor %}
+    </section>
+
+    <!-- Roles and education, side by side -->
+    <section class="block">
+      <div class="dual">
+
+        <div>
+          <h2 class="eyebrow">Selected roles</h2>
+          <div class="reclist">
+            {%- for e in site.data.experience.past -%}
+            {%- if e.featured %}
+            <div class="rec">
+              {%- if e.logo %}
+              <span class="rec-logo"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy"></span>
+              {%- else %}
+              <span class="rec-logo rec-logo--empty" aria-hidden="true"></span>
+              {%- endif %}
+              <div class="rec-body">
+                <p class="rec-years">{{ e.years }}</p>
+                <p class="rec-role">{{ e.role }}</p>
+                <p class="rec-org"><span class="mark">{{ e.org }}</span>{% if e.location %}<br>{{ e.location }}{% endif %}</p>
+              </div>
+            </div>
+            {%- endif -%}
+            {%- endfor %}
+          </div>
+        </div>
+
+        <div>
+          <h2 class="eyebrow">Education</h2>
+          <div class="reclist">
+            {%- for e in site.data.education -%}
+            {%- if e.featured %}
+            <div class="rec">
+              {%- if e.logo %}
+              <span class="rec-logo"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy"></span>
+              {%- else %}
+              <span class="rec-logo rec-logo--empty" aria-hidden="true"></span>
+              {%- endif %}
+              <div class="rec-body">
+                <p class="rec-years">{{ e.years }}</p>
+                <p class="rec-role">{{ e.degree }}</p>
+                <p class="rec-org"><span class="mark">{{ e.org }}</span>{% if e.location %}<br>{{ e.location }}{% endif %}</p>
+              </div>
+            </div>
+            {%- endif -%}
+            {%- endfor %}
+          </div>
+        </div>
+
+      </div>
+
+      <p style="margin-top:1.75rem">
+        <a class="btn" href="{{ '/work/' | relative_url }}">
+          Full work history {% include icon.html name="arrow-right" %}
+        </a>
+      </p>
+    </section>
+
+    <section class="block">
+      <h2 class="eyebrow">Biography</h2>
+      <div class="post-body" style="padding:0">
+        <p>
+          I received my BEng in Artificial Intelligence and Software Engineering in 2017
+          from the <a href="https://www.ed.ac.uk/" target="_blank" rel="noopener">University of Edinburgh</a>,
+          where I graduated top of my class, taking the Department Prize and the Howe Prize
+          for the best performance in Artificial Intelligence.
+        </p>
+        <p>
+          I pursued my PhD and first postdoc at the
+          <a href="https://www.cam.ac.uk/" target="_blank" rel="noopener">University of Cambridge</a>'s
+          <a href="https://birlab.org/" target="_blank" rel="noopener">Biologically Inspired Robotics Laboratory</a>
+          under Prof. Fumiya Iida, working on machine learning for sensory perception and
+          action in robotic systems.
+        </p>
+        <p>
+          In 2021 I joined
+          <a href="https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab" target="_blank" rel="noopener">Naver Corp.</a>
+          as a visiting AI research scientist, on learning representations, robustness and
+          generalisation in deep learning. From 2021 to 2023 I held a postdoctoral fellowship
+          at <a href="https://www.harvard.edu/" target="_blank" rel="noopener">Harvard University</a> and
+          <a href="https://www.dana-farber.org/" target="_blank" rel="noopener">Dana-Farber</a>,
+          working closely with Dr Ming-Ru Wu on using machine learning to answer basic questions
+          in tumour biology and immunotherapy — with the goal of improving the quality and
+          efficiency of cancer treatment.
+        </p>
+        <p>
+          In 2023 I joined Yoshua Bengio's group at the
+          <a href="https://mila.quebec/en" target="_blank" rel="noopener">Mila AI Institute</a>
+          as a postdoctoral fellow, where my work focused on generative AI and probabilistic
+          inference, along with applications to drug discovery and robotics. Most recently I was
+          a research scientist at Sapient Intelligence, working on generative AI and probabilistic
+          inference for reasoning, language and vision, where we released HRM-Text and Unigen —
+          state-of-the-art models at their size for language and vision.
+        </p>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2 class="eyebrow">Research interests</h2>
+      <div class="post-body" style="padding:0">
+        <p>
+          I am interested in the interplay between foundational AI research and its
+          applications to critical domains — particularly generative AI, reasoning,
+          probabilistic inference, multi-modal perception and learning representations,
+          as well as what those research directions imply downstream for fairness,
+          explicability and safe inference.
+        </p>
+        <p>
+          I am also enthusiastic about the impact of machine learning on the sciences and
+          engineering, and have been fortunate to work across vision, computational biology
+          (deep RL, bio-sequence design), robotics (visual and tactile action/perception,
+          multi-modal time series) and even astrophysics (lensing and inverse problems).
+        </p>
+        <p>
+          For collaborations, reach me at
+          <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
+        </p>
+      </div>
+    </section>
+
+    {%- if site.show_posts %}
+    {%- assign visible_posts = site.posts | where_exp: "p", "p.visible != false" -%}
+    {%- if visible_posts.size > 0 %}
+    <section class="block">
+      <h2 class="eyebrow">Writing</h2>
+      <div class="card-grid">
+        {%- for post in visible_posts limit: 4 %}
+        {% include post-card.html post=post %}
+        {%- endfor %}
+      </div>
+      {%- if visible_posts.size > 4 %}
+      <p style="margin-top:2rem">
+        <a class="btn" href="{{ '/posts/' | relative_url }}">
+          All posts {% include icon.html name="arrow-right" %}
+        </a>
+      </p>
+      {%- endif %}
+    </section>
+    {%- endif %}
+    {%- endif %}
+
+  </div>
+
+  <!-- ==================================================== Side column -->
+  <aside class="home-side">
+    <div class="home-side-inner">
+      <div class="portrait">
+        <img src="{{ '/assets/img/luca-scimeca.jpg' | relative_url }}"
+             alt="Portrait of Luca Scimeca" width="1100" height="1375">
+      </div>
+
+      <div class="actions actions--side">
         {%- for l in site.data.links %}
         <a class="btn{% if l.primary %} btn-primary{% endif %}"
            href="{{ l.url }}"
@@ -29,179 +190,6 @@ description: >-
         {%- endfor %}
       </div>
     </div>
+  </aside>
 
-    <div class="hero-portrait">
-      <div class="portrait">
-        <img src="{{ '/assets/img/luca-scimeca.jpg' | relative_url }}"
-             alt="Portrait of Luca Scimeca" width="1120" height="1400">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================== Now -->
-<section class="section" style="padding-top:0">
-  <div class="wrap">
-    {%- for c in site.data.experience.current %}
-    <div class="now">
-      <span class="now-label">Now</span>
-      <span class="now-title">{{ c.role }} @ <span class="mark">{{ c.org }}</span></span>
-      {%- if c.note %}<span class="now-note">{{ c.note }}</span>{% endif %}
-    </div>
-    {%- endfor %}
-  </div>
-</section>
-
-<!-- ====================================================== Selected roles -->
-<section class="section">
-  <div class="wrap">
-    <h2 class="eyebrow">Selected roles</h2>
-
-    <div class="timeline timeline--compact">
-      {%- for e in site.data.experience.past -%}
-      {%- if e.featured %}
-      <div class="entry">
-        <div class="entry-years">{{ e.years }}</div>
-        {%- if e.logo %}
-        <div class="entry-logo"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy"></div>
-        {%- else %}
-        <div class="entry-logo entry-logo--empty" aria-hidden="true"></div>
-        {%- endif %}
-        <div class="entry-body">
-          <p class="entry-role">{{ e.role }}</p>
-          <p class="entry-org"><span class="mark">{{ e.org }}</span>{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
-        </div>
-      </div>
-      {%- endif -%}
-      {%- endfor %}
-    </div>
-
-    <p style="margin-top:1.75rem">
-      <a class="btn" href="{{ '/work/' | relative_url }}">
-        Full work history {% include icon.html name="arrow-right" %}
-      </a>
-    </p>
-  </div>
-</section>
-
-<!-- ====================================================== Education -->
-<section class="section">
-  <div class="wrap">
-    <h2 class="eyebrow">Education</h2>
-
-    <div class="timeline timeline--compact">
-      {%- for e in site.data.education -%}
-      {%- if e.featured %}
-      <div class="entry">
-        <div class="entry-years">{{ e.years }}</div>
-        {%- if e.logo %}
-        <div class="entry-logo"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy"></div>
-        {%- else %}
-        <div class="entry-logo entry-logo--empty" aria-hidden="true"></div>
-        {%- endif %}
-        <div class="entry-body">
-          <p class="entry-role">{{ e.degree }}</p>
-          <p class="entry-org"><span class="mark">{{ e.org }}</span>{% if e.location %}<span class="sep">·</span>{{ e.location }}{% endif %}</p>
-        </div>
-      </div>
-      {%- endif -%}
-      {%- endfor %}
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================== Biography -->
-<section class="section">
-  <div class="wrap">
-    <h2 class="eyebrow">Biography</h2>
-
-    <div class="post-body" style="padding:0">
-      <p>
-        I received my BEng in Artificial Intelligence and Software Engineering in 2017
-        from the <a href="https://www.ed.ac.uk/" target="_blank" rel="noopener">University of Edinburgh</a>,
-        where I graduated top of my class, taking the Department Prize and the Howe Prize
-        for the best performance in Artificial Intelligence.
-      </p>
-      <p>
-        I pursued my PhD and first postdoc at the
-        <a href="https://www.cam.ac.uk/" target="_blank" rel="noopener">University of Cambridge</a>'s
-        <a href="https://birlab.org/" target="_blank" rel="noopener">Biologically Inspired Robotics Laboratory</a>
-        under Prof. Fumiya Iida, working on machine learning for sensory perception and
-        action in robotic systems.
-      </p>
-      <p>
-        In 2021 I joined
-        <a href="https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab" target="_blank" rel="noopener">Naver Corp.</a>
-        as a visiting AI research scientist, on learning representations, robustness and
-        generalisation in deep learning. From 2021 to 2023 I held a postdoctoral fellowship
-        at <a href="https://www.harvard.edu/" target="_blank" rel="noopener">Harvard University</a> and
-        <a href="https://www.dana-farber.org/" target="_blank" rel="noopener">Dana-Farber</a>,
-        working closely with Dr Ming-Ru Wu on using machine learning to answer basic questions
-        in tumour biology and immunotherapy — with the goal of improving the quality and
-        efficiency of cancer treatment.
-      </p>
-      <p>
-        In 2023 I joined Yoshua Bengio's group at the
-        <a href="https://mila.quebec/en" target="_blank" rel="noopener">Mila AI Institute</a>
-        as a postdoctoral fellow, where my work focused on generative AI and probabilistic
-        inference, along with applications to drug discovery and robotics. Most recently I was
-        a research scientist at Sapient Intelligence, working on generative AI and probabilistic
-        inference for reasoning, language and vision, where we released HRM-Text and Unigen —
-        state-of-the-art models at their size for language and vision.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================== Research interests -->
-<section class="section">
-  <div class="wrap">
-    <h2 class="eyebrow">Research interests</h2>
-
-    <div class="post-body" style="padding:0">
-      <p>
-        I am interested in the interplay between foundational AI research and its
-        applications to critical domains — particularly generative AI, reasoning,
-        probabilistic inference, multi-modal perception and learning representations,
-        as well as what those research directions imply downstream for fairness,
-        explicability and safe inference.
-      </p>
-      <p>
-        I am also enthusiastic about the impact of machine learning on the sciences and
-        engineering, and have been fortunate to work across vision, computational biology
-        (deep RL, bio-sequence design), robotics (visual and tactile action/perception,
-        multi-modal time series) and even astrophysics (lensing and inverse problems).
-      </p>
-      <p>
-        For collaborations, reach me at
-        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================== Writing -->
-{%- if site.show_posts %}
-{%- assign visible_posts = site.posts | where_exp: "p", "p.visible != false" -%}
-{%- if visible_posts.size > 0 %}
-<section class="section">
-  <div class="wrap">
-    <h2 class="eyebrow">Writing</h2>
-
-    <div class="card-grid">
-      {%- for post in visible_posts limit: 3 %}
-      {% include post-card.html post=post %}
-      {%- endfor %}
-    </div>
-
-    {%- if visible_posts.size > 3 %}
-    <p style="margin-top:2rem">
-      <a class="btn" href="{{ '/posts/' | relative_url }}">
-        All posts {% include icon.html name="arrow-right" %}
-      </a>
-    </p>
-    {%- endif %}
-  </div>
-</section>
-{%- endif %}
-{%- endif %}
+</div>

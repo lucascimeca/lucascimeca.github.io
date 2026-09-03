@@ -280,20 +280,105 @@ hr {
 :root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 
 /* ==========================================================================
-   Hero
+   Home layout — content column with a sticky portrait/links rail beside it
    ========================================================================== */
 
-.hero {
-  padding-top: clamp(3rem, 8vw, 6rem);
-  padding-bottom: clamp(3rem, 7vw, 5.5rem);
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 264px;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: start;
+  padding-top: clamp(2.25rem, 5vw, 3.5rem);
+  padding-bottom: var(--section);
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
-  gap: clamp(2rem, 6vw, 5rem);
-  align-items: center;
+.home-main { min-width: 0; }
+
+.home-side {
+  /* Sticks below the 64px header once the page scrolls. Falls back to normal
+     flow wherever `position: sticky` is unsupported, and is switched off
+     entirely on narrow screens (see the media query below). */
+  position: sticky;
+  top: 84px;
 }
+.home-side-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.actions--side { justify-content: center; }
+.actions--side .btn { font-size: .8125rem; padding: .58rem .85rem; }
+
+.home-intro h1 {
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 550;
+  letter-spacing: -0.036em;
+  line-height: 1.04;
+  margin: 0 0 1.15rem;
+}
+.home-intro .hero-lede { margin-bottom: 2rem; }
+
+.block { padding-top: clamp(2.75rem, 6vw, 4.25rem); }
+
+/* Roles and education, side by side */
+.dual {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  gap: clamp(1.75rem, 4vw, 3rem);
+}
+
+.reclist { display: grid; }
+
+.rec {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 0 1.05rem;
+  align-items: start;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--line);
+}
+.rec:last-child { border-bottom: 1px solid var(--line); }
+.eyebrow + .reclist .rec:first-child { border-top: 0; }
+
+.rec-logo {
+  width: 56px; height: 56px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: var(--logo-chip);
+  border: 1px solid var(--logo-chip-line);
+  overflow: hidden;
+}
+.rec-logo img { width: 42px; height: 42px; object-fit: contain; }
+.rec-logo--empty { background: none; border-color: transparent; }
+
+.rec-body { min-width: 0; }
+.rec-years {
+  font-family: var(--mono);
+  font-size: .8125rem;
+  color: var(--fg-muted);
+  margin: 0 0 .3rem;
+  font-variant-numeric: tabular-nums;
+}
+.rec-role {
+  font-size: 1rem;
+  font-weight: 550;
+  letter-spacing: -0.014em;
+  color: var(--fg-strong);
+  margin: 0 0 .25rem;
+  line-height: 1.32;
+}
+.rec-org {
+  font-size: .9063rem;
+  color: var(--fg-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
 
 .hero-kicker {
   font-family: var(--mono);
@@ -318,14 +403,6 @@ hr {
   0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 42%, transparent); }
   70%  { box-shadow: 0 0 0 9px transparent; }
   100% { box-shadow: 0 0 0 0 transparent; }
-}
-
-.hero h1 {
-  font-size: clamp(2.5rem, 6.2vw, 4.125rem);
-  font-weight: 550;
-  letter-spacing: -0.038em;
-  line-height: 1.02;
-  margin: 0 0 1.35rem;
 }
 
 .hero-lede {
@@ -360,14 +437,6 @@ hr {
   gap: .625rem;
 }
 
-/*
- * Seven labelled links never fit on one line, so centre the block — two ragged
- * left-aligned rows read as an accident, two centred rows read as a group.
- */
-.hero .actions {
-  justify-content: center;
-  margin-top: 2.25rem;
-}
 
 .btn {
   display: inline-flex;
@@ -953,16 +1022,22 @@ hr {
    Responsive
    ========================================================================== */
 
-@media (max-width: 860px) {
-  .hero-grid {
+@media (max-width: 900px) {
+  .home-grid {
     grid-template-columns: 1fr;
-    gap: 2.25rem;
+    gap: 2.5rem;
   }
-  .hero-portrait {
+  .home-side {
+    position: static;   /* no sticky rail once the columns stack */
+    top: auto;
     order: -1;
-    max-width: 232px;
+    width: 100%;
   }
-  .portrait { aspect-ratio: 1 / 1; border-radius: var(--radius); }
+  /* Cap the photo, not the whole rail, so the links keep the full width to
+     wrap across instead of stacking into a tall tower. */
+  .home-side-inner { align-items: center; gap: 1.25rem; }
+  .home-side .portrait { width: 200px; }
+  .actions--side { width: 100%; }
 }
 
 @media (max-width: 640px) {
