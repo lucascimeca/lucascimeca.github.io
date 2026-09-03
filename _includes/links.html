@@ -5,8 +5,9 @@ icon that names itself on hover (and to screen readers).
 {%- if include.variant != 'icons' -%}
 <div class="linkrail{% if include.variant == 'bar' %} linkrail--bar{% endif %}">
   {%- for l in site.data.links %}{% if l.primary %}
-  <a class="btn btn-primary{% if include.variant == 'bar' %} btn-sm{% endif %}" href="{{ l.url }}"
-     {%- unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>
+  <a class="btn btn-primary{% if include.variant == 'bar' %} btn-sm{% endif %}"
+     href="{% if l.url contains '://' or l.url contains 'mailto:' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}"
+     {%- if l.url contains '://' %} target="_blank" rel="noopener"{% endif %}>
     {% include icon.html name=l.icon %}{{ l.name }}
   </a>
   {%- endif %}{% endfor %}
@@ -15,8 +16,8 @@ icon that names itself on hover (and to screen readers).
   <div class="sociallinks{% if include.variant == 'icons' %} sociallinks--masthead{% endif %}">
     {%- for l in site.data.links %}{% unless l.primary %}
     <a class="sociallink"
-       href="{{ l.url }}"
-       {%- unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}
+       href="{% if l.url contains '://' or l.url contains 'mailto:' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}"
+       {%- if l.url contains '://' %} target="_blank" rel="noopener"{% endif %}
        style="--brand: {{ l.color }};{% if l.color_dark %} --brand-dark: {{ l.color_dark }};{% endif %}"
        data-label="{{ l.name }}" aria-label="{{ l.name }}">
       {% include icon.html name=l.icon %}

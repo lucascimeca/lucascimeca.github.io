@@ -290,19 +290,6 @@ a.masthead-name:hover { color: var(--accent); }
 }
 .nav-links a:hover { color: var(--fg-strong); }
 .nav-links a[aria-current="page"] { color: var(--fg-strong); font-weight: 600; }
-/* Nav items that leave the site carry a small outbound arrow */
-.nav-external {
-  display: inline-flex;
-  align-items: center;
-  gap: .28rem;
-}
-.nav-external svg {
-  width: 10px;
-  height: 10px;
-  opacity: .55;
-  flex: none;
-}
-
 .nav-links a[aria-current="page"]::after {
   content: "";
   position: absolute;
@@ -373,10 +360,32 @@ a.masthead-name:hover { color: var(--accent); }
   gap: 1.1rem;
 }
 
+/* Embedded PDF viewer (CV page) */
+.pdf-frame {
+  height: min(78vh, 1040px);
+  min-height: 480px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-sunken);
+}
+.pdf-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.pdf-note {
+  margin-top: 1.1rem;
+  font-size: .875rem;
+  color: var(--fg-muted);
+  max-width: 52ch;
+}
+
 /*
  * Sticky link bar (Work page). Rendered as a sibling of the page content in
  * the `page` layout, so it stays pinned for the whole scroll rather than only
- * while the page header is on screen. It parks directly under the 64px header.
+ * while the page header is on screen. It parks directly under the 56px nav bar.
  */
 .linkbar {
   position: sticky;

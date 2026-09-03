@@ -11,6 +11,12 @@ author:
   name: Luca Scimeca
   email: luca.scimeca@live.com
 
+# The CV lives in Google Drive so it updates here whenever the file is replaced
+# there. Keep the SAME file (Drive: "Manage versions" -> upload new version) —
+# deleting and re-uploading mints a new id and this would need updating.
+cv:
+  drive_id: 1LKWK9GO0gtka5NWx0piEDe9Jt5y3C2sm
+
 # ---------------------------------------------------------------------------
 # Work-in-progress switch.
 #   noindex: true   -> robots.txt disallows everything + <meta name="robots" content="noindex">

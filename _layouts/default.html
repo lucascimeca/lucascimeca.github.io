@@ -32,8 +32,9 @@
             source of truth.
           {%- endcomment -%}
           {%- assign scholar = site.data.links | where: "short", "Scholar" | first %}
-          <a class="nav-external" href="{{ scholar.url }}" target="_blank" rel="noopener">Publications{% include icon.html name="external" %}</a>
+          <a href="{{ scholar.url }}" target="_blank" rel="noopener">Publications</a>
           <a href="{{ '/work/' | relative_url }}"{% if page.url contains '/work' %} aria-current="page"{% endif %}>Work</a>
+          <a href="{{ '/cv/' | relative_url }}"{% if page.url contains '/cv' %} aria-current="page"{% endif %}>CV</a>
           {%- if site.show_posts %}
           <a href="{{ '/posts/' | relative_url }}"{% if page.url contains '/posts' %} aria-current="page"{% endif %}>Posts</a>
           {%- endif %}
@@ -56,7 +57,7 @@
     <div class="wrap footer-grid">
       <div class="footer-links">
         {%- for l in site.data.links %}
-        <a href="{{ l.url }}"{% unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>{{ l.short }}</a>
+        <a href="{% if l.url contains '://' or l.url contains 'mailto:' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}"{% if l.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ l.short }}</a>
         {%- endfor %}
       </div>
       <p class="footer-note">© {{ site.time | date: "%Y" }} Luca Scimeca</p>

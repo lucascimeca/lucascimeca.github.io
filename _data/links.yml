@@ -4,7 +4,7 @@
 #   color_dark     -> optional override when the brand colour is too dark
 - name: Curriculum Vitae
   short: CV
-  url: https://drive.google.com/file/d/1LKWK9GO0gtka5NWx0piEDe9Jt5y3C2sm/view
+  url: /cv/
   icon: document
   primary: true
 - name: Email
