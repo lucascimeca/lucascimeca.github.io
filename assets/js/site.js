@@ -26,24 +26,40 @@
   // Covers both the figures inside a post and the thumbnails on the index.
   var clips = document.querySelectorAll('.clip video, .card-media video');
   if (clips.length) {
+    var onScreen = [];
+
+    var tryPlay = function (v) {
+      // Chrome refuses to start muted, video-only media while the page is
+      // hidden ("paused to save power"), so wait for it to become visible.
+      if (document.hidden) return;
+      var p = v.play();
+      if (p && p.catch) p.catch(function () { /* blocked; poster stays up */ });
+    };
+
     if ('IntersectionObserver' in window) {
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) {
           var v = e.target;
+          var i = onScreen.indexOf(v);
           if (e.isIntersecting) {
-            var p = v.play();
-            if (p && p.catch) p.catch(function () { /* autoplay blocked */ });
-          } else if (!v.paused) {
-            v.pause();
+            if (i === -1) onScreen.push(v);
+            tryPlay(v);
+          } else {
+            if (i !== -1) onScreen.splice(i, 1);
+            if (!v.paused) v.pause();
           }
         });
-      }, { rootMargin: '150px 0px', threshold: 0.01 });
-      clips.forEach(function (v) { io.observe(v); });
-    } else {
-      clips.forEach(function (v) {
-        var p = v.play();
-        if (p && p.catch) p.catch(function () {});
+      }, { rootMargin: '200px 0px', threshold: 0.01 });
+
+      for (var i = 0; i < clips.length; i++) io.observe(clips[i]);
+
+      // Retry whatever is on screen once the tab comes back to the foreground.
+      document.addEventListener('visibilitychange', function () {
+        if (document.hidden) return;
+        onScreen.forEach(tryPlay);
       });
+    } else {
+      for (var j = 0; j < clips.length; j++) tryPlay(clips[j]);
     }
   }
 
