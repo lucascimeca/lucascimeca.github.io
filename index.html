@@ -20,26 +20,13 @@ description: >-
       </p>
 
       <div class="actions">
-        {%- comment -%}
-          Two labelled actions, then the profiles as icon buttons — seven full
-          labels never fit on one line.
-        {%- endcomment -%}
-        {%- for l in site.data.links %}{% if l.primary %}
-        <a class="btn btn-primary"
+        {%- for l in site.data.links %}
+        <a class="btn{% if l.primary %} btn-primary{% endif %}"
            href="{{ l.url }}"
            {%- unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>
           {% include icon.html name=l.icon %}{{ l.name }}
         </a>
-        {%- endif %}{% endfor %}
-
-        <span class="actions-icons">
-          {%- for l in site.data.links %}{% unless l.primary %}
-          <a class="btn btn-icon" href="{{ l.url }}" target="_blank" rel="noopener"
-             aria-label="{{ l.name }}" title="{{ l.name }}">
-            {% include icon.html name=l.icon %}
-          </a>
-          {%- endunless %}{% endfor %}
-        </span>
+        {%- endfor %}
       </div>
     </div>
 

@@ -359,11 +359,14 @@ hr {
   align-items: center;
   gap: .625rem;
 }
-.actions-icons {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: .5rem;
+
+/*
+ * Seven labelled links never fit on one line, so centre the block — two ragged
+ * left-aligned rows read as an accident, two centred rows read as a group.
+ */
+.hero .actions {
+  justify-content: center;
+  margin-top: 2.25rem;
 }
 
 .btn {
@@ -401,20 +404,6 @@ hr {
 :root[data-theme="dark"] .btn-primary { color: #0B0D11; }
 :root[data-theme="dark"] .btn-primary:hover { color: #0B0D11; }
 
-/* Icon-only variant, used for the profile links in the hero */
-.btn-icon {
-  width: 38px;
-  height: 38px;
-  padding: 0;
-  justify-content: center;
-  border-radius: 50%;
-  color: var(--fg-muted);
-}
-.btn-icon svg { width: 16px; height: 16px; }
-.btn-icon:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-}
 
 /* ==========================================================================
    "Now" callout
