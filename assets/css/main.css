@@ -467,10 +467,6 @@ a.masthead-name:hover { color: var(--accent); }
   .sociallink:last-child:focus-visible::after { transform: translateX(0) translateY(0); }
 }
 
-.home-intro .hero-lede {
-  font-size: clamp(1.125rem, 1.9vw, 1.3125rem);
-  margin-bottom: 2rem;
-}
 
 .block { padding-top: clamp(2.75rem, 6vw, 4.25rem); }
 
@@ -541,40 +537,6 @@ a.masthead-name:hover { color: var(--accent); }
 /* ==========================================================================
    Hero
    ========================================================================== */
-
-.hero-kicker {
-  font-family: var(--mono);
-  font-size: .75rem;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 0 0 1.4rem;
-  display: flex;
-  align-items: center;
-  gap: .6rem;
-}
-.hero-kicker .pulse {
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 0 0 var(--accent-soft);
-  animation: pulse 2.6s ease-out infinite;
-  flex: none;
-}
-@keyframes pulse {
-  0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 42%, transparent); }
-  70%  { box-shadow: 0 0 0 9px transparent; }
-  100% { box-shadow: 0 0 0 0 transparent; }
-}
-
-.hero-lede {
-  font-size: clamp(1.0625rem, 1.7vw, 1.25rem);
-  line-height: 1.58;
-  color: var(--fg-muted);
-  max-width: 34em;
-  margin-bottom: 2rem;
-}
-.hero-lede strong { color: var(--fg-strong); font-weight: 550; }
 
 .portrait {
   position: relative;
