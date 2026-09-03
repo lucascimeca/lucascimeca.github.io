@@ -20,13 +20,26 @@ description: >-
       </p>
 
       <div class="actions">
-        {%- for l in site.data.links %}
-        <a class="btn{% if l.primary %} btn-primary{% endif %}"
+        {%- comment -%}
+          Two labelled actions, then the profiles as icon buttons — seven full
+          labels never fit on one line.
+        {%- endcomment -%}
+        {%- for l in site.data.links %}{% if l.primary %}
+        <a class="btn btn-primary"
            href="{{ l.url }}"
            {%- unless l.url contains 'mailto:' %} target="_blank" rel="noopener"{% endunless %}>
           {% include icon.html name=l.icon %}{{ l.name }}
         </a>
-        {%- endfor %}
+        {%- endif %}{% endfor %}
+
+        <span class="actions-icons">
+          {%- for l in site.data.links %}{% unless l.primary %}
+          <a class="btn btn-icon" href="{{ l.url }}" target="_blank" rel="noopener"
+             aria-label="{{ l.name }}" title="{{ l.name }}">
+            {% include icon.html name=l.icon %}
+          </a>
+          {%- endunless %}{% endfor %}
+        </span>
       </div>
     </div>
 
@@ -190,19 +203,7 @@ description: >-
 
     <div class="card-grid">
       {%- for post in visible_posts limit: 3 %}
-      <a class="card" href="{{ post.url | relative_url }}">
-        {%- if post.cover %}
-        <div class="card-media{% if post.cover_fit == 'contain' %} card-media--contain{% endif %}">
-          <img src="{{ post.cover | relative_url }}" alt="" loading="lazy">
-        </div>
-        {%- endif %}
-        <div class="card-body">
-          <span class="card-date">{{ post.date | date: "%d %b %Y" }}</span>
-          <span class="card-title">{{ post.title }}</span>
-          <p class="card-excerpt">{{ post.standfirst | default: post.excerpt | strip_html | normalize_whitespace | truncate: 150 }}</p>
-          <span class="card-more">Read {% include icon.html name="arrow-right" %}</span>
-        </div>
-      </a>
+      {% include post-card.html post=post %}
       {%- endfor %}
     </div>
 

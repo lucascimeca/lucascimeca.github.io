@@ -5,6 +5,7 @@ venue: IEEE RoboSoft 2020
 redirect_from:
   - /example-post-3/
   - /portfolio/bayesian-exploration-for-morphology-action-co-optimization/
+clip: co-opt
 cover: /assets/img/posts/co-opt-poster.jpg
 cover_alt: A soft robotic end-effector changing morphology while probing objects
 show_cover: false

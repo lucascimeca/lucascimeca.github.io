@@ -23,7 +23,8 @@
   else if (mq.addListener) mq.addListener(onSchemeChange);
 
   /* ---- Looping clips: play only while on screen ------------------------ */
-  var clips = document.querySelectorAll('.clip video');
+  // Covers both the figures inside a post and the thumbnails on the index.
+  var clips = document.querySelectorAll('.clip video, .card-media video');
   if (clips.length) {
     if ('IntersectionObserver' in window) {
       var io = new IntersectionObserver(function (entries) {

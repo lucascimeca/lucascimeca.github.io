@@ -5,6 +5,7 @@ venue: Autonomous Robots
 redirect_from:
   - /example-post-2/
   - /portfolio/robotics-palpation/
+clip: palpation
 cover: /assets/img/posts/palpation-poster.jpg
 cover_alt: A robotic arm with a capacitive tactile sensor palpating a soft phantom
 show_cover: false

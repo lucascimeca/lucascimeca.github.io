@@ -5,6 +5,8 @@ venue: PLOS ONE
 redirect_from:
   - /example-post/
   - /portfolio/dynamic-robot-control-for-expressive-piano-playing/
+clip: piano
+clip_pos: "center 64%"
 cover: /assets/img/posts/piano-card.jpg
 cover_alt: A robot arm pressing piano keys, from the expressive piano playing experiments
 show_cover: false

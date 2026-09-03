@@ -1,0 +1,27 @@
+{%- comment -%}
+One post card. Posts that carry a `clip` play their looping video in the card
+(started by the IntersectionObserver in site.js) instead of a still.
+{%- endcomment -%}
+<a class="card" href="{{ include.post.url | relative_url }}">
+  {%- if include.post.cover %}
+  <div class="card-media{% if include.post.cover_fit == 'contain' %} card-media--contain{% endif %}">
+    {%- if include.post.clip %}
+    <video muted loop playsinline preload="none"
+           poster="{{ include.post.cover | relative_url }}"
+           {% if include.post.clip_pos %}style="object-position: {{ include.post.clip_pos }}"{% endif %}
+           aria-hidden="true" tabindex="-1">
+      <source src="{{ '/assets/img/posts/' | append: include.post.clip | append: '.webm' | relative_url }}" type="video/webm">
+      <source src="{{ '/assets/img/posts/' | append: include.post.clip | append: '.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    {%- else %}
+    <img src="{{ include.post.cover | relative_url }}" alt="" loading="lazy">
+    {%- endif %}
+  </div>
+  {%- endif %}
+  <div class="card-body">
+    <span class="card-date">{{ include.post.date | date: "%d %b %Y" }}{% if include.post.venue %} · {{ include.post.venue }}{% endif %}</span>
+    <span class="card-title">{{ include.post.title }}</span>
+    <p class="card-excerpt">{{ include.post.standfirst | default: include.post.excerpt | strip_html | normalize_whitespace | truncate: 165 }}</p>
+    <span class="card-more">Read {% include icon.html name="arrow-right" %}</span>
+  </div>
+</a>
