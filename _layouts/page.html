@@ -10,4 +10,10 @@ layout: default
   </header>
 </div>
 
+{%- if page.linkbar %}
+<div class="linkbar">
+  <div class="wrap">{% include links.html variant="bar" %}</div>
+</div>
+{%- endif %}
+
 {{ content }}

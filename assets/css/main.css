@@ -314,6 +314,37 @@ hr {
   gap: 1.1rem;
 }
 
+/*
+ * Sticky link bar (Work page). Rendered as a sibling of the page content in
+ * the `page` layout, so it stays pinned for the whole scroll rather than only
+ * while the page header is on screen. It parks directly under the 64px header.
+ */
+.linkbar {
+  position: sticky;
+  top: 63px;
+  z-index: 40;
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.linkbar .wrap { padding-block: .55rem; }
+
+.linkrail--bar {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: .25rem .9rem;
+}
+.linkrail--bar .sociallinks { justify-content: flex-start; }
+
+.btn-sm {
+  font-size: .8125rem;
+  padding: .45rem .85rem;
+}
+.btn-sm svg { width: 14px; height: 14px; }
+
 .sociallinks {
   display: flex;
   flex-wrap: wrap;
@@ -397,14 +428,23 @@ hr {
 
 .reclist { display: grid; }
 
+/*
+ * Two rows: the year sits alone in the text column, then the logo and the
+ * role line share the row below. That lines the logo up with the role rather
+ * than the date, without hard-coding an offset.
+ */
 .rec {
   display: grid;
   grid-template-columns: 56px minmax(0, 1fr);
-  gap: 0 1.05rem;
+  grid-template-rows: auto auto;
+  column-gap: 1.05rem;
   align-items: start;
   padding: 1.25rem 0;
   border-top: 1px solid var(--line);
 }
+.rec-years { grid-column: 2; grid-row: 1; }
+.rec-logo  { grid-column: 1; grid-row: 2; }
+.rec-body  { grid-column: 2; grid-row: 2; }
 .rec:last-child { border-bottom: 1px solid var(--line); }
 .eyebrow + .reclist .rec:first-child { border-top: 0; }
 
@@ -826,6 +866,9 @@ hr {
   padding-bottom: clamp(2rem, 4vw, 3rem);
   border-bottom: 1px solid var(--line);
 }
+/* When a sticky link bar follows, it supplies the rule instead */
+.page-head:has(+ .linkbar),
+body:has(.linkbar) .page-head { border-bottom: 0; }
 .page-head h1 {
   font-size: clamp(2.125rem, 5vw, 3.25rem);
   font-weight: 550;

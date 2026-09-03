@@ -2,6 +2,7 @@
 layout: page
 title: Work
 permalink: /work/
+linkbar: true
 lede: Employment, education, academic service and awards.
 description: >-
   Luca Scimeca's full work history — employment, education, academic service
@@ -140,8 +141,7 @@ description: >-
 <!-- ====================================================== CTA -->
 <section class="section">
   <div class="wrap">
-    {% include links.html %}
-    <p style="margin-top:1.5rem">
+    <p>
       <a class="btn" href="https://scholar.google.co.uk/citations?user=fKJvAvMAAAAJ" target="_blank" rel="noopener">
         {% include icon.html name="scholar" %}Publications on Google Scholar
       </a>
