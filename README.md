@@ -34,7 +34,7 @@ work.md                /work/  — full employment history
 posts.md               /posts/ — post index
 
 _data/
-  links.yml            CV / email / Scholar / LinkedIn / GitHub / ORCID / Bitbucket
+  links.yml            CV / email / Scholar / LinkedIn / GitHub / ORCID
   experience.yml       current + past roles
   education.yml        degrees
   services.yml         academic service

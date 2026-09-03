@@ -33,8 +33,3 @@
   url: https://orcid.org/0000-0002-2821-0072
   icon: orcid
   color: "#A6CE39"
-- name: Bitbucket
-  short: Bitbucket
-  url: https://bitbucket.org/lucascimeca/
-  icon: bitbucket
-  color: "#0052CC"
