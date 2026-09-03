@@ -828,6 +828,9 @@ hr {
   background: var(--bg-elev);
 }
 .post-body figure.plain img { border: 0; background: none; }
+/* Small source images stay at their own size rather than being upscaled. */
+.post-body figure.natural { width: fit-content; }
+.post-body figure.natural img { width: auto; max-width: 100%; }
 .post-body figcaption {
   font-size: .8125rem;
   line-height: 1.55;

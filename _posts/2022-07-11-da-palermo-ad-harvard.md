@@ -18,7 +18,7 @@ An amazing article by Joey Borruso, telling the story of my journey — starting
 Sicily, Italy, and arriving at Harvard and Dana-Farber to work on machine learning for
 cancer research.
 
-<figure>
+<figure class="natural">
   <img src="/assets/img/posts/palermo.jpg" alt="Screenshot of the PalermoLive article">
 </figure>
 

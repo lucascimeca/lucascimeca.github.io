@@ -35,7 +35,7 @@ training setup: the **Wisconsin Card Sorting Test for Machine Learners (WCST-ML)
 We envision a simple, yet powerful, setting. Imagine you were given this limited set of
 images and labels:
 
-<figure>
+<figure class="natural">
   <img src="/assets/img/posts/shortcut-train.png" alt="A small training matrix of coloured shapes, each with a label">
   <figcaption>The training set: every image is fully correlated across at least two high-level cues.</figcaption>
 </figure>
@@ -43,8 +43,8 @@ images and labels:
 You are then asked to provide a label for the following image. You can choose between
 0, 1 or 2, according to your understanding of the task:
 
-<figure class="plain">
-  <img src="/assets/img/posts/shortcut-query.png" alt="A single query image showing an unseen combination of shape and colour" style="max-width:180px">
+<figure class="plain natural">
+  <img src="/assets/img/posts/shortcut-query.png" alt="A single query image showing an unseen combination of shape and colour" style="width:180px">
   <figcaption>The query: an unseen combination of features. What would you choose?</figcaption>
 </figure>
 
