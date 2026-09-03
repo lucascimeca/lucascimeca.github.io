@@ -14,9 +14,9 @@ past:
   - role: AI Research Scientist
     org: Sapient Intelligence
     location: Boston, USA
-    years: "2026–27"
-    year_from: "2026"
-    year_to: "2027"
+    years: "2025–26"
+    year_from: "2025"
+    year_to: "2026"
     logo: sapient.jpg
     featured: true
     detail: >-
@@ -27,9 +27,9 @@ past:
   - role: Postdoctoral Research Fellow
     org: Mila — Quebec AI Institute
     location: Montreal, Canada
-    years: "2023–26"
+    years: "2023–25"
     year_from: "2023"
-    year_to: "2026"
+    year_to: "2025"
     logo: mila.png
     featured: true
     detail: >-
