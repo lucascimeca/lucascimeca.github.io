@@ -877,6 +877,15 @@ a.masthead-name:hover { color: var(--accent); }
 }
 .news:hover .news-media img { transform: scale(1.03); }
 
+/* Square artwork (podcast covers) shown whole rather than cropped */
+.news-media--contain {
+  display: grid;
+  place-items: center;
+  padding: .5rem;
+  background: var(--bg-sunken);
+}
+.news-media--contain img { width: auto; height: 100%; object-fit: contain; border-radius: 4px; }
+
 /* Fallback tile when an entry has no image */
 .news-media--blank {
   display: grid;

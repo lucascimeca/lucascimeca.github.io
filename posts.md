@@ -14,7 +14,7 @@ description: News coverage, interviews and writing from Luca Scimeca.
     <div class="newslist">
       {%- for m in site.data.media %}
       <article class="news">
-        <div class="news-media{% unless m.image %} news-media--blank{% endunless %}">
+        <div class="news-media{% unless m.image %} news-media--blank{% endunless %}{% if m.image_fit == 'contain' %} news-media--contain{% endif %}">
           {%- if m.image %}
           <img src="{{ m.image | relative_url }}" alt="" loading="lazy">
           {%- else %}

@@ -12,6 +12,8 @@
   kind: Podcast
   outlet: Build Better Business Podcast
   url: https://podcasts.apple.com/us/podcast/ai-scientist-luca-scimeca-phd-discusses-disruptive/id1797650712?i=1000784131546
+  image: /assets/img/media/podcast.jpg
+  image_fit: contain          # square artwork — showing it whole beats cropping
   summary: >-
     A conversation with host Chuck Crumpton on where AI is genuinely
     transformative and where it is oversold — scaling laws and their plateaus,
@@ -20,6 +22,8 @@
   also:
     - name: Apple Podcasts
       url: https://podcasts.apple.com/us/podcast/ai-scientist-luca-scimeca-phd-discusses-disruptive/id1797650712?i=1000784131546
+    - name: Spotify
+      url: https://open.spotify.com/episode/0PfWOKLovEM3DCAfYfNkia
     - name: iHeart
       url: https://www.iheart.com/podcast/53-build-better-business-podca-308945391/episode/ai-scientist-luca-scimeca-phd-discusses-disruptive-discovery-and-the-global-impact-of-ai-341562861
 
@@ -55,7 +59,5 @@
       url: https://techxplore.com/news/2018-09-robotic-lettuce-leaf-kind.html
     - name: Vice
       url: https://www.vice.com/en/article/this-lettuce-peeling-robot-is-another-step-toward-human-free-agriculture/
-    - name: New Food Magazine
-      url: https://www.newfoodmagazine.com/news/74868/robotic-lettuce-peeling-system-cambridge/
     - name: Corpus Christi College
       url: https://www.corpus.cam.ac.uk/articles/introducing-lettuce-peeling-robot
