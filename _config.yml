@@ -28,7 +28,7 @@ noindex: true
 # dashboard (Web Analytics -> Add a site) to switch it on; leave it blank and
 # no script is loaded at all. Cookieless, and it works whether or not the
 # domain uses Cloudflare for DNS.
-cloudflare_analytics_token: ""
+cloudflare_analytics_token: "582de04027774a398861216a8c1d4a55"
 
 # Show or hide the whole Posts section (nav link, home "Writing" block, /posts/).
 # Individual posts can also be hidden with `visible: false` in their front matter.

@@ -66,7 +66,8 @@
 
   <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {%- if site.cloudflare_analytics_token != empty and site.cloudflare_analytics_token != "" %}
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+  <!-- Cloudflare Web Analytics -->
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "{{ site.cloudflare_analytics_token }}"}'></script>
 {%- endif %}
 </body>
