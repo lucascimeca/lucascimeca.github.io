@@ -3,7 +3,7 @@ tagline: AI Research Scientist & Founder
 description: >-
   Luca Scimeca — AI research scientist and founder working at the intersection
   of AI and scientific discovery.
-url: "https://lucascimeca.github.io"
+url: "https://lucascimeca.com"
 baseurl: ""
 lang: en
 
@@ -18,11 +18,11 @@ cv:
   drive_id: 1LKWK9GO0gtka5NWx0piEDe9Jt5y3C2sm
 
 # ---------------------------------------------------------------------------
-# Work-in-progress switch.
+# Search-engine visibility.
 #   noindex: true   -> robots.txt disallows everything + <meta name="robots" content="noindex">
-#   Flip to false when you're ready for the site to be discoverable.
+#   The site went public on 2026-09-03, so this is off.
 # ---------------------------------------------------------------------------
-noindex: true
+noindex: false
 
 # Cloudflare Web Analytics. Paste the beacon token from the Cloudflare
 # dashboard (Web Analytics -> Add a site) to switch it on; leave it blank and
