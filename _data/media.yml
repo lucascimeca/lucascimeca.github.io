@@ -1,0 +1,61 @@
+# "In the media" — press, interviews and podcasts.
+#
+#   url      the piece to open when the entry is clicked (the primary source)
+#   also     every outlet that ran the story, listed under the description
+#   image    optional; without one a typographic tile is drawn instead.
+#            Drop a file in assets/img/media/ and add the key back to use it.
+#
+# Every link here was checked before being added.
+
+- title: AI scientist Luca Scimeca discusses disruptive discovery and the global impact of AI
+  date: 2026-08-18
+  kind: Podcast
+  outlet: Build Better Business Podcast
+  url: https://podcasts.apple.com/us/podcast/ai-scientist-luca-scimeca-phd-discusses-disruptive/id1797650712?i=1000784131546
+  summary: >-
+    A conversation with host Chuck Crumpton on where AI is genuinely
+    transformative and where it is oversold — scaling laws and their plateaus,
+    the architectural constraints in the way, and why a disruptive breakthrough
+    rather than more compute is the thing that would move the timeline.
+  also:
+    - name: Apple Podcasts
+      url: https://podcasts.apple.com/us/podcast/ai-scientist-luca-scimeca-phd-discusses-disruptive/id1797650712?i=1000784131546
+    - name: iHeart
+      url: https://www.iheart.com/podcast/53-build-better-business-podca-308945391/episode/ai-scientist-luca-scimeca-phd-discusses-disruptive-discovery-and-the-global-impact-of-ai-341562861
+
+- title: "Da Palermo ad Harvard e la ricerca sul cancro"
+  date: 2022-07-11
+  kind: Profile
+  outlet: PalermoLive
+  url: https://palermolive.it/ricerca-cancro-luca-scimeca/
+  image: /assets/img/media/palermo.jpg
+  summary: >-
+    Joey Borruso tells the story of the route from Sicily to Edinburgh,
+    Cambridge and finally Harvard and Dana-Farber, applying machine learning to
+    cancer research.
+  also:
+    - name: PalermoLive
+      url: https://palermolive.it/ricerca-cancro-luca-scimeca/
+
+- title: The first robotic lettuce-peeling system of its kind
+  date: 2018-09-25
+  kind: Press
+  outlet: University of Cambridge
+  url: https://www.eng.cam.ac.uk/news/introducing-lettuce-peeling-robot
+  summary: >-
+    Removing the outer leaves from an iceberg lettuce is still done by hand.
+    Our system at Cambridge's Machine Intelligence Laboratory paired a machine
+    vision pipeline with a 3D-printed suction nozzle that tears each leaf away
+    without bruising the head — full removal in about 27 seconds. Published in
+    IEEE Robotics and Automation Letters.
+  also:
+    - name: University of Cambridge
+      url: https://www.eng.cam.ac.uk/news/introducing-lettuce-peeling-robot
+    - name: TechXplore
+      url: https://techxplore.com/news/2018-09-robotic-lettuce-leaf-kind.html
+    - name: Vice
+      url: https://www.vice.com/en/article/this-lettuce-peeling-robot-is-another-step-toward-human-free-agriculture/
+    - name: New Food Magazine
+      url: https://www.newfoodmagazine.com/news/74868/robotic-lettuce-peeling-system-cambridge/
+    - name: Corpus Christi College
+      url: https://www.corpus.cam.ac.uk/articles/introducing-lettuce-peeling-robot
