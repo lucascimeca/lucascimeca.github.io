@@ -393,15 +393,9 @@ a.masthead-name:hover { color: var(--accent); }
   font-weight: 550;
   letter-spacing: -0.02em;
   line-height: 1.25;
-  margin: 0 0 .65rem;
+  margin: 0 0 1.4rem;
 }
 .leaving-dest { color: var(--accent); }
-.leaving-body {
-  font-size: .9375rem;
-  line-height: 1.6;
-  color: var(--fg-muted);
-  margin: 0 0 1.5rem;
-}
 .leaving-actions {
   display: flex;
   flex-wrap: wrap;
