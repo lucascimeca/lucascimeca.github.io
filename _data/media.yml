@@ -47,10 +47,10 @@
   outlet: University of Cambridge
   url: https://www.eng.cam.ac.uk/news/introducing-lettuce-peeling-robot
   summary: >-
-    Removing the outer leaves from an iceberg lettuce is still done by hand.
-    Our system at Cambridge's Machine Intelligence Laboratory paired a machine
-    vision pipeline with a 3D-printed suction nozzle that tears each leaf away
-    without bruising the head — full removal in about 27 seconds. Published in
+    Removing the outer leaves from an iceberg lettuce is still done by hand. A
+    team at Cambridge's Machine Intelligence Laboratory paired a machine vision
+    pipeline with a 3D-printed suction nozzle that tears each leaf away without
+    bruising the head, managing full removal in about 27 seconds. Published in
     IEEE Robotics and Automation Letters.
   also:
     - name: University of Cambridge
