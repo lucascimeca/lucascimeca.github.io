@@ -1381,8 +1381,19 @@ body:has(.linkbar) .page-head { border-bottom: 0; }
   .post-nav .next { text-align: left; }
 }
 
+@media (max-width: 560px) {
+  /* Keep the nav on one line — the page heading still reads "Posts & News" */
+  .nav-trim { display: none; }
+}
+
 @media (max-width: 460px) {
-  .site-header .wrap { justify-content: flex-start; padding-right: 3.25rem; }
-  .nav-links { gap: .8rem; font-size: .78125rem; }
+  /* Reserve room for the absolutely-positioned toggle, then shrink the nav
+     enough to sit clear of it on one line. */
+  .site-header .wrap { justify-content: flex-start; padding-right: 3.5rem; }
+  .nav-links {
+    gap: .65rem;
+    font-size: .75rem;
+    letter-spacing: .05em;
+  }
   .masthead { padding-top: 1.75rem; }
 }
