@@ -46,6 +46,7 @@
   kind: Press
   outlet: University of Cambridge
   url: https://www.eng.cam.ac.uk/news/introducing-lettuce-peeling-robot
+  image: /assets/img/media/lettuce.jpg
   summary: >-
     Removing the outer leaves from an iceberg lettuce is still done by hand. A
     team at Cambridge's Machine Intelligence Laboratory paired a machine vision
@@ -57,6 +58,8 @@
       url: https://www.eng.cam.ac.uk/news/introducing-lettuce-peeling-robot
     - name: TechXplore
       url: https://techxplore.com/news/2018-09-robotic-lettuce-leaf-kind.html
+    - name: The Verge
+      url: https://www.theverge.com/2018/9/26/17904834/robot-automation-agriculture-peels-lettuce-cambridge-university
     - name: Vice
       url: https://www.vice.com/en/article/this-lettuce-peeling-robot-is-another-step-toward-human-free-agriculture/
     - name: Corpus Christi College
