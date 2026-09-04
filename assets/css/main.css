@@ -360,6 +360,68 @@ a.masthead-name:hover { color: var(--accent); }
   gap: 1.1rem;
 }
 
+/*
+ * "Leaving the site" dialog. Uses <dialog> so the browser supplies the modal
+ * semantics, Escape handling, focus management and inertness for free.
+ */
+.leaving {
+  width: min(92vw, 27rem);
+  padding: 1.75rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+  color: var(--fg);
+  box-shadow: 0 24px 60px -24px rgba(0, 0, 0, .35);
+}
+.leaving::backdrop {
+  background: rgba(10, 12, 16, .38);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.leaving-eyebrow {
+  font-family: var(--mono);
+  font-size: .6875rem;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  margin: 0 0 .7rem;
+}
+.leaving-title {
+  font-size: 1.25rem;
+  font-weight: 550;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin: 0 0 .65rem;
+}
+.leaving-dest { color: var(--accent); }
+.leaving-body {
+  font-size: .9375rem;
+  line-height: 1.6;
+  color: var(--fg-muted);
+  margin: 0 0 1.5rem;
+}
+.leaving-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.btn-quiet {
+  border-color: transparent;
+  background: transparent;
+  color: var(--fg-muted);
+}
+.btn-quiet:hover { border-color: var(--line); color: var(--fg-strong); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .leaving[open] { animation: leaving-in .18s cubic-bezier(.2, .7, .3, 1); }
+  @keyframes leaving-in {
+    from { opacity: 0; transform: translateY(6px) scale(.985); }
+    to   { opacity: 1; transform: none; }
+  }
+}
+
 /* Embedded PDF viewer (CV page) */
 .pdf-frame {
   height: min(78vh, 1040px);

@@ -84,6 +84,48 @@
     }
   }
 
+  /* ---- "Leaving the site" confirmation ---------------------------------- */
+  var leaving = document.getElementById('leavingDialog');
+  var leavingLinks = document.querySelectorAll('[data-leaving]');
+
+  // Without <dialog> support the links simply behave as ordinary links.
+  if (leaving && leavingLinks.length && typeof leaving.showModal === 'function') {
+    var pending = null;
+
+    var close = function () { if (leaving.open) leaving.close(); };
+
+    leavingLinks.forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        // Let modified clicks (new tab, download, middle click) through.
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+        e.preventDefault();
+        pending = a.href;
+        var dest = leaving.querySelector('.leaving-dest');
+        if (dest) dest.textContent = a.dataset.leaving;
+        leaving.showModal();
+      });
+    });
+
+    leaving.addEventListener('click', function (e) {
+      var action = e.target.dataset ? e.target.dataset.leavingAction : null;
+      if (!action) {
+        // A click on the dialog element itself is a click on the backdrop.
+        if (e.target === leaving) close();
+        return;
+      }
+      if (action === 'new' && pending) {
+        // Opened straight from the button press, so this is a real user
+        // gesture and popup blockers leave it alone.
+        window.open(pending, '_blank', 'noopener');
+        close();
+      } else if (action === 'same' && pending) {
+        window.location.href = pending;
+      } else {
+        close();
+      }
+    });
+  }
+
   /* ---- Masthead fade + header hairline on scroll ------------------------ */
   var header = document.getElementById('siteHeader');
   var masthead = document.getElementById('masthead');

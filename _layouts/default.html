@@ -32,7 +32,8 @@
             source of truth.
           {%- endcomment -%}
           {%- assign scholar = site.data.links | where: "short", "Scholar" | first %}
-          <a href="{{ scholar.url }}" target="_blank" rel="noopener">Publications</a>
+          <a href="{{ scholar.url }}" target="_blank" rel="noopener"
+             data-leaving="Google Scholar">Publications</a>
           <a href="{{ '/work/' | relative_url }}"{% if page.url contains '/work' %} aria-current="page"{% endif %}>Work</a>
           <a href="{{ '/cv/' | relative_url }}"{% if page.url contains '/cv' %} aria-current="page"{% endif %}>CV</a>
           {%- if site.show_posts %}
@@ -63,6 +64,20 @@
       <p class="footer-note">© {{ site.time | date: "%Y" }} Luca Scimeca</p>
     </div>
   </footer>
+
+  <dialog class="leaving" id="leavingDialog" aria-labelledby="leavingTitle">
+    <p class="leaving-eyebrow">Leaving the site</p>
+    <h2 class="leaving-title" id="leavingTitle">Publications live on <span class="leaving-dest">Google Scholar</span></h2>
+    <p class="leaving-body">
+      There is no publications page here — the full and current list is kept on
+      Google Scholar. How would you like to open it?
+    </p>
+    <div class="leaving-actions">
+      <button class="btn btn-primary" type="button" data-leaving-action="new">Open in a new tab</button>
+      <button class="btn" type="button" data-leaving-action="same">Continue here</button>
+      <button class="btn btn-quiet" type="button" data-leaving-action="cancel">Stay</button>
+    </div>
+  </dialog>
 
   <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {%- if site.cloudflare_analytics_token != empty and site.cloudflare_analytics_token != "" %}
