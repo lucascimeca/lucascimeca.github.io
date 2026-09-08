@@ -11,7 +11,7 @@ standfirst: >-
   investigating a robot-assisted approach to training doctors in medical examinations.
 resources:
   - label: Cambridge article
-    url: http://www.eng.cam.ac.uk/news/introducing-robopatient-soft-robotics-approach-training-doctors
+    url: https://www.eng.cam.ac.uk/news/introducing-robopatient-soft-robotics-approach-training-doctors
   - label: Paper (Soft Robotics)
     url: https://www.liebertpub.com/doi/full/10.1089/soro.2020.0129
   - label: Code
@@ -31,7 +31,7 @@ AI and robotics in the medical field.
 Cambridge researchers are helping to design the healthcare robotics of the future by
 investigating a robot-assisted approach to training doctors in medical examinations.
 To read the full article, follow
-[this link](http://www.eng.cam.ac.uk/news/introducing-robopatient-soft-robotics-approach-training-doctors).
+[this link](https://www.eng.cam.ac.uk/news/introducing-robopatient-soft-robotics-approach-training-doctors).
 
 We have published part of this work in the leading robotics journal *Soft Robotics*.
 The research article is titled
