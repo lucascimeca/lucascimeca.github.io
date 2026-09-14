@@ -8,7 +8,7 @@ icon that names itself on hover (and to screen readers).
   <a class="btn btn-primary{% if include.variant == 'bar' %} btn-sm{% endif %}"
      href="{% if l.url contains '://' or l.url contains 'mailto:' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}"
      {%- if l.url contains '://' %} target="_blank" rel="noopener"{% endif %}>
-    {% include icon.html name=l.icon %}{{ l.name }}
+    {% include icon.html name=l.icon %}{% if include.variant == 'bar' %}{{ l.short }}{% else %}{{ l.name }}{% endif %}
   </a>
   {%- endif %}{% endfor %}
 {%- endif -%}

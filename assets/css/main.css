@@ -454,6 +454,42 @@ a.masthead-name:hover { color: var(--accent); }
 }
 .linkbar .wrap { padding-block: .55rem; }
 
+/*
+ * Once the bar is pinned it steps back so it doesn't compete with the page,
+ * and comes back to full strength on hover or keyboard focus. The background
+ * stays opaque so content scrolling underneath never shows through.
+ */
+.linkbar .linkrail { transition: opacity .25s ease; }
+.linkbar.is-stuck .linkrail { opacity: .45; }
+.linkbar.is-stuck:focus-within .linkrail { opacity: 1; }
+@media (hover: hover) {
+  .linkbar.is-stuck:hover .linkrail { opacity: 1; }
+}
+
+/*
+ * Work page: each section title pins under the sticky bars and is pushed out
+ * by the next one. A sticky box is bounded by its parent's *content* box, so
+ * the section's bottom spacing is rebuilt as an in-flow spacer inside .wrap:
+ * that way a title's sticky range runs right up to where the next title
+ * begins, instead of letting go early and leaving nothing pinned.
+ * --sticky-offset is the measured bottom of the bars (set in site.js, since
+ * the link bar is taller when it wraps on narrow screens).
+ */
+.sticky-sections .section { padding-bottom: 0; }
+.sticky-sections .section > .wrap::after {
+  content: "";
+  display: block;
+  height: var(--section);
+}
+.sticky-sections .section > .wrap > .eyebrow {
+  position: sticky;
+  top: var(--sticky-offset, 116px);
+  z-index: 30;
+  background: var(--bg);
+  padding-top: .9rem;
+  margin-top: -.9rem;      /* same resting position as before */
+}
+
 .linkrail--bar {
   flex-direction: row;
   align-items: center;

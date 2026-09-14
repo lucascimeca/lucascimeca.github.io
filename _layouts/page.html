@@ -16,4 +16,6 @@ layout: default
 </div>
 {%- endif %}
 
+{%- if page.sticky_sections %}<div class="sticky-sections">{% endif %}
 {{ content }}
+{%- if page.sticky_sections %}</div>{% endif %}

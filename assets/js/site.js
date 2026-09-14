@@ -126,6 +126,33 @@
     });
   }
 
+  /* ---- Sticky link bar: dim once pinned, publish its height ------------ */
+  var linkbar = document.querySelector('.linkbar');
+
+  if (linkbar) {
+    var barTop = parseFloat(getComputedStyle(linkbar).top) || 0;
+
+    // Section titles pin just below the bar. Its height changes when the links
+    // wrap, so measure it instead of hard-coding an offset. The -1 tucks the
+    // title under the bar's hairline so no sliver of content peeks through.
+    var measureBar = function () {
+      root.style.setProperty('--sticky-offset',
+        (Math.round(barTop + linkbar.offsetHeight) - 1) + 'px');
+    };
+
+    // One rect read per scroll event, so there's nothing worth batching.
+    var syncBar = function () {
+      linkbar.classList.toggle('is-stuck',
+        linkbar.getBoundingClientRect().top <= barTop + 0.5);
+    };
+
+    measureBar();
+    syncBar();
+    window.addEventListener('resize', measureBar, { passive: true });
+    if ('ResizeObserver' in window) new ResizeObserver(measureBar).observe(linkbar);
+    window.addEventListener('scroll', syncBar, { passive: true });
+  }
+
   /* ---- Masthead fade + header hairline on scroll ------------------------ */
   var header = document.getElementById('siteHeader');
   var masthead = document.getElementById('masthead');

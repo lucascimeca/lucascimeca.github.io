@@ -3,6 +3,7 @@ layout: page
 title: Work
 permalink: /work/
 linkbar: true
+sticky_sections: true
 lede: Employment, education, academic service and awards.
 description: >-
   Luca Scimeca's full work history — employment, education, academic service
@@ -91,23 +92,9 @@ description: >-
 <!-- ====================================================== Academic service -->
 <section class="section">
   <div class="wrap">
-    <h2 class="eyebrow">Academic service — ongoing</h2>
+    <h2 class="eyebrow">Academic service</h2>
     <div class="stack">
-      {%- for g in site.data.services.ongoing %}
-      <div class="stack-row">
-        <div class="entry-years">{{ g.years }}</div>
-        <ul>{% for i in g.items %}<li>{{ i }}</li>{% endfor %}</ul>
-      </div>
-      {%- endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <h2 class="eyebrow">Academic service — past</h2>
-    <div class="stack">
-      {%- for g in site.data.services.past %}
+      {%- for g in site.data.services %}
       <div class="stack-row">
         <div class="entry-years">{{ g.years }}</div>
         <ul>{% for i in g.items %}<li>{{ i }}</li>{% endfor %}</ul>
