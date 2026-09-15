@@ -1427,7 +1427,7 @@ body:has(.linkbar) .page-head { border-bottom: 0; }
 }
 
 @media (max-width: 560px) {
-  /* Keep the nav on one line — the page heading still reads "Posts & News" */
+  /* Keep the nav on one line — the page heading still reads "News & Posts" */
   .nav-trim { display: none; }
 }
 

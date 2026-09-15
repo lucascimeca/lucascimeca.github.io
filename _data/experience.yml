@@ -20,12 +20,12 @@ past:
     logo: sapient.jpg
     featured: true
     detail: >-
-      Generative AI and probabilistic inference for reasoning, language and
+      Generative AI and probabilistic inference for reasoning, language, and
       vision. Contributed to the release of HRM-Text and Unigen, state-of-the-art
-      models at their size for language and vision.
+      models for their size.
 
   - role: Postdoctoral Research Fellow
-    org: Mila — Quebec AI Institute
+    org: Mila AI Institute
     location: Montreal, Canada
     years: "2023–25"
     year_from: "2023"
@@ -34,7 +34,7 @@ past:
     featured: true
     detail: >-
       Postdoc in Yoshua Bengio's group. Generative AI, probabilistic inference,
-      and AI applications to computer vision, drug discovery and robotics.
+      and AI applications to computer vision, drug discovery, and robotics.
     sub:
       - role: Research and Teaching Assistant
         detail: "IFT6390B — Foundation of Machine Learning (graduate course)."
@@ -49,7 +49,7 @@ past:
     featured: true
     detail: >-
       AI for healthcare and genomics. Deep generative models for bio-sequence
-      design, working with Dr Ming-Ru Wu on tumour biology and immunotherapy.
+      design, working with Dr. Ming-Ru Wu on tumor biology and immunotherapy.
 
   - role: Postdoctoral Research Fellow
     org: Dana-Farber Cancer Institute
@@ -62,14 +62,15 @@ past:
       AI for healthcare and genomics, jointly with Harvard University.
 
   - role: AI Research Scientist
-    org: Naver Corp
+    org: Naver Corp.
+
     location: Seoul, South Korea
     years: "2021"
     year_from: "2021"
     logo: naver.png
     detail: >-
-      Visiting researcher. Learning representations, bias, robustness and
-      generalisation in deep learning.
+      Visiting researcher. Representation learning, bias, robustness, and
+      generalization in deep learning.
 
   - role: Postdoctoral Research Associate
     org: University of Cambridge
@@ -110,7 +111,7 @@ past:
     years: "2020"
     year_from: "2020"
 
-  - role: AI / ML Consultant
+  - role: AI/ML Consultant
     org: Critical Future
     location: London, UK
     years: "2018–19"

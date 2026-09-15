@@ -1,5 +1,5 @@
 ---
-title: "Introducing RoboPatient — a soft robotics approach to training doctors"
+title: "Introducing RoboPatient — A Soft Robotics Approach to Training Doctors"
 date: 2021-09-05
 venue: University of Cambridge
 redirect_from:
@@ -18,8 +18,8 @@ resources:
     url: https://github.com/lucascimeca/robotics_palpation
 ---
 
-An article published by the University of Cambridge describes part of my work in using
-AI and robotics in the medical field.
+An article published by the University of Cambridge describes part of my work on using
+AI and robotics in medicine.
 
 <div class="video">
   <iframe src="https://www.youtube-nocookie.com/embed/34e5d2FeKhk"
@@ -28,15 +28,13 @@ AI and robotics in the medical field.
           allowfullscreen loading="lazy"></iframe>
 </div>
 
-Cambridge researchers are helping to design the healthcare robotics of the future by
-investigating a robot-assisted approach to training doctors in medical examinations.
-To read the full article, follow
-[this link](https://www.eng.cam.ac.uk/news/introducing-robopatient-soft-robotics-approach-training-doctors).
+Read the full article on the
+[Cambridge Engineering website](https://www.eng.cam.ac.uk/news/introducing-robopatient-soft-robotics-approach-training-doctors).
 
-We have published part of this work in the leading robotics journal *Soft Robotics*.
+We have published part of this work in the robotics journal *Soft Robotics*.
 The research article is titled
 "[Action Augmentation of Tactile Perception for Soft-Body Palpation](https://www.liebertpub.com/doi/full/10.1089/soro.2020.0129)".
-In it we delve further into the complex realm of physical medical examination: we use a
+In it, we take a closer look at physical medical examination: we use a
 robotic platform and a mathematical framework both to understand and to employ complex
 palpation strategies, in order to achieve appropriate sensory perception for robotic
 medical diagnosis.

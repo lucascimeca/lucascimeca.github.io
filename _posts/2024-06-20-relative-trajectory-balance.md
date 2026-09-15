@@ -22,7 +22,7 @@ resources:
 
 In the ever-evolving landscape of artificial intelligence, diffusion models have
 emerged as a powerful tool for generating high-quality data across domains such as
-images, text and even action spaces. But what happens when we need these models not
+images, text, and even action spaces. But what happens when we need these models not
 just to generate, but to *adapt to specific constraints*? We tackle exactly this
 problem in our paper
 "[Amortizing Intractable Inference in Diffusion Models for Vision, Language, and Control](https://arxiv.org/abs/2405.20971)",
@@ -69,7 +69,7 @@ stability) and sampling proportionally to $p_\theta(\mathbf{x})\,r(\mathbf{x})$.
 to its design, the advantage of RTB lies in its ability to achieve *unbiased* posterior
 sampling — proof in the [paper](https://arxiv.org/abs/2405.20971).
 
-## Highlight results
+## Highlights
 
 To show the effectiveness of RTB we provide a diverse set of empirical results across
 multiple domains. Some highlights:
@@ -96,14 +96,14 @@ In **language**, we show we can fine-tune a posterior over a discrete language
 diffusion model prior to perform coherent posterior sampling for text infilling.
 
 In reinforcement learning **control** tasks, we report state-of-the-art results when
-training a posterior behaviour policy from a diffusion behavioural prior, achieving
+training a posterior behavior policy from a diffusion behavioral prior, achieving
 comparable or better results than other recent methods.
 
 ## Conclusion
 
 Relative Trajectory Balance is a flexible objective that allows efficient and unbiased
 sampling from a posterior distribution, given a diffusion prior and a reward or
-likelihood. The empirical results across vision, language and control underscore the
+likelihood. The empirical results across vision, language, and control underscore the
 potential of RTB to set new benchmarks across AI applications. Whether you are diving
 into research or developing practical solutions, the advances presented here are poised
 to change how we generate and refine data.

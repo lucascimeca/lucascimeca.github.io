@@ -1,5 +1,5 @@
 ---
-title: "Efficient Bayesian exploration for soft morphology-action co-optimization"
+title: "Efficient Bayesian Exploration for Soft Morphology-Action Co-optimization"
 date: 2020-05-15
 venue: IEEE RoboSoft 2020
 redirect_from:
@@ -22,10 +22,9 @@ resources:
 {% include clip.html name="co-opt"
    alt="A soft robotic end-effector changing morphology while probing objects" %}
 
-One of our articles, "Efficient Bayesian Exploration for Soft Morphology-Action
-Co-optimization", with Perla Maiolino and Fumiya Iida, proposing a mathematical
-framework to perform the active exploration of robot control and morphology to aid in
-discrimination tasks.
+In "Efficient Bayesian Exploration for Soft Morphology-Action Co-optimization",
+written with Perla Maiolino and Fumiya Iida, we propose a framework for actively
+exploring robot control and morphology to aid discrimination tasks.
 
 ## Presentation
 

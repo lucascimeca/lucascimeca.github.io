@@ -16,9 +16,9 @@
   image_fit: contain          # square artwork — showing it whole beats cropping
   summary: >-
     A conversation with host Chuck Crumpton on where AI is genuinely
-    transformative and where it is oversold — scaling laws and their plateaus,
-    the architectural constraints in the way, and why a disruptive breakthrough
-    rather than more compute is the thing that would move the timeline.
+    transformative and where it is oversold: scaling laws and their plateaus,
+    the architectural constraints holding progress back, and why a disruptive
+    breakthrough, rather than more compute, is what would move the timeline.
   also:
     - name: Apple Podcasts
       url: https://podcasts.apple.com/us/podcast/ai-scientist-luca-scimeca-phd-discusses-disruptive/id1797650712?i=1000784131546
@@ -34,14 +34,14 @@
   url: https://palermolive.it/ricerca-cancro-luca-scimeca/
   image: /assets/img/media/palermo.jpg
   summary: >-
-    Joey Borruso tells the story of the route from Sicily to Edinburgh,
-    Cambridge and finally Harvard and Dana-Farber, applying machine learning to
-    cancer research.
+    PalermoLive tells the story of Luca Scimeca's path from Sicily to Edinburgh,
+    Cambridge, and finally Harvard and Dana-Farber, where he worked on machine
+    learning for cancer research.
   also:
     - name: PalermoLive
       url: https://palermolive.it/ricerca-cancro-luca-scimeca/
 
-- title: The first robotic lettuce-peeling system of its kind
+- title: A first-of-its-kind robotic lettuce-peeling system
   date: 2018-09-25
   kind: Press
   outlet: University of Cambridge
@@ -51,8 +51,9 @@
     Removing the outer leaves from an iceberg lettuce is still done by hand. A
     team at Cambridge's Machine Intelligence Laboratory paired a machine vision
     pipeline with a 3D-printed suction nozzle that tears each leaf away without
-    bruising the head, managing full removal in about 27 seconds. Published in
-    IEEE Robotics and Automation Letters.
+    bruising the head. It fully removed a leaf in half of its attempts, taking
+    about 27 seconds on average. Published in IEEE Robotics and Automation
+    Letters.
   also:
     - name: University of Cambridge
       url: https://www.eng.cam.ac.uk/news/introducing-lettuce-peeling-robot

@@ -4,9 +4,9 @@ title: Work
 permalink: /work/
 linkbar: true
 sticky_sections: true
-lede: Employment, education, academic service and awards.
+lede: Employment, education, academic service, and awards.
 description: >-
-  Luca Scimeca's full work history — employment, education, academic service
+  Luca Scimeca's full work history — employment, education, academic service,
   and awards.
 ---
 
@@ -107,7 +107,7 @@ description: >-
 <!-- ====================================================== Awards -->
 <section class="section">
   <div class="wrap">
-    <h2 class="eyebrow">Awards &amp; honours</h2>
+    <h2 class="eyebrow">Awards &amp; honors</h2>
     <div class="stack">
       {%- for a in site.data.awards %}
       <div class="stack-row">

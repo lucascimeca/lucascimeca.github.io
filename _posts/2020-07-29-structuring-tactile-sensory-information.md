@@ -1,5 +1,5 @@
 ---
-title: "Structuring of tactile sensory information for category formation in robotics palpation"
+title: "Structuring of Tactile Sensory Information for Category Formation in Robotics Palpation"
 date: 2020-07-29
 venue: Autonomous Robots
 redirect_from:
@@ -22,8 +22,4 @@ resources:
 {% include clip.html name="palpation"
    alt="A robotic arm palpating a soft phantom with a capacitive tactile sensor" %}
 
-Robotics and medicine: one of our publications in the journal *Autonomous Robots*,
-exploiting the application of machine learning and tactile sensing to aid in the
-autonomous detection of abnormal lumps in soft bodies.
-
-In collaboration with Perla Maiolino and Fumiya Iida.
+Published in *Autonomous Robots*, with Perla Maiolino, Ed Bray, and Fumiya Iida.

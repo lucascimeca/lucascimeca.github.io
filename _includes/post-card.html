@@ -20,7 +20,27 @@ One post card. Posts that carry a `clip` play their looping video in the card
   <div class="card-body">
     <span class="card-date">{{ include.post.date | date: "%d %b %Y" }}{% if include.post.venue %} · {{ include.post.venue }}{% endif %}</span>
     <span class="card-title">{{ include.post.title }}</span>
-    <p class="card-excerpt">{{ include.post.standfirst | default: include.post.excerpt | strip_html | normalize_whitespace | truncate: 165 }}</p>
+    {%- comment -%}
+      Cut long summaries at the end of a word rather than mid-word, dropping a
+      dangling dash or trailing punctuation before the ellipsis.
+    {%- endcomment -%}
+    {%- assign card_text = include.post.standfirst | default: include.post.excerpt | strip_html | normalize_whitespace -%}
+    {%- if card_text.size > 165 -%}
+      {%- assign words = card_text | truncate: 166, "" | split: " " | pop -%}
+      {%- assign last_word = words | last -%}
+      {%- if last_word == "—" or last_word == "–" or last_word == "-" -%}
+        {%- assign words = words | pop -%}
+        {%- assign last_word = words | last -%}
+      {%- endif -%}
+      {%- assign last_char = last_word | slice: -1 -%}
+      {%- if last_char == "," or last_char == ";" or last_char == ":" or last_char == "." -%}
+        {%- assign keep = last_word.size | minus: 1 -%}
+        {%- assign trimmed = last_word | slice: 0, keep -%}
+        {%- assign words = words | pop | push: trimmed -%}
+      {%- endif -%}
+      {%- capture card_text -%}{{ words | join: " " }}…{%- endcapture -%}
+    {%- endif %}
+    <p class="card-excerpt">{{ card_text }}</p>
     <span class="card-more">Read {% include icon.html name="arrow-right" %}</span>
   </div>
 </a>

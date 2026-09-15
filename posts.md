@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Posts & News
+title: News & Posts
 permalink: /posts/
-lede: Coverage, interviews, posts and more.
-description: News coverage, interviews and writing from Luca Scimeca.
+lede: Press coverage, interviews, posts, and more.
+description: News coverage, interviews, and writing from Luca Scimeca.
 ---
 
 {%- if site.data.media and site.data.media.size > 0 %}

@@ -37,7 +37,7 @@
           <a href="{{ '/work/' | relative_url }}"{% if page.url contains '/work' %} aria-current="page"{% endif %}>Work</a>
           <a href="{{ '/cv/' | relative_url }}"{% if page.url contains '/cv' %} aria-current="page"{% endif %}>CV</a>
           {%- if site.show_posts %}
-          <a href="{{ '/posts/' | relative_url }}"{% if page.url contains '/posts' %} aria-current="page"{% endif %}>Posts<span class="nav-trim"> &amp; News</span></a>
+          <a href="{{ '/posts/' | relative_url }}"{% if page.url contains '/posts' %} aria-current="page"{% endif %}><span class="nav-trim">News &amp; </span>Posts</a>
           {%- endif %}
         </div>
       </nav>
