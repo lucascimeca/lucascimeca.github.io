@@ -114,8 +114,8 @@ description: >-
         <div class="entry-years">{{ a.years }}</div>
         <div>
           <p class="award-title">{{ a.title }}</p>
-          {%- if a.org %}
-          <p class="award-org"><span class="mark">{{ a.org }}</span>{% if a.location %}<span class="sep">·</span>{{ a.location }}{% endif %}</p>
+          {%- if a.org or a.location %}
+          <p class="award-org">{% if a.org %}<span class="mark">{{ a.org }}</span>{% endif %}{% if a.org and a.location %}<span class="sep">·</span>{% endif %}{{ a.location }}</p>
           {%- endif %}
           {%- if a.detail %}<p class="award-detail">{{ a.detail }}</p>{% endif %}
         </div>
