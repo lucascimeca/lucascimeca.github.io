@@ -1174,6 +1174,8 @@ body:has(.linkbar) .page-head { border-bottom: 0; }
   background: var(--bg-sunken);
 }
 .post-cover img { width: 100%; }
+/* cover_width: text — keep the cover within the text column instead of the full page width */
+.post-cover--text { max-width: var(--prose); }
 
 .post-body {
   padding-block: clamp(2.25rem, 5vw, 3.25rem) var(--section);
