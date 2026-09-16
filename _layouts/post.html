@@ -18,7 +18,7 @@ layout: default
     </header>
 
     {%- if page.cover and page.show_cover != false %}
-    <div class="post-cover{% if page.cover_width == 'text' %} post-cover--text{% endif %}">
+    <div class="post-cover">
       <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title | escape }}">
     </div>
     {%- endif %}

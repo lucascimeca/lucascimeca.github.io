@@ -1167,6 +1167,7 @@ body:has(.linkbar) .page-head { border-bottom: 0; }
 }
 
 .post-cover {
+  max-width: var(--prose);   /* covers sit within the text column, like the rest of the post */
   margin-top: clamp(2rem, 4vw, 3rem);
   border-radius: var(--radius);
   overflow: hidden;
@@ -1174,8 +1175,6 @@ body:has(.linkbar) .page-head { border-bottom: 0; }
   background: var(--bg-sunken);
 }
 .post-cover img { width: 100%; }
-/* cover_width: text — keep the cover within the text column instead of the full page width */
-.post-cover--text { max-width: var(--prose); }
 
 .post-body {
   padding-block: clamp(2.25rem, 5vw, 3.25rem) var(--section);
