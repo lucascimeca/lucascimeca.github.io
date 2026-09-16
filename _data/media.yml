@@ -43,6 +43,23 @@
     - name: PalermoLive
       url: https://palermolive.it/ricerca-cancro-luca-scimeca/
 
+- title: Agricultural robotics at the University of Cambridge
+  date: 2019-03-06
+  kind: Talk
+  outlet: SmartHort 2019
+  url: https://www.youtube.com/watch?v=p0PPeg6o9_4
+  image: /assets/img/media/smarthort.jpg
+  summary: >-
+    At SmartHort 2019, a UK conference on new technology for horticulture, Luca
+    Scimeca presents the agricultural robotics work he led at the University of
+    Cambridge. He shows a lettuce-harvesting robot that cuts reliably, though
+    still more slowly than human pickers, explains why soft, hard-to-model crops
+    are so difficult for robots, and discusses the long road from research
+    prototype to a machine growers can use.
+  also:
+    - name: YouTube
+      url: https://www.youtube.com/watch?v=p0PPeg6o9_4
+
 - title: A first-of-its-kind robotic lettuce-peeling system
   date: 2018-09-25
   kind: Press
