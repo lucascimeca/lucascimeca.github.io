@@ -7,6 +7,7 @@ redirect_from:
   - /portfolio/shortcut-learning-in-deep-neural-networks-which-cues-will-your-model-choose-to-learn/
 cover: /assets/img/posts/shortcut-cover.png
 cover_alt: Diagram of the Wisconsin Card Sorting Test for Machine Learners
+cover_fit: contain   # 2.76:1 figure — cropping it to the card box cut off a whole panel
 standfirst: >-
   Deep networks lean on whatever feature is easiest to fit — recognizing ducks by
   the lake behind them. We build a test that exposes which cues a model prefers,

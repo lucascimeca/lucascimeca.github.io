@@ -8,6 +8,7 @@ redirect_from:
 clip: palpation
 cover: /assets/img/posts/palpation-poster.jpg
 cover_alt: A robotic arm with a capacitive tactile sensor palpating a soft phantom
+cover_fit: contain   # 2.33:1 clip — cropping it to the card box cut off the panel labels
 show_cover: false
 standfirst: >-
   Robotics and medicine — applying machine learning and tactile sensing to the
