@@ -153,6 +153,30 @@
     window.addEventListener('scroll', syncBar, { passive: true });
   }
 
+  /* ---- Back to top ------------------------------------------------------ */
+  var toTop = document.getElementById('toTop');
+
+  if (toTop) {
+    var topTicking = false;
+
+    // Show it only once there is a screenful or so to scroll back past.
+    var syncToTop = function () {
+      toTop.classList.toggle('is-visible', window.scrollY > window.innerHeight * 1.2);
+      topTicking = false;
+    };
+
+    window.addEventListener('scroll', function () {
+      if (!topTicking) { window.requestAnimationFrame(syncToTop); topTicking = true; }
+    }, { passive: true });
+
+    toTop.addEventListener('click', function () {
+      var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: still ? 'auto' : 'smooth' });
+    });
+
+    syncToTop();
+  }
+
   /* ---- Masthead fade + header hairline on scroll ------------------------ */
   var header = document.getElementById('siteHeader');
   var masthead = document.getElementById('masthead');

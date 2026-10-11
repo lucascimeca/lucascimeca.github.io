@@ -881,6 +881,51 @@ a.masthead-name:hover { color: var(--accent); }
 .award-detail { font-size: .875rem; color: var(--fg-muted); margin: .3rem 0 0; max-width: 58ch; }
 
 /* ==========================================================================
+   Back to top
+   ========================================================================== */
+
+/*
+ * A thumb-reachable way out of a long page on a phone. It appears once there is
+ * something to scroll back past, and stays out of the way of pointer devices,
+ * where the scrollbar and keyboard already do the job.
+ */
+.to-top {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  z-index: 60;
+  width: 2.75rem;
+  height: 2.75rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-elev);
+  color: var(--fg-muted);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(.5rem);
+  transition: opacity .2s ease, transform .2s ease, visibility .2s ease,
+              color .18s ease, border-color .18s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.to-top svg { width: 1.125rem; height: 1.125rem; }
+.to-top.is-visible { opacity: 1; visibility: visible; transform: none; }
+.to-top:active { color: var(--fg); border-color: var(--line-strong); }
+@media (hover: hover) {
+  .to-top:hover { color: var(--fg); border-color: var(--line-strong); }
+}
+/* Pointer devices on a wide screen do not need it. */
+@media (min-width: 901px) and (hover: hover) {
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .to-top { transition: opacity .2s ease, visibility .2s ease; transform: none; }
+}
+
+/* ==========================================================================
    In the media
    ========================================================================== */
 
