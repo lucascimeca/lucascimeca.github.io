@@ -1,0 +1,93 @@
+# Checks every couple of days that lucascimeca.com is up, is actually serving
+# this site, and is still protected against the domain takeover of Nov 2026.
+# When a check fails the job fails, and GitHub emails the repository owner.
+name: Site watch
+
+on:
+  schedule:
+    - cron: "0 9 */2 * *"   # 09:00 UTC, every other day
+  workflow_dispatch:         # and on demand, from the Actions tab
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the live site
+        run: |
+          fail=0
+          say() { echo "$1"; echo "$1" >> "$GITHUB_STEP_SUMMARY"; }
+          bad() { say "FAIL  $1"; fail=1; }
+          ok()  { say "ok    $1"; }
+
+          say "## Site watch — $(date -u '+%Y-%m-%d %H:%M UTC')"
+          say ""
+
+          # --- the pages themselves, and that they are *this* site ------------
+          # A takeover looks like a healthy 200, so content is checked too.
+          for path in / /work/ /posts/ /cv/; do
+            out=$(curl -sS --max-time 30 --retry 3 --retry-delay 10 \
+                       -w '\n%{http_code}' "https://lucascimeca.com$path" || echo $'\n000')
+            code=$(printf '%s' "$out" | tail -1)
+            html=$(printf '%s' "$out" | sed '$d')
+
+            if [ "$code" != "200" ]; then
+              bad "https://lucascimeca.com$path returned HTTP $code"
+            elif ! printf '%s' "$html" | grep -q "Luca Scimeca" \
+              || ! printf '%s' "$html" | grep -q "/assets/css/main.css"; then
+              bad "https://lucascimeca.com$path is serving something that is not this site"
+            else
+              ok "https://lucascimeca.com$path"
+            fi
+          done
+
+          # --- the safeguard that stops anyone claiming the domain again ------
+          # Removing this TXT record un-verifies the domain on GitHub.
+          txt=$(curl -sS --max-time 30 -H 'accept: application/dns-json' \
+            'https://cloudflare-dns.com/dns-query?name=_github-pages-challenge-lucascimeca.lucascimeca.com&type=TXT' \
+            | grep -o '"data":"[^"]*"' || true)
+          if [ -z "$txt" ]; then
+            bad "the _github-pages-challenge TXT record is gone — the domain is open to takeover again"
+          else
+            ok "domain verification TXT record present"
+          fi
+
+          # --- DNS still pointing at GitHub Pages -----------------------------
+          a=$(curl -sS --max-time 30 -H 'accept: application/dns-json' \
+            'https://cloudflare-dns.com/dns-query?name=lucascimeca.com&type=A' \
+            | grep -o '185\.199\.[0-9]*\.153' | sort -u | wc -l | tr -d ' ')
+          if [ "${a:-0}" -lt 4 ]; then
+            bad "the four GitHub Pages A records are not all present (found ${a:-0})"
+          else
+            ok "DNS A records point at GitHub Pages"
+          fi
+
+          # --- certificate not about to expire --------------------------------
+          # -checkend avoids parsing dates, which differs between systems.
+          cert=$(echo | openssl s_client -servername lucascimeca.com \
+                  -connect lucascimeca.com:443 2>/dev/null)
+          if [ -z "$cert" ]; then
+            bad "could not read the HTTPS certificate"
+          elif printf '%s' "$cert" | openssl x509 -noout -checkend 1209600 >/dev/null 2>&1; then
+            ok "HTTPS certificate good for at least another 14 days"
+          else
+            bad "HTTPS certificate expires within 14 days (or could not be parsed)"
+          fi
+
+          # --- http:// and www still reach the site (warning only) ------------
+          for host in "http://lucascimeca.com/" "https://www.lucascimeca.com/"; do
+            code=$(curl -sS -o /dev/null --max-time 30 -w '%{http_code}' "$host" || echo 000)
+            case "$code" in
+              200|301|302) ok "$host -> $code" ;;
+              *) say "warn  $host returned $code (not treated as a failure)" ;;
+            esac
+          done
+
+          say ""
+          if [ "$fail" -ne 0 ]; then
+            say "**Something is wrong with lucascimeca.com — see the failures above.**"
+            exit 1
+          fi
+          say "All checks passed."
