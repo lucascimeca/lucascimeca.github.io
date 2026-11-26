@@ -570,6 +570,9 @@ a.masthead-name:hover { color: var(--accent); }
 
 
 .block { padding-top: clamp(2.75rem, 6vw, 4.25rem); }
+/* The first block in the main column starts level with the portrait beside it,
+   rather than below a gap the size of the spacing between sections. */
+.home-main > .block:first-child { padding-top: 0; }
 
 /* Roles and education, side by side */
 .dual {
