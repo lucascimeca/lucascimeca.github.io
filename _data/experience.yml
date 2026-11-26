@@ -1,6 +1,9 @@
 # ---------------------------------------------------------------------------
 # Employment history.
 #   featured: true  -> also appears in the "Selected roles" list on the home page
+#   hidden: true    -> kept out of the site entirely (the "Now" box on the home
+#                      page and the "Current" section on the work page). Set it
+#                      to false, or delete the line, to show the role again.
 #   logo:           -> filename under assets/img/logos/
 # ---------------------------------------------------------------------------
 
@@ -9,6 +12,7 @@ current:
     org: Stealth Startup
     years: "2026 —"
     note: Building. More soon.
+    hidden: true        # out of stealth? set this to false
 
 past:
   - role: AI Research Scientist

@@ -11,12 +11,14 @@ description: >-
 ---
 
 <!-- ====================================================== Employment -->
+{%- assign now_roles = site.data.experience.current | where_exp: "c", "c.hidden != true" %}
+{%- if now_roles.size > 0 %}
 <section class="section">
   <div class="wrap">
     <h2 class="eyebrow">Current</h2>
 
     <div class="timeline">
-      {%- for c in site.data.experience.current %}
+      {%- for c in now_roles %}
       <div class="entry">
         <div class="entry-years">{{ c.years }}</div>
         <div class="entry-logo entry-logo--empty" aria-hidden="true"></div>
@@ -30,6 +32,7 @@ description: >-
     </div>
   </div>
 </section>
+{%- endif %}
 
 <section class="section">
   <div class="wrap">

@@ -11,16 +11,18 @@ description: >-
   <!-- ==================================================== Main column -->
   <div class="home-main">
 
+    {%- assign now_roles = site.data.experience.current | where_exp: "c", "c.hidden != true" %}
+    {%- if now_roles.size > 0 %}
     <section class="home-intro">
-      {%- for c in site.data.experience.current %}
+      {%- for c in now_roles %}
       <div class="now">
         <span class="now-label">Now</span>
         <span class="now-title">{{ c.role }} @ <span class="mark">{{ c.org }}</span></span>
         {%- if c.note %}<span class="now-note">{{ c.note }}</span>{% endif %}
       </div>
       {%- endfor %}
-
     </section>
+    {%- endif %}
 
     <section class="block">
       <h2 class="eyebrow">Biography</h2>
